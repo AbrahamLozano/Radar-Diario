@@ -28,12 +28,15 @@
   },
   {
    "date": "2026-11-25",
+   "label": "Brujas vs Liverpool, 14:00 h (Champions, J5)"
+  },
+  {
+   "date": "2026-11-25",
    "label": "Estreno de Hexed (Walt Disney Animation)"
   },
   {
    "date": "2026-11-25",
-   "label": "Rayados vs America o Chivas, ida de cuartos (Liga MX); día y hora por confirmar",
-   "approx": true
+   "label": "Rayados vs América, 21:10 h (Liga MX, ida de cuartos, Estadio BBVA)"
   },
   {
    "date": "2026-11-26",
@@ -45,20 +48,24 @@
   },
   {
    "date": "2026-11-28",
-   "label": "Liga MX: vuelta de cuartos de final (28 y 29 nov)"
+   "label": "América vs Rayados, 21:10 h (Liga MX, vuelta de cuartos, Estadio Banorte)"
   },
   {
    "date": "2026-11-29",
    "label": "Everton vs Liverpool, 6:00 h (Premier, J12)"
   },
   {
-   "date": "2026-12-02",
-   "label": "Liga MX: semifinales (2–6 dic)"
+   "date": "2026-12-01",
+   "label": "SIGGRAPH Asia 2026 en Kuala Lumpur (1–4 dic)"
   },
   {
    "date": "2026-12-01",
    "label": "Unity 7: vista previa anunciada para diciembre",
    "approx": true
+  },
+  {
+   "date": "2026-12-02",
+   "label": "Liga MX: semifinales (2–6 dic)"
   },
   {
    "date": "2026-12-10",
@@ -71,9 +78,206 @@
   {
    "date": "2026-12-18",
    "label": "ArtStation Marketplace deja de aceptar pedidos"
+  },
+  {
+   "date": "2027-02-05",
+   "label": "Estreno de Ice Age: Boiling Point"
   }
  ],
  "editions": [
+  {
+   "id": "2026-11-24",
+   "label": "Martes 24 nov 2026",
+   "summary": "Día más tranquilo después de la avalancha de GTA VI: Rockstar lanzó su primer parche, que arregla llamadas que dejaban la historia atorada. En desarrollo llega Blockd, un add-on de Blender para bocetar niveles con medidas reales de jugador, y en diseño el agente de Figma ya trabaja dentro de FigJam y Slides. En animación, SIGGRAPH Asia calienta motores para su edición en Kuala Lumpur, y en IA Anthropic presentó Claude Ship para revisar y corregir código. En deportes, Chivas terminó como superlíder y Rayados enfrentará al América en cuartos.",
+   "items": [
+    {
+     "topic": "gaming",
+     "date": "2026-11-23",
+     "tag": "Parche",
+     "lead": true,
+     "title": "Primer parche de GTA VI corrige las llamadas que bloqueaban la historia",
+     "summary": "La actualización 1.002.002 en PS5 (1.0.2.2 en Xbox Series) arregla varios casos en los que no entraba una llamada necesaria para avanzar en misiones, además de un error de autoguardado y varios cierres inesperados. Rockstar no publicó notas detalladas y el despliegue va por regiones; en PS5 pesa unos 600 MB.",
+     "sources": [
+      {
+       "name": "VICE",
+       "url": "https://www.vice.com/en/article/gta-6-patch-notes-update-phone-call-fix/"
+      },
+      {
+       "name": "PlayStation LifeStyle",
+       "url": "https://www.playstationlifestyle.net/2026/11/23/gta-6-update-1002002-november-23-2026-patch-notes"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-23",
+     "tag": "Esta semana",
+     "title": "Gothic 3 Classic, Motorslice y Arkheron, lo que llega esta semana",
+     "summary": "El 24 de noviembre salen la versión para consolas de Gothic 3, con el parche comunitario y controles pensados para gamepad, y Motorslice en Game Pass. El 27 llega Arkheron, un juego competitivo por equipos que también entra a Game Pass. Es una semana ligera, todavía a la sombra de GTA VI.",
+     "sources": [
+      {
+       "name": "Pure Xbox",
+       "url": "https://www.purexbox.com/news/2026/11/these-20plus-games-are-coming-to-xbox-next-week-november-23-27"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-23",
+     "tag": "Blender",
+     "lead": true,
+     "title": "Blockd, un add-on de Blender para bocetar niveles con medidas de jugador",
+     "summary": "Permite trazar muros, pisos, escaleras y puertas sobre una cuadrícula, y avisa si un borde es un escalón, un salto o algo inalcanzable según la altura y el salto del jugador. Exporta con colisiones a Unreal, Unity y Godot, trae 32 piezas listas y cuesta desde 15 dólares, con 50% de descuento hasta el 26 de noviembre. Muy útil para tu zona de pruebas de exploración y movimiento.",
+     "sources": [
+      {
+       "name": "BlenderNation",
+       "url": "https://www.blendernation.com/2026/11/23/blockd-block-out-game-levels-on-a-grid-in-blender/"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-21",
+     "tag": "Gratis",
+     "title": "Mesh2Motion suma props y pintura de pesos",
+     "summary": "La actualización 14 de esta alternativa gratuita y de código abierto a Mixamo permite agregar props a los personajes y ajustar los pesos del rig pintando. Buena opción para animar personajes de prueba sin depender de servicios cerrados.",
+     "sources": [
+      {
+       "name": "GameFromScratch",
+       "url": "https://gamefromscratch.com/"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-23",
+     "tag": "Para clase",
+     "title": "Un personaje anime en 3D que parece dibujado, modelado desde n-gons",
+     "summary": "Nicolas Poppek explica cómo armó un personaje de fantasía a partir de planos simples y recreó en Blender trazos que parecen de boceto. Es un buen caso para mostrar en clase cómo se logra un look 2D dentro de un flujo 3D.",
+     "sources": [
+      {
+       "name": "80 Level",
+       "url": "https://80.lv/articles/creating-a-2d-looking-fantasy-anime-style-character-using-an-n-gon-first-modeling-approach"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-23",
+     "tag": "Blender",
+     "title": "Blender mejora la pintura de texturas en su rama de desarrollo",
+     "summary": "El reporte semanal trae una opción para pintar también el canal alfa, color aleatorio en el pincel Draw y auto-enmascarado en la pintura 3D. También se aceleraron los exportadores STL y PLY. Son cambios que llegarán en una versión futura.",
+     "sources": [
+      {
+       "name": "Blender Forum",
+       "url": "https://forum.blender.org/t/23-november-2026/46383"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-23",
+     "tag": "Festivales",
+     "lead": true,
+     "title": "SIGGRAPH Asia 2026 llega a Kuala Lumpur con la IA como tema central",
+     "summary": "La edición 19 será del 1 al 4 de diciembre, la primera en Malasia, con charlas sobre IA en herramientas creativas y render, y demostraciones en tiempo real. En su festival de animación, The Panic Inside ganó Best in Show y Captives, de la escuela francesa École des Nouvelles Images, se llevó el premio a mejor trabajo estudiantil.",
+     "sources": [
+      {
+       "name": "3DVF",
+       "url": "https://3dvf.com/en/siggraph-asia-2026-ai-real-time-and-animation-in-kuala-lumpur/"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-19",
+     "tag": "Tráiler",
+     "title": "Disney muestra el primer tráiler de Ice Age: Boiling Point",
+     "summary": "Es la sexta película de la saga y la primera en cines en una década; la dirige John C. Donkin y regresan Ray Romano, John Leguizamo, Denis Leary y Queen Latifah. La manada debe llevar un huevo de dinosaurio a un volcán activo, y se estrena el 5 de febrero de 2027. La saga nació en Blue Sky, el estudio que Disney cerró tras comprar Fox.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/feature-film/ice-age-boiling-point-trailer-269630.html"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-20",
+     "tag": "IA y festivales",
+     "title": "Annecy y Ottawa todavía no vetan las películas hechas con IA",
+     "summary": "Mientras Manchester excluirá desde 2027 cualquier película donde la IA generativa cree o altere la imagen final, Annecy dice que evaluará caso por caso y Ottawa seguirá a la comunidad, con una casilla de “asistido por IA” en su formulario. Buen material para discutir criterios en clase.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/artificial-intelligence/annecy-ottawa-manchester-festival-programmers-artificial-intelligence-269655.html"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-23",
+     "tag": "VFX",
+     "title": "PFX enseña los efectos invisibles del drama bélico Pressure",
+     "summary": "El estudio publicó el desglose de su trabajo: extensiones de escenario, formaciones militares completas y barcos en la costa para dar escala a los desembarcos de la Segunda Guerra Mundial. Un buen ejemplo de VFX que no se nota.",
+     "sources": [
+      {
+       "name": "The Art of VFX",
+       "url": "https://www.artofvfx.com/pressure-pfx-reveals-the-invisible-visual-effects-behind-the-wwii-drama/"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-23",
+     "tag": "IA en diseño",
+     "lead": true,
+     "title": "El agente de Figma ya trabaja en FigJam y Slides",
+     "summary": "Figma anunció que su agente puede traer información de otras herramientas al lienzo con conectores y archivos adjuntos, convertir una discusión en pasos concretos y armar una presentación a partir de documentos existentes respetando la marca. Según un análisis de UIChemy, en FigJam y Slides empieza a consumir créditos de IA, igual que en Figma Design.",
+     "sources": [
+      {
+       "name": "Figma (X)",
+       "url": "https://x.com/figma/status/2124927673109762185"
+      },
+      {
+       "name": "Figma Blog",
+       "url": "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/"
+      },
+      {
+       "name": "UIChemy",
+       "url": "https://uichemy.com/blog/figma-ai-agents/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-23",
+     "tag": "Programación",
+     "lead": true,
+     "title": "Anthropic lanza Claude Ship para revisar, corregir y aprobar código",
+     "summary": "Es un conjunto de agentes para repositorios de GitHub: Code Review ya está disponible, mientras que PR Steward (arregla pruebas fallidas y conflictos) y Claude Approvals (aprueba cambios según reglas escritas en lenguaje natural) están en beta. Llega a los planes Team y Enterprise, con límites de gasto mensual configurables.",
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-23",
+     "tag": "Hardware",
+     "title": "Agentes de IA diseñan un procesador completo, por ahora solo en simulación",
+     "summary": "La startup Architect Labs dice que sus agentes crearon el CPU Frostbite con un conjunto de instrucciones nuevo, y que en simulación rinde hasta 4.6 veces más por watt que un procesador comparable. Todavía no existe un chip físico y no se dijo contra qué CPU se comparó, así que conviene tomarlo con cautela.",
+     "sources": [
+      {
+       "name": "The Neuron",
+       "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/"
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-23",
    "label": "Lunes 23 nov 2026",
@@ -237,6 +441,289 @@
       {
        "name": "The Neuron",
        "url": "https://theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22",
+   "label": "Edición 2 · 22 nov 2026",
+   "summary": "GTA VI por fin salió y lo hizo en grande: 99 en Metacritic y unos 17 millones de copias estimadas en su arranque, aunque Rockstar llegó al lanzamiento con un juicio laboral abierto. En desarrollo, Unity compró Synty y lanzó becas para indies, mientras ArtStation cierra su tienda. En animación destacan el Oscar honorario a Floyd Norman, el nuevo proyecto de Jorge Gutiérrez y la salida de artistas de Etsy por el uso de su trabajo para entrenar IA. En IA, OpenAI presentó GPT-6.2 Astra y Sol, y Figma llevó su agente a Dev Mode.",
+   "items": [
+    {
+     "topic": "gaming",
+     "date": "2026-11-19",
+     "tag": "Lanzamiento",
+     "title": "GTA VI ya salió y debuta con 99 en Metacritic",
+     "summary": "Grand Theft Auto VI llegó el 19 de noviembre a PS5 y Xbox Series X|S y empató con Ocarina of Time como el juego mejor calificado en la historia de Metacritic. En PS5 sumó 147 reseñas, 118 de ellas con calificación perfecta; la versión de PC todavía no tiene fecha. Las críticas más tibias apuntan a que el arranque de la historia es lento.",
+     "sources": [
+      {
+       "name": "TechPowerUp",
+       "url": "https://www.techpowerup.com/354998/gta-6-review-roundup-99-on-metacritic-and-118-perfect-scores"
+      },
+      {
+       "name": "Dexerto",
+       "url": "https://www.dexerto.com/gta/gta-6-is-the-joint-best-reviewed-game-of-the-all-time-3429300/"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-19",
+     "tag": "Ventas",
+     "title": "Estiman 17 millones de copias de GTA VI en su arranque",
+     "summary": "La firma Sensor Tower calcula que GTA VI vendió unos 17 millones de copias y más de 1,650 millones de dólares en sus primeras horas. Rockstar y Take-Two no han dado cifras oficiales, pero las acciones de Take-Two subieron más de 6% ese día.",
+     "sources": [
+      {
+       "name": "GGRecon",
+       "url": "https://www.ggrecon.com/articles/gta-6-17-million-sales-sensor-tower/"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-18",
+     "tag": "Industria",
+     "title": "Rockstar enfrenta un juicio laboral un día antes del lanzamiento",
+     "summary": "Un tribunal de Glasgow revisa el caso de 23 de los 34 trabajadores que Rockstar despidió en 2025; el sindicato IWGB acusa a la empresa de castigar la organización sindical, y Rockstar sostiene que filtraron información confidencial en Discord. En paralelo, unos 1,600 empleados británicos votan hasta el 26 de noviembre si se reconoce formalmente su sindicato.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/artist-rights/rockstar-union-busting-claims-gta-vi-launch-269528.html"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-17",
+     "tag": "Unity",
+     "title": "Unity compra Synty Studios, los de los assets POLYGON",
+     "summary": "Unity adquirió Synty, autor de más de 70,000 assets 3D estilizados de bajo polígono, para alimentar Unity Spark, su futura plataforma para crear juegos con IA. Synty seguirá sacando paquetes y mantendrá su compatibilidad con Godot y Unreal.",
+     "sources": [
+      {
+       "name": "Unity Blog",
+       "url": "https://unity.com/blog/synty-studios-acquisition"
+      },
+      {
+       "name": "GamingOnLinux",
+       "url": "https://www.gamingonlinux.com/2026/11/unity-acquired-synty-studios-to-power-unity-spark-their-ai-game-creation-platform/"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-16",
+     "tag": "Becas",
+     "title": "Unity Fellowship: 50,000 dólares para 10 equipos indie",
+     "summary": "Unity abrió un programa que entrega 50,000 dólares sin pedir participación ni devolución a diez equipos cuyo juego en Unity esté a cerca de un año de salir. Incluye además un contacto dedicado, mentoría y apoyo de marketing. Puede ser un buen dato para alumnos con proyectos avanzados.",
+     "sources": [
+      {
+       "name": "Game Developer",
+       "url": "https://www.gamedeveloper.com/business/unity-to-support-indies-with-cash-and-dedicated-support-through-new-fellowship-program"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-19",
+     "tag": "ArtStation",
+     "title": "ArtStation cierra su Marketplace y manda las ventas a Gumroad",
+     "summary": "La tienda de ArtStation dejará de aceptar pedidos el 18 de diciembre y las ventas nuevas pasarán a Gumroad. Los vendedores tienen hasta el 28 de febrero de 2027 para migrar sus productos, y los compradores podrán descargar lo que ya compraron hasta finales de 2028.",
+     "sources": [
+      {
+       "name": "Tutkit",
+       "url": "https://www.tutkit.com/en/news/1147-artstation-marketplace-closes-on-december-18-gumroad-takes-over-sales"
+      },
+      {
+       "name": "80 Level",
+       "url": "https://80.lv/articles/artstation-is-making-a-very-difficult-decision-by-moving-marketplace-to-gumroad/"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-18",
+     "tag": "Godot",
+     "title": "Manus AI se vuelve patrocinador platino de Godot",
+     "summary": "La empresa del agente de IA Manus se sumó al nivel más alto de patrocinio de la Godot Foundation, y JetBrains también regresó como patrocinador. El anuncio generó debate en la comunidad por la relación entre el motor libre y las empresas de IA.",
+     "sources": [
+      {
+       "name": "Godot Engine",
+       "url": "https://godotengine.org/article/partners_manus_sponsorship_2026_announcement/"
+      },
+      {
+       "name": "GamingOnLinux",
+       "url": "https://www.gamingonlinux.com/2026/11/ai-company-manus-becomes-a-godot-engine-platinum-sponsor/"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-18",
+     "tag": "Premios",
+     "title": "Floyd Norman recibe un Oscar honorario",
+     "summary": "El animador de 91 años, primer animador negro de Disney, recibió la estatuilla en los Governors Awards de manos de Mahershala Ali. Su carrera va de La bella durmiente y El libro de la selva hasta Pixar.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/awards/floyd-norman-honorary-oscar-2-269576.html"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-19",
+     "tag": "México",
+     "mx": true,
+     "title": "Jorge Gutiérrez encabeza el catálogo inicial de Heeboo",
+     "summary": "El director de The Book of Life lleva a Heeboo su serie para adultos El Guapo vs. the Narco Vampires. Heeboo es una plataforma del equipo de Claynosaurz donde los animadores muestran proyectos en desarrollo y construyen comunidad con fans; abrirá sus primeras comunidades en enero de 2027.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/animators/heeboo-jorge-gutierrez-emily-brundige-agora-269603.html"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-18",
+     "tag": "IA y artistas",
+     "title": "Artistas dejan Etsy por sus nuevos términos sobre IA",
+     "summary": "A partir del 16 de diciembre, Etsy y sus socios podrán usar el contenido de los vendedores para entrenar sistemas de IA. Muchos ilustradores y animadores independientes están cerrando sus tiendas aunque pierdan ventas de temporada. Es otro caso útil para hablar de derechos de autor en clase.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/artificial-intelligence/etsy-ai-training-terms-of-use-269553.html"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-17",
+     "tag": "Industria",
+     "title": "Disney casi duplica utilidades y anuncia más recortes",
+     "summary": "Disney ganó 2,600 millones de dólares en su cuarto trimestre, pero planea recortar unos 3,000 millones al año en gastos, con más despidos. Los recortes del verano ya habían golpeado a Pixar pese a los éxitos de Hoppers y Toy Story 5.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/business/disney-q4-layoffs-buybacks-269502.html"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-18",
+     "tag": "Series",
+     "title": "Netflix revive Grendel como serie animada para adultos",
+     "summary": "Tras cancelar en 2021 una versión de acción real ya filmada, Netflix adapta el cómic de Matt Wagner con el estudio francés Bobbypills. Todavía no hay reparto de voces ni fecha de estreno.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/series/netflix-grendel-bobbypills-bobak-esfarjani-269583.html"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-19",
+     "tag": "Dev Mode",
+     "title": "El agente de Figma llega a Dev Mode",
+     "summary": "Ahora el agente puede revisar un diseño, comparar versiones, generar fragmentos de código y descargar varios assets a la vez dentro de Dev Mode. Facilita la entrega de diseño a desarrollo.",
+     "sources": [
+      {
+       "name": "Releasebot",
+       "url": "https://releasebot.io/updates/figma"
+      },
+      {
+       "name": "Figma Release Notes",
+       "url": "https://www.figma.com/release-notes/"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-18",
+     "tag": "IA en diseño",
+     "title": "Figma genera varias imágenes de un solo prompt",
+     "summary": "Las funciones Make image y Edit image pueden sacar 2, 4 o 6 variantes con un modelo, o una imagen con cada uno de hasta tres modelos para compararlas lado a lado.",
+     "sources": [
+      {
+       "name": "Releasebot",
+       "url": "https://releasebot.io/updates/figma"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-17",
+     "tag": "Admin",
+     "title": "Figma permite aprobar qué apps y clientes MCP se conectan",
+     "summary": "Los administradores de los planes Organization y Enterprise pueden armar una lista de apps OAuth aprobadas, incluidos clientes MCP como Cursor y Claude Code, y revisar solicitudes en una pestaña nueva. El despliegue será gradual.",
+     "sources": [
+      {
+       "name": "Releasebot",
+       "url": "https://releasebot.io/updates/figma"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-20",
+     "tag": "Móvil",
+     "title": "FigJam y la app móvil de Figma mejoran la navegación",
+     "summary": "La app ahora avisa de comentarios nuevos, permite cambiar de página desde un menú, abrir enlaces a la sección exacta, exportar secciones o imágenes y retomar donde te quedaste.",
+     "sources": [
+      {
+       "name": "Releasebot",
+       "url": "https://releasebot.io/updates/categories/design-and-diagramming"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-17",
+     "tag": "Modelos",
+     "title": "OpenAI lanza GPT-6.2 Astra y GPT-6.2 Sol",
+     "summary": "Astra es el modelo para proyectos complejos y Sol el modelo rápido y económico para el trabajo diario, casi igual de capaz por una fracción del costo. Ya están en ChatGPT para los planes Plus, Pro, Enterprise y Edu, y en la API.",
+     "sources": [
+      {
+       "name": "OpenAI",
+       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      },
+      {
+       "name": "TestingCatalog",
+       "url": "https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-18",
+     "tag": "Agentes",
+     "title": "Gemini Spark cambia de nombre a Tasks y se abre gratis en algunos países",
+     "summary": "El agente de Google ahora se llama Tasks y ya no requiere suscripción en Estados Unidos, Canadá, Japón, Corea del Sur, Australia e India. Puede encargarse de tareas recurrentes y, en EE. UU., hacer llamadas a negocios o pagar con Google Pay. México todavía no está en la lista.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/fr/alerts/google-rebaptise-gemini-spark-en-tasks-et-louvre-gratuitement-dans-six-pays"
+      },
+      {
+       "name": "The Neuron",
+       "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-18-2026/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-17",
+     "tag": "Creativas",
+     "title": "Suno Visuals convierte canciones en videoclips",
+     "summary": "La herramienta genera clips de hasta 15 segundos sincronizados con la canción, videos con letra y portadas, y luego permite extenderlos y editarlos con texto. Usa créditos aparte de los de música y está en web, iOS y Android. Puede servir como demo rápida de video generativo en Herramientas Digitales.",
+     "sources": [
+      {
+       "name": "Suno",
+       "url": "https://suno.com/blog/introducing-visuals"
       }
      ]
     }
@@ -587,15 +1074,15 @@
   }
  ],
  "sports": {
-  "updated": "2026-11-17",
-  "intro": "Tabla general y resultados de cada liga. Los resultados se acumulan cada domingo y las ligas siguen de una temporada a la siguiente (la Liga MX pasa del Apertura al Clausura). Las jornadas anteriores al 3 de noviembre no están cargadas.",
+  "updated": "2026-11-23",
+  "intro": "Tabla general y resultados de cada liga. Los resultados se acumulan cada noche y las ligas siguen de una temporada a la siguiente (la Liga MX pasa del Apertura al Clausura). Las jornadas anteriores al 3 de noviembre no están cargadas.",
   "leagues": [
    {
     "id": "ligamx",
     "sport": "soccer",
     "name": "Liga MX",
     "season": "Apertura 2026",
-    "phase": "Fase regular · falta la Jornada 17",
+    "phase": "Liguilla · Cuartos de final",
     "zones": [
      {
       "from": 1,
@@ -604,167 +1091,237 @@
       "label": "Liguilla (cuartos de final)"
      }
     ],
-    "note": "Querétaro tiene un partido pendiente. Monterrey ya jugó el suyo. Algunas columnas aparecen con guion porque las fuentes solo publicaron puntos para esos equipos.",
+    "note": "Fase regular terminada. Chivas venció 1–0 a Cruz Azul con gol de Efraín Álvarez y quedó como superlíder; Querétaro y Necaxa empataron 2–2 con un penal de Julián Carranza al final. Cruces de cuartos: Chivas–Pachuca, Cruz Azul–León, América–Monterrey y Atlas–Toluca. Las columnas con guion son datos que las fuentes no publicaron.",
     "standings": [
      {
       "pos": 1,
-      "team": "Cruz Azul",
-      "pj": 16,
-      "g": 10,
-      "e": 2,
-      "p": 4,
-      "gf": 37,
-      "gc": 26,
-      "pts": 32
+      "team": "Chivas",
+      "pj": 17,
+      "g": 9,
+      "e": 6,
+      "p": 2,
+      "gf": 27,
+      "gc": 15,
+      "pts": 33
      },
      {
       "pos": 2,
-      "team": "América",
-      "pj": 16,
-      "g": 8,
-      "e": 6,
-      "p": 2,
-      "gf": 38,
-      "gc": 23,
-      "pts": 30
+      "team": "Cruz Azul",
+      "pj": 17,
+      "g": 10,
+      "e": 2,
+      "p": 5,
+      "gf": 37,
+      "gc": 27,
+      "pts": 32
      },
      {
       "pos": 3,
-      "team": "Chivas",
-      "pj": 16,
+      "team": "América",
+      "pj": 17,
       "g": 8,
       "e": 6,
-      "p": 2,
-      "gf": 26,
-      "gc": 15,
+      "p": 3,
+      "gf": 38,
+      "gc": 24,
       "pts": 30
      },
      {
       "pos": 4,
-      "team": "Toluca",
-      "pj": 16,
-      "g": 7,
-      "e": 6,
-      "p": 3,
-      "gf": 35,
-      "gc": 21,
-      "pts": 27
+      "team": "Atlas",
+      "pj": 17,
+      "g": 8,
+      "e": 4,
+      "p": 5,
+      "gf": 30,
+      "gc": 33,
+      "pts": 28
      },
      {
       "pos": 5,
-      "team": "Atlas",
-      "pj": 16,
-      "g": 8,
-      "e": 3,
-      "p": 5,
-      "gf": 27,
-      "gc": 30,
+      "team": "Toluca",
+      "pj": 17,
+      "g": 7,
+      "e": 6,
+      "p": 4,
+      "gf": 35,
+      "gc": 23,
       "pts": 27
      },
      {
       "pos": 6,
-      "team": "Santos Laguna",
-      "pj": 16,
+      "team": "Monterrey",
+      "pj": 17,
       "g": 8,
-      "e": 1,
-      "p": 7,
-      "gf": 23,
-      "gc": 20,
-      "pts": 25
+      "e": 3,
+      "p": 6,
+      "gf": 29,
+      "gc": 25,
+      "pts": 27
      },
      {
       "pos": 7,
-      "team": "Monterrey",
-      "pj": 16,
+      "team": "León",
+      "pj": 17,
       "g": 7,
-      "e": 3,
-      "p": 6,
-      "gf": 27,
-      "gc": 25,
-      "pts": 24
+      "e": 5,
+      "p": 5,
+      "gf": 25,
+      "gc": 22,
+      "pts": 26
      },
      {
       "pos": 8,
-      "team": "León",
-      "pj": 16,
-      "g": 6,
-      "e": 5,
-      "p": 5,
-      "gf": 23,
-      "gc": 21,
-      "pts": 23
+      "team": "Pachuca",
+      "pj": 17,
+      "pts": 25
      },
      {
       "pos": 9,
-      "team": "Pachuca",
-      "pj": 16,
-      "pts": 22
+      "team": "Tijuana",
+      "pj": 17,
+      "pts": 25
      },
      {
       "pos": 10,
-      "team": "Tijuana",
-      "pj": 16,
-      "pts": 22
+      "team": "Santos Laguna",
+      "pj": 17,
+      "g": 8,
+      "e": 1,
+      "p": 8,
+      "gf": 24,
+      "gc": 22,
+      "pts": 25
      },
      {
       "pos": 11,
       "team": "Pumas",
-      "pj": 16,
+      "pj": 17,
       "pts": 21
      },
      {
       "pos": 12,
       "team": "Querétaro",
-      "pts": 20
+      "pj": 17,
+      "pts": 21
      },
      {
       "pos": 13,
       "team": "Puebla",
-      "pj": 16,
-      "pts": 19
+      "pj": 17,
+      "pts": 20
      },
      {
       "pos": 14,
       "team": "Atlético de San Luis",
-      "pj": 16,
-      "pts": 19
+      "pj": 17,
+      "pts": 20
      },
      {
       "pos": 15,
       "team": "Tigres",
-      "pj": 16,
-      "g": 3,
+      "pj": 17,
+      "g": 4,
       "e": 6,
       "p": 7,
-      "gf": 17,
+      "gf": 18,
       "gc": 25,
-      "pts": 15
+      "pts": 18
      },
      {
       "pos": 16,
-      "team": "Atlante",
-      "pj": 16,
+      "team": "Necaxa",
+      "pj": 17,
+      "g": 3,
+      "e": 5,
+      "p": 9,
+      "gf": 19,
+      "gc": 30,
       "pts": 14
      },
      {
       "pos": 17,
-      "team": "Necaxa",
-      "pj": 16,
-      "g": 3,
-      "e": 4,
-      "p": 9,
-      "gf": 17,
-      "gc": 28,
-      "pts": 13
+      "team": "Atlante",
+      "pj": 17,
+      "pts": 14
      },
      {
       "pos": 18,
       "team": "FC Juárez",
-      "pj": 16,
-      "pts": 11
+      "pj": 17,
+      "pts": 12
      }
     ],
     "rounds": [
+     {
+      "label": "Jornada 17",
+      "dates": "20–22 nov",
+      "games": [
+       {
+        "date": "2026-11-20",
+        "home": "Puebla",
+        "away": "Atlético de San Luis",
+        "hs": 1,
+        "as": 1
+       },
+       {
+        "date": "2026-11-20",
+        "home": "FC Juárez",
+        "away": "Atlas",
+        "hs": 3,
+        "as": 3
+       },
+       {
+        "date": "2026-11-20",
+        "home": "Tijuana",
+        "away": "Atlante",
+        "hs": 1,
+        "as": 0
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Pachuca",
+        "away": "Toluca",
+        "hs": 2,
+        "as": 0
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Santos Laguna",
+        "away": "León",
+        "hs": 1,
+        "as": 2
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Pumas",
+        "away": "Monterrey",
+        "hs": 0,
+        "as": 2
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Tigres",
+        "away": "América",
+        "hs": 1,
+        "as": 0
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Chivas",
+        "away": "Cruz Azul",
+        "hs": 1,
+        "as": 0
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Querétaro",
+        "away": "Necaxa",
+        "hs": 2,
+        "as": 2
+       }
+      ]
+     },
      {
       "label": "Jornada 16",
       "dates": "6–8 nov",
@@ -836,82 +1393,88 @@
      }
     ],
     "next": {
-     "label": "Jornada 17 (última)",
-     "dates": "20–22 nov",
+     "label": "Cuartos de final",
+     "dates": "25–29 nov",
      "games": [
       {
-       "date": "2026-11-20",
+       "date": "2026-11-25",
        "time": "19:00",
-       "home": "Puebla",
-       "away": "Atlético de San Luis"
+       "home": "Toluca",
+       "away": "Atlas",
+       "note": "ida"
       },
       {
-       "date": "2026-11-20",
-       "time": "21:00",
-       "home": "FC Juárez",
-       "away": "Atlas"
+       "date": "2026-11-25",
+       "time": "21:10",
+       "home": "Monterrey",
+       "away": "América",
+       "note": "ida"
       },
       {
-       "date": "2026-11-20",
-       "time": "21:00",
-       "home": "Tijuana",
-       "away": "Atlante"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "16:50",
+       "date": "2026-11-26",
+       "time": "19:00",
        "home": "Pachuca",
-       "away": "Toluca"
+       "away": "Chivas",
+       "note": "ida"
       },
       {
-       "date": "2026-11-21",
-       "time": "17:00",
-       "home": "Santos Laguna",
-       "away": "León"
+       "date": "2026-11-26",
+       "time": "21:10",
+       "home": "León",
+       "away": "Cruz Azul",
+       "note": "ida"
       },
       {
-       "date": "2026-11-21",
+       "date": "2026-11-28",
        "time": "19:00",
-       "home": "Pumas",
-       "away": "Monterrey"
+       "home": "Atlas",
+       "away": "Toluca",
+       "note": "vuelta"
       },
       {
-       "date": "2026-11-21",
-       "time": "21:00",
-       "home": "Tigres",
-       "away": "América"
+       "date": "2026-11-28",
+       "time": "21:10",
+       "home": "América",
+       "away": "Monterrey",
+       "note": "vuelta"
       },
       {
-       "date": "2026-11-22",
-       "time": "17:07",
+       "date": "2026-11-29",
+       "time": "19:07",
        "home": "Chivas",
-       "away": "Cruz Azul"
+       "away": "Pachuca",
+       "note": "vuelta"
       },
       {
-       "date": "2026-11-22",
-       "time": "19:00",
-       "home": "Querétaro",
-       "away": "Necaxa"
+       "date": "2026-11-29",
+       "time": "21:00",
+       "home": "Cruz Azul",
+       "away": "León",
+       "note": "vuelta"
       }
      ]
     },
-    "extra": "Liguilla: ida de cuartos 25 y 26 de nov, vuelta 28 y 29 de nov. Salomón Rondón (Pachuca) lidera el goleo con 16.",
+    "extra": "Liguilla: ida de cuartos 25 y 26 de nov, vuelta 28 y 29 de nov (el mejor ubicado cierra en casa). Semifinales: 2–3 y 5–6 de dic.",
     "sources": [
      {
-      "name": "Infobae",
-      "url": "https://www.infobae.com/mexico/deportes/2026/11/11/liga-mx-cuando-regresa-el-apertura-2026-y-con-que-partido-abre-por-la-pausa-de-la-fecha-fifa/"
+      "name": "El Financiero (Chivas 1–0 Cruz Azul)",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/11/22/cruz-azul-vs-chivas-en-vivo-resultado-j-17-liga-mx-apertura-2026/"
      },
      {
-      "name": "Quiero TV",
-      "url": "https://quierotv.mx/2026/11/17/liga-mx-asi-luce-la-tabla-general-previo-a-la-ultima-jornada-del-apertura-2026"
+      "name": "El Heraldo de México (Querétaro 2–2 Necaxa)",
+      "url": "https://heraldodemexico.com.mx/deportes/2026/11/22/gallos-blancos-de-queretaro-y-necaxa-empataron-2-2-en-la-jornada-17-de-la-liga-mx-2922565.html"
      },
      {
-      "name": "Claro Sports",
-      "url": "https://www.clarosports.com/futbol/liga-mx/cuando-se-juega-la-jornada-17-del-apertura-2026-de-la-liga-mx/"
+      "name": "TV Azteca (horarios de cuartos)",
+      "url": "https://www.tvazteca.com/aztecadeportes/oficial-fechas-y-horarios-de-los-cuartos-de-final-del-apertura-2026-de-la-liga-bbva-mx/"
      },
      {
-      "name": "Milenio",
-      "url": "https://www.milenio.com/futbol/liga-mx/liguilla-liga-mx-2026-clasificados-a-cuartos-de-final-al-momento"
+      "name": "Unánimo Deportes (tabla y cruces)",
+      "url": "https://unanimodeportes.com/deportes/futbol/liga-mx/liga-mx-liguilla/"
+     },
+     {
+      "name": "ESPN (resultados 21 nov)",
+      "url": "https://espndeportes.espn.com/futbol/resultados/_/liga/mex.1/fecha/20261121"
      }
     ]
    },
@@ -920,7 +1483,7 @@
     "sport": "soccer",
     "name": "Premier League",
     "season": "2026/27",
-    "phase": "Jornada 10 de 38",
+    "phase": "Jornada 11 de 38",
     "zones": [
      {
       "from": 1,
@@ -939,185 +1502,261 @@
      {
       "pos": 1,
       "team": "Arsenal",
-      "pj": 10,
+      "pj": 11,
       "g": 9,
-      "e": 0,
+      "e": 1,
       "p": 1,
-      "pts": 27
+      "pts": 28
      },
      {
       "pos": 2,
       "team": "Brighton",
-      "pj": 10,
+      "pj": 11,
       "g": 7,
       "e": 1,
-      "p": 2,
+      "p": 3,
       "pts": 22
      },
      {
       "pos": 3,
       "team": "Manchester City",
-      "pj": 10,
+      "pj": 11,
       "g": 7,
-      "e": 0,
+      "e": 1,
       "p": 3,
-      "pts": 21
+      "pts": 22
      },
      {
       "pos": 4,
       "team": "Liverpool",
-      "pj": 10,
-      "g": 5,
+      "pj": 11,
+      "g": 6,
       "e": 3,
       "p": 2,
-      "pts": 18
+      "pts": 21
      },
      {
       "pos": 5,
-      "team": "Chelsea",
-      "pj": 10,
+      "team": "Bournemouth",
+      "pj": 11,
       "g": 5,
-      "e": 1,
-      "p": 4,
-      "pts": 16
+      "e": 3,
+      "p": 3,
+      "pts": 18
      },
      {
       "pos": 6,
-      "team": "Everton",
-      "pj": 10,
+      "team": "Brentford",
+      "pj": 11,
       "g": 4,
-      "e": 4,
+      "e": 5,
       "p": 2,
-      "pts": 16
+      "pts": 17
      },
      {
       "pos": 7,
-      "team": "Bournemouth",
-      "pj": 10,
+      "team": "Leeds United",
+      "pj": 11,
       "g": 4,
-      "e": 3,
-      "p": 3,
-      "pts": 15
+      "e": 5,
+      "p": 2,
+      "pts": 17
      },
      {
       "pos": 8,
-      "team": "Brentford",
-      "pj": 10,
-      "g": 3,
-      "e": 5,
-      "p": 2,
-      "pts": 14
+      "team": "Chelsea",
+      "pj": 11,
+      "g": 5,
+      "e": 1,
+      "p": 5,
+      "pts": 16
      },
      {
       "pos": 9,
-      "team": "Leeds United",
-      "pj": 10,
-      "g": 3,
-      "e": 5,
-      "p": 2,
-      "pts": 14
+      "team": "Everton",
+      "pj": 11,
+      "g": 4,
+      "e": 4,
+      "p": 3,
+      "pts": 16
      },
      {
       "pos": 10,
-      "team": "Aston Villa",
-      "pj": 10,
-      "g": 3,
-      "e": 4,
-      "p": 3,
-      "pts": 13
+      "team": "Tottenham Hotspur",
+      "pj": 11,
+      "g": 4,
+      "e": 3,
+      "p": 4,
+      "pts": 15
      },
      {
       "pos": 11,
-      "team": "Tottenham Hotspur",
-      "pj": 10,
+      "team": "Hull City",
+      "pj": 11,
       "g": 3,
-      "e": 3,
-      "p": 4,
-      "pts": 12
+      "e": 5,
+      "p": 3,
+      "pts": 14
      },
      {
       "pos": 12,
-      "team": "Newcastle United",
-      "pj": 10,
+      "team": "Aston Villa",
+      "pj": 11,
       "g": 3,
-      "e": 3,
-      "p": 4,
-      "pts": 12
+      "e": 5,
+      "p": 3,
+      "pts": 14
      },
      {
       "pos": 13,
-      "team": "Hull City",
-      "pj": 10,
-      "g": 2,
-      "e": 5,
-      "p": 3,
-      "pts": 11
+      "team": "Newcastle United",
+      "pj": 11,
+      "g": 3,
+      "e": 4,
+      "p": 4,
+      "pts": 13
      },
      {
       "pos": 14,
-      "team": "Ipswich Town",
-      "pj": 10,
-      "g": 3,
-      "e": 2,
-      "p": 5,
-      "pts": 11
+      "team": "Coventry City",
+      "pj": 11,
+      "g": 4,
+      "e": 0,
+      "p": 7,
+      "pts": 12
      },
      {
       "pos": 15,
       "team": "Fulham",
-      "pj": 10,
+      "pj": 11,
       "g": 2,
-      "e": 4,
+      "e": 5,
       "p": 4,
-      "pts": 10
+      "pts": 11
      },
      {
       "pos": 16,
-      "team": "Nottingham Forest",
-      "pj": 10,
-      "g": 2,
-      "e": 3,
-      "p": 5,
-      "pts": 9
+      "team": "Ipswich Town",
+      "pj": 11,
+      "g": 3,
+      "e": 2,
+      "p": 6,
+      "pts": 11
      },
      {
       "pos": 17,
-      "team": "Coventry City",
-      "pj": 10,
-      "g": 3,
-      "e": 0,
-      "p": 7,
+      "team": "Nottingham Forest",
+      "pj": 11,
+      "g": 2,
+      "e": 3,
+      "p": 6,
       "pts": 9
      },
      {
       "pos": 18,
-      "team": "Manchester United",
-      "pj": 10,
-      "g": 1,
-      "e": 5,
-      "p": 4,
-      "pts": 8
+      "team": "Sunderland",
+      "pj": 11,
+      "g": 2,
+      "e": 3,
+      "p": 6,
+      "pts": 9
      },
      {
       "pos": 19,
-      "team": "Sunderland",
-      "pj": 10,
-      "g": 2,
-      "e": 2,
-      "p": 6,
+      "team": "Manchester United",
+      "pj": 11,
+      "g": 1,
+      "e": 5,
+      "p": 5,
       "pts": 8
      },
      {
       "pos": 20,
       "team": "Crystal Palace",
-      "pj": 10,
+      "pj": 11,
       "g": 2,
       "e": 1,
-      "p": 7,
+      "p": 8,
       "pts": 7
      }
     ],
     "rounds": [
+     {
+      "label": "Jornada 11",
+      "dates": "21–23 nov",
+      "games": [
+       {
+        "date": "2026-11-21",
+        "home": "Manchester City",
+        "away": "Fulham",
+        "hs": 1,
+        "as": 1
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Aston Villa",
+        "away": "Sunderland",
+        "hs": 0,
+        "as": 0
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Bournemouth",
+        "away": "Nottingham Forest",
+        "hs": 2,
+        "as": 0
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Chelsea",
+        "away": "Leeds United",
+        "hs": 1,
+        "as": 4
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Coventry City",
+        "away": "Crystal Palace",
+        "hs": 3,
+        "as": 2
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Tottenham Hotspur",
+        "away": "Ipswich Town",
+        "hs": 2,
+        "as": 0
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Newcastle United",
+        "away": "Arsenal",
+        "hs": 2,
+        "as": 2
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Hull City",
+        "away": "Brighton",
+        "hs": 2,
+        "as": 0
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Liverpool",
+        "away": "Manchester United",
+        "hs": 4,
+        "as": 0
+       },
+       {
+        "date": "2026-11-23",
+        "home": "Brentford",
+        "away": "Everton",
+        "hs": 4,
+        "as": 0
+       }
+      ]
+     },
      {
       "label": "Jornada 10",
       "dates": "6–8 nov",
@@ -1196,68 +1835,68 @@
      }
     ],
     "next": {
-     "label": "Jornada 11",
-     "dates": "21–23 nov",
+     "label": "Jornada 12",
+     "dates": "27–29 nov",
      "games": [
       {
-       "date": "2026-11-21",
-       "time": "6:30",
-       "home": "Manchester City",
-       "away": "Fulham"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "9:00",
-       "home": "Aston Villa",
-       "away": "Sunderland"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "9:00",
-       "home": "Bournemouth",
-       "away": "Nottingham Forest"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "9:00",
-       "home": "Chelsea",
-       "away": "Leeds United"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "9:00",
-       "home": "Coventry City",
-       "away": "Crystal Palace"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "9:00",
-       "home": "Tottenham Hotspur",
-       "away": "Ipswich Town"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "11:30",
-       "home": "Newcastle United",
-       "away": "Arsenal"
-      },
-      {
-       "date": "2026-11-22",
-       "time": "8:00",
-       "home": "Hull City",
-       "away": "Brighton"
-      },
-      {
-       "date": "2026-11-22",
-       "time": "10:30",
-       "home": "Liverpool",
-       "away": "Manchester United"
-      },
-      {
-       "date": "2026-11-23",
+       "date": "2026-11-27",
        "time": "14:00",
-       "home": "Brentford",
-       "away": "Everton"
+       "home": "Nottingham Forest",
+       "away": "Chelsea"
+      },
+      {
+       "date": "2026-11-28",
+       "time": "9:00",
+       "home": "Leeds United",
+       "away": "Coventry City"
+      },
+      {
+       "date": "2026-11-28",
+       "time": "9:00",
+       "home": "Manchester United",
+       "away": "Brentford"
+      },
+      {
+       "date": "2026-11-28",
+       "time": "11:30",
+       "home": "Ipswich Town",
+       "away": "Aston Villa"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "6:00",
+       "home": "Everton",
+       "away": "Liverpool"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "8:05",
+       "home": "Brighton",
+       "away": "Newcastle United"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "8:05",
+       "home": "Crystal Palace",
+       "away": "Hull City"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "8:05",
+       "home": "Fulham",
+       "away": "Bournemouth"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "8:05",
+       "home": "Sunderland",
+       "away": "Tottenham Hotspur"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "10:30",
+       "home": "Arsenal",
+       "away": "Manchester City"
       }
      ]
     },
@@ -1266,14 +1905,15 @@
       "name": "Datos: Sportradar",
       "url": ""
      }
-    ]
+    ],
+    "note": "Jornada 11 completa: Brentford goleó 4–0 a Everton el lunes. En la Jornada 12 destacan el derbi Everton–Liverpool y Arsenal–Manchester City, ambos el domingo 29."
    },
    {
     "id": "laliga",
     "sport": "soccer",
     "name": "LaLiga",
     "season": "2026/27",
-    "phase": "Jornada 12 de 38",
+    "phase": "Jornada 13 de 38",
     "zones": [
      {
       "from": 1,
@@ -1292,141 +1932,141 @@
      {
       "pos": 1,
       "team": "FC Barcelona",
-      "pj": 12,
-      "g": 11,
+      "pj": 13,
+      "g": 12,
       "e": 0,
       "p": 1,
-      "pts": 33
+      "pts": 36
      },
      {
       "pos": 2,
       "team": "Real Madrid",
-      "pj": 12,
-      "g": 10,
+      "pj": 13,
+      "g": 11,
       "e": 0,
       "p": 2,
-      "pts": 30
+      "pts": 33
      },
      {
       "pos": 3,
       "team": "Atlético de Madrid",
-      "pj": 12,
-      "g": 9,
+      "pj": 13,
+      "g": 10,
       "e": 1,
       "p": 2,
-      "pts": 28
+      "pts": 31
      },
      {
       "pos": 4,
       "team": "Real Betis",
-      "pj": 12,
+      "pj": 13,
       "g": 8,
-      "e": 2,
+      "e": 3,
       "p": 2,
-      "pts": 26
+      "pts": 27
      },
      {
       "pos": 5,
       "team": "Real Sociedad",
-      "pj": 12,
+      "pj": 13,
       "g": 7,
       "e": 1,
-      "p": 4,
+      "p": 5,
       "pts": 22
      },
      {
       "pos": 6,
       "team": "Sevilla",
-      "pj": 12,
+      "pj": 13,
       "g": 5,
-      "e": 3,
+      "e": 4,
       "p": 4,
-      "pts": 18
+      "pts": 19
      },
      {
       "pos": 7,
-      "team": "Athletic Club",
-      "pj": 11,
-      "g": 4,
-      "e": 4,
-      "p": 3,
-      "pts": 16
+      "team": "Racing Santander",
+      "pj": 13,
+      "g": 5,
+      "e": 2,
+      "p": 6,
+      "pts": 17
      },
      {
       "pos": 8,
-      "team": "Villarreal",
+      "team": "Athletic Club",
       "pj": 12,
       "g": 4,
-      "e": 3,
-      "p": 5,
-      "pts": 15
+      "e": 4,
+      "p": 4,
+      "pts": 16
      },
      {
       "pos": 9,
-      "team": "Deportivo La Coruña",
-      "pj": 12,
-      "g": 3,
-      "e": 6,
-      "p": 3,
-      "pts": 15
+      "team": "Alavés",
+      "pj": 13,
+      "g": 4,
+      "e": 4,
+      "p": 5,
+      "pts": 16
      },
      {
       "pos": 10,
-      "team": "Racing Santander",
-      "pj": 12,
+      "team": "Villarreal",
+      "pj": 13,
       "g": 4,
-      "e": 2,
+      "e": 3,
       "p": 6,
-      "pts": 14
+      "pts": 15
      },
      {
       "pos": 11,
-      "team": "Celta de Vigo",
-      "pj": 12,
-      "g": 2,
-      "e": 7,
-      "p": 3,
-      "pts": 13
+      "team": "Espanyol",
+      "pj": 13,
+      "g": 4,
+      "e": 3,
+      "p": 6,
+      "pts": 15
      },
      {
       "pos": 12,
-      "team": "Alavés",
-      "pj": 12,
+      "team": "Deportivo La Coruña",
+      "pj": 13,
       "g": 3,
-      "e": 4,
-      "p": 5,
-      "pts": 13
+      "e": 6,
+      "p": 4,
+      "pts": 15
      },
      {
       "pos": 13,
-      "team": "Espanyol",
-      "pj": 12,
-      "g": 3,
+      "team": "Osasuna",
+      "pj": 13,
+      "g": 4,
       "e": 3,
       "p": 6,
-      "pts": 12
+      "pts": 15
      },
      {
       "pos": 14,
-      "team": "Rayo Vallecano",
-      "pj": 11,
-      "g": 3,
-      "e": 3,
-      "p": 5,
-      "pts": 12
+      "team": "Celta de Vigo",
+      "pj": 13,
+      "g": 2,
+      "e": 7,
+      "p": 4,
+      "pts": 13
      },
      {
       "pos": 15,
-      "team": "Getafe",
-      "pj": 12,
-      "g": 3,
-      "e": 3,
-      "p": 6,
+      "team": "Levante",
+      "pj": 13,
+      "g": 2,
+      "e": 6,
+      "p": 5,
       "pts": 12
      },
      {
       "pos": 16,
-      "team": "Osasuna",
+      "team": "Rayo Vallecano",
       "pj": 12,
       "g": 3,
       "e": 3,
@@ -1435,42 +2075,118 @@
      },
      {
       "pos": 17,
-      "team": "Levante",
-      "pj": 12,
-      "g": 2,
-      "e": 5,
-      "p": 5,
-      "pts": 11
+      "team": "Valencia",
+      "pj": 13,
+      "g": 3,
+      "e": 3,
+      "p": 7,
+      "pts": 12
      },
      {
       "pos": 18,
-      "team": "Elche",
-      "pj": 12,
-      "g": 2,
-      "e": 4,
-      "p": 6,
-      "pts": 10
+      "team": "Getafe",
+      "pj": 13,
+      "g": 3,
+      "e": 3,
+      "p": 7,
+      "pts": 12
      },
      {
       "pos": 19,
-      "team": "Valencia",
-      "pj": 12,
+      "team": "Elche",
+      "pj": 13,
       "g": 2,
-      "e": 3,
-      "p": 7,
-      "pts": 9
+      "e": 5,
+      "p": 6,
+      "pts": 11
      },
      {
       "pos": 20,
       "team": "Málaga",
-      "pj": 12,
+      "pj": 13,
       "g": 0,
       "e": 5,
-      "p": 7,
+      "p": 8,
       "pts": 5
      }
     ],
     "rounds": [
+     {
+      "label": "Jornada 13",
+      "dates": "20–23 nov",
+      "games": [
+       {
+        "date": "2026-11-20",
+        "home": "Athletic Club",
+        "away": "Espanyol",
+        "hs": 0,
+        "as": 1
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Alavés",
+        "away": "Deportivo La Coruña",
+        "hs": 3,
+        "as": 1
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Rayo Vallecano",
+        "away": "Valencia",
+        "hs": 0,
+        "as": 1
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Sevilla",
+        "away": "Real Betis",
+        "hs": 1,
+        "as": 1
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Real Madrid",
+        "away": "Celta de Vigo",
+        "hs": 2,
+        "as": 1
+       },
+       {
+        "date": "2026-11-22",
+        "home": "FC Barcelona",
+        "away": "Villarreal",
+        "hs": 3,
+        "as": 2
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Racing Santander",
+        "away": "Real Sociedad",
+        "hs": 3,
+        "as": 2
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Osasuna",
+        "away": "Málaga",
+        "hs": 1,
+        "as": 0
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Getafe",
+        "away": "Atlético de Madrid",
+        "hs": 0,
+        "as": 3
+       },
+       {
+        "date": "2026-11-23",
+        "home": "Levante",
+        "away": "Elche",
+        "hs": 1,
+        "as": 1
+       }
+      ]
+     },
      {
       "label": "Jornada 12",
       "dates": "6–8 nov",
@@ -1549,68 +2265,68 @@
      }
     ],
     "next": {
-     "label": "Jornada 13",
-     "dates": "20–23 nov",
+     "label": "Jornada 14",
+     "dates": "27–30 nov",
      "games": [
       {
-       "date": "2026-11-20",
+       "date": "2026-11-27",
        "time": "14:00",
-       "home": "Athletic Club",
-       "away": "Espanyol"
+       "home": "Levante",
+       "away": "Racing Santander"
       },
       {
-       "date": "2026-11-21",
+       "date": "2026-11-28",
        "time": "7:00",
-       "home": "Alavés",
-       "away": "Deportivo La Coruña"
+       "home": "Real Betis",
+       "away": "Rayo Vallecano"
       },
       {
-       "date": "2026-11-21",
+       "date": "2026-11-28",
        "time": "9:15",
-       "home": "Rayo Vallecano",
-       "away": "Valencia"
+       "home": "Málaga",
+       "away": "Athletic Club"
       },
       {
-       "date": "2026-11-21",
+       "date": "2026-11-28",
        "time": "11:30",
-       "home": "Sevilla",
-       "away": "Real Betis"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "14:00",
-       "home": "Real Madrid",
-       "away": "Celta de Vigo"
-      },
-      {
-       "date": "2026-11-22",
-       "time": "7:00",
-       "home": "FC Barcelona",
-       "away": "Villarreal"
-      },
-      {
-       "date": "2026-11-22",
-       "time": "9:15",
-       "home": "Racing Santander",
-       "away": "Real Sociedad"
-      },
-      {
-       "date": "2026-11-22",
-       "time": "11:30",
-       "home": "Osasuna",
-       "away": "Málaga"
-      },
-      {
-       "date": "2026-11-22",
-       "time": "14:00",
-       "home": "Getafe",
+       "home": "Elche",
        "away": "Atlético de Madrid"
       },
       {
-       "date": "2026-11-23",
+       "date": "2026-11-28",
        "time": "14:00",
-       "home": "Levante",
-       "away": "Elche"
+       "home": "Real Madrid",
+       "away": "Alavés"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "7:00",
+       "home": "Valencia",
+       "away": "Osasuna"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "9:15",
+       "home": "Deportivo La Coruña",
+       "away": "FC Barcelona"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "11:30",
+       "home": "Celta de Vigo",
+       "away": "Villarreal"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "14:00",
+       "home": "Real Sociedad",
+       "away": "Sevilla"
+      },
+      {
+       "date": "2026-11-30",
+       "time": "14:00",
+       "home": "Espanyol",
+       "away": "Getafe"
       }
      ]
     },
@@ -1619,14 +2335,15 @@
       "name": "Datos: Sportradar",
       "url": ""
      }
-    ]
+    ],
+    "note": "Jornada 13 completa: Levante y Elche empataron 1–1 el lunes. Athletic Club y Rayo Vallecano tienen un partido menos."
    },
    {
     "id": "seriea",
     "sport": "soccer",
     "name": "Serie A",
     "season": "2026/27",
-    "phase": "Jornada 11 de 38",
+    "phase": "Jornada 12 de 38",
     "zones": [
      {
       "from": 1,
@@ -1645,185 +2362,261 @@
      {
       "pos": 1,
       "team": "Lazio",
-      "pj": 11,
-      "g": 9,
+      "pj": 12,
+      "g": 10,
       "e": 2,
       "p": 0,
-      "pts": 29
+      "pts": 32
      },
      {
       "pos": 2,
-      "team": "Inter",
-      "pj": 11,
+      "team": "Roma",
+      "pj": 12,
       "g": 9,
-      "e": 1,
-      "p": 1,
-      "pts": 28
+      "e": 3,
+      "p": 0,
+      "pts": 30
      },
      {
       "pos": 3,
-      "team": "Roma",
-      "pj": 11,
-      "g": 8,
-      "e": 3,
-      "p": 0,
-      "pts": 27
+      "team": "Inter",
+      "pj": 12,
+      "g": 9,
+      "e": 2,
+      "p": 1,
+      "pts": 29
      },
      {
       "pos": 4,
       "team": "Milan",
-      "pj": 11,
-      "g": 7,
+      "pj": 12,
+      "g": 8,
       "e": 3,
       "p": 1,
-      "pts": 24
+      "pts": 27
      },
      {
       "pos": 5,
       "team": "Como",
-      "pj": 11,
-      "g": 7,
+      "pj": 12,
+      "g": 8,
       "e": 2,
       "p": 2,
-      "pts": 23
+      "pts": 26
      },
      {
       "pos": 6,
-      "team": "Frosinone",
-      "pj": 11,
+      "team": "Juventus",
+      "pj": 12,
       "g": 6,
-      "e": 2,
+      "e": 3,
       "p": 3,
-      "pts": 20
+      "pts": 21
      },
      {
       "pos": 7,
-      "team": "Juventus",
-      "pj": 11,
-      "g": 5,
-      "e": 3,
-      "p": 3,
-      "pts": 18
+      "team": "Frosinone",
+      "pj": 12,
+      "g": 6,
+      "e": 2,
+      "p": 4,
+      "pts": 20
      },
      {
       "pos": 8,
-      "team": "Bologna",
-      "pj": 11,
+      "team": "Napoli",
+      "pj": 12,
       "g": 5,
-      "e": 2,
+      "e": 3,
       "p": 4,
-      "pts": 17
+      "pts": 18
      },
      {
       "pos": 9,
-      "team": "Cagliari",
-      "pj": 11,
+      "team": "Bologna",
+      "pj": 12,
       "g": 5,
-      "e": 1,
-      "p": 5,
-      "pts": 16
+      "e": 3,
+      "p": 4,
+      "pts": 18
      },
      {
       "pos": 10,
-      "team": "Napoli",
-      "pj": 11,
-      "g": 4,
-      "e": 3,
-      "p": 4,
-      "pts": 15
+      "team": "Genoa",
+      "pj": 12,
+      "g": 5,
+      "e": 1,
+      "p": 6,
+      "pts": 16
      },
      {
       "pos": 11,
-      "team": "Torino",
-      "pj": 11,
-      "g": 4,
-      "e": 2,
-      "p": 5,
-      "pts": 14
+      "team": "Cagliari",
+      "pj": 12,
+      "g": 5,
+      "e": 1,
+      "p": 6,
+      "pts": 16
      },
      {
       "pos": 12,
       "team": "Atalanta",
-      "pj": 11,
+      "pj": 12,
       "g": 4,
-      "e": 2,
+      "e": 3,
       "p": 5,
-      "pts": 14
+      "pts": 15
      },
      {
       "pos": 13,
-      "team": "Genoa",
-      "pj": 11,
+      "team": "Torino",
+      "pj": 12,
       "g": 4,
-      "e": 1,
+      "e": 2,
       "p": 6,
-      "pts": 13
+      "pts": 14
      },
      {
       "pos": 14,
-      "team": "Lecce",
-      "pj": 11,
+      "team": "Monza",
+      "pj": 12,
       "g": 3,
       "e": 1,
-      "p": 7,
+      "p": 8,
       "pts": 10
      },
      {
       "pos": 15,
-      "team": "Fiorentina",
-      "pj": 11,
-      "g": 2,
-      "e": 3,
-      "p": 6,
-      "pts": 9
+      "team": "Lecce",
+      "pj": 12,
+      "g": 3,
+      "e": 1,
+      "p": 8,
+      "pts": 10
      },
      {
       "pos": 16,
-      "team": "Parma",
-      "pj": 11,
+      "team": "Fiorentina",
+      "pj": 12,
       "g": 2,
-      "e": 2,
+      "e": 3,
       "p": 7,
-      "pts": 8
+      "pts": 9
      },
      {
       "pos": 17,
-      "team": "Sassuolo",
-      "pj": 11,
+      "team": "Parma",
+      "pj": 12,
       "g": 2,
       "e": 2,
-      "p": 7,
+      "p": 8,
       "pts": 8
      },
      {
       "pos": 18,
-      "team": "Monza",
-      "pj": 11,
+      "team": "Sassuolo",
+      "pj": 12,
       "g": 2,
-      "e": 1,
+      "e": 2,
       "p": 8,
-      "pts": 7
+      "pts": 8
      },
      {
       "pos": 19,
-      "team": "Venezia",
-      "pj": 11,
-      "g": 2,
-      "e": 0,
-      "p": 9,
+      "team": "Udinese",
+      "pj": 12,
+      "g": 1,
+      "e": 3,
+      "p": 8,
       "pts": 6
      },
      {
       "pos": 20,
-      "team": "Udinese",
-      "pj": 11,
-      "g": 1,
-      "e": 2,
-      "p": 8,
-      "pts": 5
+      "team": "Venezia",
+      "pj": 12,
+      "g": 2,
+      "e": 0,
+      "p": 10,
+      "pts": 6
      }
     ],
     "rounds": [
+     {
+      "label": "Jornada 12",
+      "dates": "21–23 nov",
+      "games": [
+       {
+        "date": "2026-11-21",
+        "home": "Como",
+        "away": "Cagliari",
+        "hs": 2,
+        "as": 0
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Lazio",
+        "away": "Lecce",
+        "hs": 3,
+        "as": 0
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Parma",
+        "away": "Roma",
+        "hs": 1,
+        "as": 5
+       },
+       {
+        "date": "2026-11-21",
+        "home": "Napoli",
+        "away": "Torino",
+        "hs": 1,
+        "as": 0
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Juventus",
+        "away": "Venezia",
+        "hs": 4,
+        "as": 0
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Bologna",
+        "away": "Udinese",
+        "hs": 1,
+        "as": 1
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Sassuolo",
+        "away": "Genoa",
+        "hs": 0,
+        "as": 2
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Milan",
+        "away": "Frosinone",
+        "hs": 5,
+        "as": 1
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Atalanta",
+        "away": "Inter",
+        "hs": 4,
+        "as": 4
+       },
+       {
+        "date": "2026-11-23",
+        "home": "Monza",
+        "away": "Fiorentina",
+        "hs": 3,
+        "as": 0
+       }
+      ]
+     },
      {
       "label": "Jornada 11",
       "dates": "6–8 nov",
@@ -1902,68 +2695,68 @@
      }
     ],
     "next": {
-     "label": "Jornada 12",
-     "dates": "21–23 nov",
+     "label": "Jornada 13",
+     "dates": "27–30 nov",
      "games": [
       {
-       "date": "2026-11-21",
-       "time": "8:00",
-       "home": "Como",
-       "away": "Cagliari"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "8:00",
-       "home": "Lazio",
-       "away": "Lecce"
-      },
-      {
-       "date": "2026-11-21",
-       "time": "11:00",
-       "home": "Parma",
-       "away": "Roma"
-      },
-      {
-       "date": "2026-11-21",
+       "date": "2026-11-27",
        "time": "13:45",
-       "home": "Napoli",
-       "away": "Torino"
+       "home": "Venezia",
+       "away": "Bologna"
       },
       {
-       "date": "2026-11-22",
-       "time": "5:30",
-       "home": "Juventus",
-       "away": "Venezia"
-      },
-      {
-       "date": "2026-11-22",
+       "date": "2026-11-28",
        "time": "8:00",
-       "home": "Bologna",
-       "away": "Udinese"
+       "home": "Frosinone",
+       "away": "Parma"
       },
       {
-       "date": "2026-11-22",
-       "time": "8:00",
-       "home": "Sassuolo",
+       "date": "2026-11-28",
+       "time": "11:00",
+       "home": "Torino",
+       "away": "Lazio"
+      },
+      {
+       "date": "2026-11-28",
+       "time": "13:45",
+       "home": "Inter",
        "away": "Genoa"
       },
       {
-       "date": "2026-11-22",
-       "time": "11:00",
-       "home": "Milan",
-       "away": "Frosinone"
-      },
-      {
-       "date": "2026-11-22",
-       "time": "13:45",
-       "home": "Atalanta",
-       "away": "Inter"
-      },
-      {
-       "date": "2026-11-23",
-       "time": "13:45",
-       "home": "Monza",
+       "date": "2026-11-29",
+       "time": "5:30",
+       "home": "Udinese",
        "away": "Fiorentina"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "8:00",
+       "home": "Sassuolo",
+       "away": "Napoli"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "11:00",
+       "home": "Roma",
+       "away": "Monza"
+      },
+      {
+       "date": "2026-11-29",
+       "time": "13:45",
+       "home": "Como",
+       "away": "Juventus"
+      },
+      {
+       "date": "2026-11-30",
+       "time": "11:30",
+       "home": "Lecce",
+       "away": "Atalanta"
+      },
+      {
+       "date": "2026-11-30",
+       "time": "13:45",
+       "home": "Cagliari",
+       "away": "Milan"
       }
      ]
     },
@@ -1972,7 +2765,8 @@
       "name": "Datos: Sportradar",
       "url": ""
      }
-    ]
+    ],
+    "note": "Jornada 12 completa: Monza goleó 3–0 a Fiorentina el lunes y salió de la zona de descenso."
    },
    {
     "id": "champions",
@@ -2467,14 +3261,66 @@
        "time": "11:45",
        "home": "Sabah Masazir",
        "away": "FC Barcelona"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "11:45",
+       "home": "Slavia Prague",
+       "away": "Villarreal"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "14:00",
+       "home": "PSG",
+       "away": "Roma"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "14:00",
+       "home": "Sporting de Lisboa",
+       "away": "Manchester United"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "14:00",
+       "home": "Lille",
+       "away": "Bayern Múnich"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "14:00",
+       "home": "Brujas",
+       "away": "Liverpool"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "14:00",
+       "home": "Inter",
+       "away": "VfB Stuttgart"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "14:00",
+       "home": "Atlético de Madrid",
+       "away": "Viking FK"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "14:00",
+       "home": "Shakhtar Donetsk",
+       "away": "Fenerbahçe"
       }
      ]
     },
-    "note": "La fuente solo devolvió 10 de los 18 partidos de la Jornada 4.",
+    "note": "La Jornada 5 se juega el martes 24 y el miércoles 25; Liverpool visita a Brujas, que también tiene 9 puntos. La fuente de datos solo devolvió 10 de los 18 partidos de la Jornada 4; los de la Jornada 5 se completaron con Deportes TVC.",
     "sources": [
      {
       "name": "Datos: Sportradar",
       "url": ""
+     },
+     {
+      "name": "Deportes TVC (Jornada 5)",
+      "url": "https://www.deportestvc.com/futbol-internacional/champions-league-horarios-partidos-estelares-jornada-5-2026-11-23"
      }
     ]
    },
@@ -2483,26 +3329,26 @@
     "sport": "nfl",
     "name": "NFL",
     "season": "Temporada 2026",
-    "phase": "Tras la Semana 10 de 18",
+    "phase": "Semana 11 de 18 (falta el lunes)",
     "standings": [
      {
       "conf": "NFC",
       "div": "NFC East",
       "team": "New York Giants",
-      "w": 5,
+      "w": 6,
       "l": 3,
       "t": 1,
-      "pct": 0.611,
+      "pct": 0.65,
       "seed": 3
      },
      {
       "conf": "NFC",
       "div": "NFC East",
       "team": "Dallas Cowboys",
-      "w": 4,
+      "w": 5,
       "l": 6,
       "t": 0,
-      "pct": 0.4,
+      "pct": 0.455,
       "seed": 10
      },
      {
@@ -2519,40 +3365,40 @@
       "conf": "NFC",
       "div": "NFC East",
       "team": "Philadelphia Eagles",
-      "w": 2,
+      "w": 3,
       "l": 7,
       "t": 0,
-      "pct": 0.222,
-      "seed": 16
+      "pct": 0.3,
+      "seed": 15
      },
      {
       "conf": "NFC",
       "div": "NFC North",
       "team": "Detroit Lions",
-      "w": 7,
+      "w": 8,
       "l": 2,
       "t": 0,
-      "pct": 0.778,
+      "pct": 0.8,
       "seed": 2
+     },
+     {
+      "conf": "NFC",
+      "div": "NFC North",
+      "team": "Chicago Bears",
+      "w": 8,
+      "l": 2,
+      "t": 0,
+      "pct": 0.8,
+      "seed": 5
      },
      {
       "conf": "NFC",
       "div": "NFC North",
       "team": "Minnesota Vikings",
       "w": 7,
-      "l": 2,
+      "l": 3,
       "t": 0,
-      "pct": 0.778,
-      "seed": 5
-     },
-     {
-      "conf": "NFC",
-      "div": "NFC North",
-      "team": "Chicago Bears",
-      "w": 7,
-      "l": 2,
-      "t": 0,
-      "pct": 0.778,
+      "pct": 0.7,
       "seed": 6
      },
      {
@@ -2569,10 +3415,10 @@
       "conf": "NFC",
       "div": "NFC South",
       "team": "Carolina Panthers",
-      "w": 4,
+      "w": 5,
       "l": 5,
       "t": 0,
-      "pct": 0.444,
+      "pct": 0.5,
       "seed": 4
      },
      {
@@ -2580,25 +3426,25 @@
       "div": "NFC South",
       "team": "Tampa Bay Buccaneers",
       "w": 3,
-      "l": 6,
+      "l": 7,
       "t": 0,
-      "pct": 0.333,
+      "pct": 0.3,
       "seed": 12
      },
      {
       "conf": "NFC",
       "div": "NFC South",
-      "team": "New Orleans Saints",
+      "team": "Atlanta Falcons",
       "w": 3,
-      "l": 6,
+      "l": 7,
       "t": 0,
-      "pct": 0.333,
+      "pct": 0.3,
       "seed": 13
      },
      {
       "conf": "NFC",
       "div": "NFC South",
-      "team": "Atlanta Falcons",
+      "team": "New Orleans Saints",
       "w": 3,
       "l": 7,
       "t": 0,
@@ -2609,10 +3455,10 @@
       "conf": "NFC",
       "div": "NFC West",
       "team": "San Francisco 49ers",
-      "w": 8,
+      "w": 9,
       "l": 1,
       "t": 0,
-      "pct": 0.889,
+      "pct": 0.9,
       "seed": 1
      },
      {
@@ -2640,19 +3486,19 @@
       "div": "NFC West",
       "team": "Arizona Cardinals",
       "w": 3,
-      "l": 7,
+      "l": 8,
       "t": 0,
-      "pct": 0.3,
-      "seed": 15
+      "pct": 0.273,
+      "seed": 16
      },
      {
       "conf": "AFC",
       "div": "AFC East",
       "team": "Buffalo Bills",
-      "w": 8,
+      "w": 9,
       "l": 1,
       "t": 0,
-      "pct": 0.889,
+      "pct": 0.9,
       "seed": 1
      },
      {
@@ -2669,20 +3515,20 @@
       "conf": "AFC",
       "div": "AFC East",
       "team": "New York Jets",
-      "w": 2,
+      "w": 3,
       "l": 8,
       "t": 0,
-      "pct": 0.2,
-      "seed": 13
+      "pct": 0.273,
+      "seed": 12
      },
      {
       "conf": "AFC",
       "div": "AFC East",
       "team": "Miami Dolphins",
       "w": 1,
-      "l": 8,
+      "l": 9,
       "t": 0,
-      "pct": 0.111,
+      "pct": 0.1,
       "seed": 15
      },
      {
@@ -2693,22 +3539,22 @@
       "l": 2,
       "t": 0,
       "pct": 0.778,
-      "seed": 4
-     },
-     {
-      "conf": "AFC",
-      "div": "AFC North",
-      "team": "Pittsburgh Steelers",
-      "w": 6,
-      "l": 3,
-      "t": 0,
-      "pct": 0.667,
-      "seed": 6
+      "seed": 3
      },
      {
       "conf": "AFC",
       "div": "AFC North",
       "team": "Cleveland Browns",
+      "w": 6,
+      "l": 4,
+      "t": 0,
+      "pct": 0.6,
+      "seed": 6
+     },
+     {
+      "conf": "AFC",
+      "div": "AFC North",
+      "team": "Pittsburgh Steelers",
       "w": 6,
       "l": 4,
       "t": 0,
@@ -2720,75 +3566,25 @@
       "div": "AFC North",
       "team": "Baltimore Ravens",
       "w": 4,
-      "l": 6,
+      "l": 7,
       "t": 0,
-      "pct": 0.4,
-      "seed": 10
+      "pct": 0.364,
+      "seed": 11
      },
      {
       "conf": "AFC",
       "div": "AFC South",
       "team": "Jacksonville Jaguars",
       "w": 7,
-      "l": 2,
+      "l": 3,
       "t": 0,
-      "pct": 0.778,
-      "seed": 3
+      "pct": 0.7,
+      "seed": 4
      },
      {
       "conf": "AFC",
       "div": "AFC South",
       "team": "Houston Texans",
-      "w": 3,
-      "l": 6,
-      "t": 0,
-      "pct": 0.333,
-      "seed": 11
-     },
-     {
-      "conf": "AFC",
-      "div": "AFC South",
-      "team": "Indianapolis Colts",
-      "w": 3,
-      "l": 7,
-      "t": 0,
-      "pct": 0.3,
-      "seed": 12
-     },
-     {
-      "conf": "AFC",
-      "div": "AFC South",
-      "team": "Tennessee Titans",
-      "w": 1,
-      "l": 8,
-      "t": 0,
-      "pct": 0.111,
-      "seed": 16
-     },
-     {
-      "conf": "AFC",
-      "div": "AFC West",
-      "team": "Kansas City Chiefs",
-      "w": 7,
-      "l": 2,
-      "t": 0,
-      "pct": 0.778,
-      "seed": 2
-     },
-     {
-      "conf": "AFC",
-      "div": "AFC West",
-      "team": "Denver Broncos",
-      "w": 7,
-      "l": 2,
-      "t": 0,
-      "pct": 0.778,
-      "seed": 5
-     },
-     {
-      "conf": "AFC",
-      "div": "AFC West",
-      "team": "Las Vegas Raiders",
       "w": 4,
       "l": 6,
       "t": 0,
@@ -2797,16 +3593,168 @@
      },
      {
       "conf": "AFC",
+      "div": "AFC South",
+      "team": "Indianapolis Colts",
+      "w": 3,
+      "l": 8,
+      "t": 0,
+      "pct": 0.273,
+      "seed": 13
+     },
+     {
+      "conf": "AFC",
+      "div": "AFC South",
+      "team": "Tennessee Titans",
+      "w": 1,
+      "l": 9,
+      "t": 0,
+      "pct": 0.1,
+      "seed": 16
+     },
+     {
+      "conf": "AFC",
+      "div": "AFC West",
+      "team": "Denver Broncos",
+      "w": 8,
+      "l": 2,
+      "t": 0,
+      "pct": 0.8,
+      "seed": 2
+     },
+     {
+      "conf": "AFC",
+      "div": "AFC West",
+      "team": "Kansas City Chiefs",
+      "w": 8,
+      "l": 2,
+      "t": 0,
+      "pct": 0.8,
+      "seed": 5
+     },
+     {
+      "conf": "AFC",
+      "div": "AFC West",
+      "team": "Las Vegas Raiders",
+      "w": 4,
+      "l": 7,
+      "t": 0,
+      "pct": 0.364,
+      "seed": 10
+     },
+     {
+      "conf": "AFC",
       "div": "AFC West",
       "team": "Los Angeles Chargers",
       "w": 1,
-      "l": 8,
+      "l": 9,
       "t": 0,
-      "pct": 0.111,
+      "pct": 0.1,
       "seed": 14
      }
     ],
     "rounds": [
+     {
+      "label": "Semana 11",
+      "dates": "19–23 nov",
+      "games": [
+       {
+        "date": "2026-11-19",
+        "home": "Houston Texans",
+        "away": "Indianapolis Colts",
+        "hs": 26,
+        "as": 3,
+        "note": "TNF"
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Kansas City Chiefs",
+        "away": "Arizona Cardinals",
+        "hs": 34,
+        "as": 7,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Chicago Bears",
+        "away": "New Orleans Saints",
+        "hs": 21,
+        "as": 13,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Detroit Lions",
+        "away": "Tampa Bay Buccaneers",
+        "hs": 31,
+        "as": 21,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Dallas Cowboys",
+        "away": "Tennessee Titans",
+        "hs": 51,
+        "as": 30,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Carolina Panthers",
+        "away": "Baltimore Ravens",
+        "hs": 35,
+        "as": 33,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Buffalo Bills",
+        "away": "Miami Dolphins",
+        "hs": 26,
+        "as": 9,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Philadelphia Eagles",
+        "away": "Pittsburgh Steelers",
+        "hs": 19,
+        "as": 16,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Los Angeles Chargers",
+        "away": "New York Jets",
+        "hs": 24,
+        "as": 27,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "Denver Broncos",
+        "away": "Las Vegas Raiders",
+        "hs": 38,
+        "as": 24,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "New York Giants",
+        "away": "Jacksonville Jaguars",
+        "hs": 23,
+        "as": 18,
+        "note": ""
+       },
+       {
+        "date": "2026-11-22",
+        "home": "San Francisco 49ers",
+        "away": "Minnesota Vikings",
+        "hs": 35,
+        "as": 10,
+        "note": "SNF"
+       }
+      ]
+     },
      {
       "label": "Semana 10",
       "dates": "12–16 nov",
@@ -2981,103 +3929,124 @@
      }
     ],
     "next": {
-     "label": "Semana 11",
-     "dates": "19–23 nov",
+     "label": "Cierre de la Semana 11 y Semana 12",
+     "dates": "23–29 nov",
      "games": [
-      {
-       "date": "2026-11-19",
-       "time": "19:15",
-       "home": "Houston Texans",
-       "away": "Indianapolis Colts",
-       "note": "TNF"
-      },
-      {
-       "date": "2026-11-22",
-       "time": "12:00",
-       "home": "Kansas City Chiefs",
-       "away": "Arizona Cardinals",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "12:00",
-       "home": "Chicago Bears",
-       "away": "New Orleans Saints",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "12:00",
-       "home": "Detroit Lions",
-       "away": "Tampa Bay Buccaneers",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "12:00",
-       "home": "Dallas Cowboys",
-       "away": "Tennessee Titans",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "12:00",
-       "home": "Carolina Panthers",
-       "away": "Baltimore Ravens",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "12:00",
-       "home": "Buffalo Bills",
-       "away": "Miami Dolphins",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "12:00",
-       "home": "Philadelphia Eagles",
-       "away": "Pittsburgh Steelers",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "15:05",
-       "home": "Los Angeles Chargers",
-       "away": "New York Jets",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "15:25",
-       "home": "Denver Broncos",
-       "away": "Las Vegas Raiders",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "15:25",
-       "home": "New York Giants",
-       "away": "Jacksonville Jaguars",
-       "note": ""
-      },
-      {
-       "date": "2026-11-22",
-       "time": "19:20",
-       "home": "San Francisco 49ers",
-       "away": "Minnesota Vikings",
-       "note": "SNF"
-      },
       {
        "date": "2026-11-23",
        "time": "19:15",
        "home": "Washington Commanders",
        "away": "Cincinnati Bengals",
-       "note": "MNF"
+       "note": "MNF · en juego"
+      },
+      {
+       "date": "2026-11-25",
+       "time": "19:00",
+       "home": "Los Angeles Rams",
+       "away": "Green Bay Packers",
+       "note": ""
+      },
+      {
+       "date": "2026-11-26",
+       "time": "12:00",
+       "home": "Detroit Lions",
+       "away": "Chicago Bears",
+       "note": "Acción de Gracias"
+      },
+      {
+       "date": "2026-11-26",
+       "time": "15:30",
+       "home": "Dallas Cowboys",
+       "away": "Philadelphia Eagles",
+       "note": "Acción de Gracias"
+      },
+      {
+       "date": "2026-11-26",
+       "time": "19:20",
+       "home": "Buffalo Bills",
+       "away": "Kansas City Chiefs",
+       "note": "Acción de Gracias"
+      },
+      {
+       "date": "2026-11-27",
+       "time": "14:00",
+       "home": "Pittsburgh Steelers",
+       "away": "Denver Broncos",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "12:00",
+       "home": "Indianapolis Colts",
+       "away": "New York Giants",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "12:00",
+       "home": "Minnesota Vikings",
+       "away": "Atlanta Falcons",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "12:00",
+       "home": "Jacksonville Jaguars",
+       "away": "Tennessee Titans",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "12:00",
+       "home": "Houston Texans",
+       "away": "Baltimore Ravens",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "12:00",
+       "home": "Cincinnati Bengals",
+       "away": "New Orleans Saints",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "12:00",
+       "home": "Miami Dolphins",
+       "away": "New York Jets",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "15:05",
+       "home": "Los Angeles Chargers",
+       "away": "New England Patriots",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "15:25",
+       "home": "San Francisco 49ers",
+       "away": "Seattle Seahawks",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "15:25",
+       "home": "Arizona Cardinals",
+       "away": "Washington Commanders",
+       "note": ""
+      },
+      {
+       "date": "2026-11-29",
+       "time": "19:20",
+       "home": "Cleveland Browns",
+       "away": "Las Vegas Raiders",
+       "note": "SNF"
       }
      ]
     },
-    "note": "Semana 9 incompleta: solo se cargaron los juegos del domingo por la tarde y la noche, y el lunes. Las siembras son de la propia fuente: 1–4 líderes de división, 5–7 comodines.",
+    "note": "Al cierre de esta edición el juego del lunes (Bengals @ Commanders) seguía en curso; la tabla incluye solo juegos terminados. Destacan el 35–10 de San Francisco sobre Minnesota, que lo deja con la mejor marca de la NFC (9–1), y el triunfo de los Giants sobre Jacksonville para seguir líderes del Este de la NFC. Semana 9 incompleta. Las siembras son de la propia fuente: 1–4 líderes de división, 5–7 comodines.",
     "sources": [
      {
       "name": "Datos: Sportradar",
@@ -3095,7 +4064,7 @@
      "ligamx"
     ],
     "color": "oklch(72% 0.13 252)",
-    "note": "Vienen de perder 4–0 en Toluca. Ya están dentro de la Liguilla, pero con 24 puntos todavía pueden subir o bajar de lugar en la última jornada."
+    "note": "Cerraron la fase regular en 6.º lugar con 27 puntos, y el triunfo de Chivas sobre Cruz Azul les dejó al América (3.º) como rival en cuartos. La ida es el miércoles 25 a las 21:10 h en el Estadio BBVA y la vuelta el sábado 28 a las 21:10 h en el Estadio Banorte, donde cierra el América por su mejor posición."
    },
    {
     "team": "Liverpool",
@@ -3106,7 +4075,7 @@
      "champions"
     ],
     "color": "oklch(65% 0.19 25)",
-    "note": "Ganó 3–1 en Crystal Palace en la Premier, pero perdió 3–2 en Estambul contra Fenerbahçe en la Champions. El domingo recibe al Manchester United."
+    "note": "Viene de golear 4–0 al Manchester United y es 4.º de la Premier, a siete puntos del líder Arsenal. El miércoles 25 a las 14:00 h visita al Brujas en la Jornada 5 de Champions, donde los dos suman 9 puntos, y el domingo 29 juega el derbi en casa de Everton."
    },
    {
     "team": "Dallas Cowboys",
@@ -3116,7 +4085,7 @@
      "nfl"
     ],
     "color": "oklch(80% 0.05 245)",
-    "note": "Perdieron 46–40 un partidazo contra San Francisco. Con 4–6 están a 2 juegos del último comodín de la NFC (Green Bay, 6–4); el domingo reciben a Tennessee (1–8)."
+    "note": "Aplastaron 51–30 a Tennessee: Dak Prescott lanzó 4 touchdowns y corrió para otro, y CeeDee Lamb superó las 1,000 yardas por sexta temporada seguida. Con 5–6 siguen a un juego de .500 y a la caza de un comodín; el jueves 26 reciben a Filadelfia en Acción de Gracias."
    }
   ]
  }

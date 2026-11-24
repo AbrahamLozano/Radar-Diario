@@ -1,0 +1,17 @@
+{
+  "name": "Radar Diario",
+  "short_name": "Radar",
+  "description": "Noticias diarias de videojuegos, 3D, animación, diseño UI/UX, IA y deportes.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#151d2e",
+  "theme_color": "#151d2e",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

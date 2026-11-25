@@ -392,7 +392,7 @@ nav.pages a .n{font-weight:600;color:var(--muted)}
   </div>
   <nav class="pages" aria-label="Páginas"><ul id="pages"></ul></nav>
 
-  <p id="offline-msg" hidden>No se pudieron cargar las noticias. Revisa tu conexión y vuelve a abrir la app.</p>
+  <div id="offline-msg" hidden><p>No se pudieron cargar las noticias. Revisa tu conexión e inténtalo otra vez.</p><p><button type="button" class="listen-btn" onclick="radarRetry()">Reintentar</button> <button type="button" class="listen-btn" onclick="radarRepair()">Reparar app</button></p><p style="font-size:.85em;opacity:.75">“Reparar app” borra la copia guardada en el celular y la vuelve a descargar.</p></div>
   <div id="content" tabindex="-1">
     <section id="view-home">
       <header class="masthead"><h1>Radar <em>diario</em></h1></header>
@@ -424,18 +424,42 @@ nav.pages a .n{font-weight:600;color:var(--muted)}
 <script type="application/json" id="radar-data"></script>
 
 <script>
-/* Carga data.json (siempre la versión más nueva si hay red; si no, la última guardada) y arranca la app. */
+/* Carga data.json (la versión más nueva si hay red; si no, la última guardada) y arranca la app.
+   Si algo falla, muestra un aviso con botones para reintentar o reparar la app. */
 (function(){
-  function boot(json){
-    document.getElementById('radar-data').textContent = json;
-    var s = document.createElement('script'); s.src = 'app.js?v=3'; document.body.appendChild(s);
+  var started = false;
+  function showError(){
+    var m = document.getElementById('offline-msg'); if (m) m.hidden = false;
   }
-  fetch('data.json?t=' + Date.now(), {cache:'no-store'})
+  function boot(json){
+    if (started) return; started = true;
+    JSON.parse(json); // si el JSON viniera roto, cae al aviso
+    document.getElementById('radar-data').textContent = json;
+    var s = document.createElement('script'); s.src = 'app.js?v=4';
+    s.onerror = showError;
+    document.body.appendChild(s);
+  }
+  function fromCache(){
+    if (!('caches' in window)) return Promise.reject(new Error('sin caché'));
+    return caches.open('radar-data').then(function(c){ return c.match('data.json'); })
+      .then(function(r){ if (!r) throw new Error('sin copia'); return r.text(); });
+  }
+  var ctrl = ('AbortController' in window) ? new AbortController() : null;
+  var timer = setTimeout(function(){ if (ctrl) ctrl.abort(); }, 10000);
+  fetch('data.json?t=' + Date.now(), {cache:'no-store', signal: ctrl ? ctrl.signal : undefined})
     .then(function(r){ if (!r.ok) throw new Error(r.status); return r.text(); })
-    .then(boot)
-    .catch(function(){
-      var m = document.getElementById('offline-msg'); if (m) m.hidden = false;
-    });
+    .then(function(t){ clearTimeout(timer); boot(t); })
+    .catch(function(){ clearTimeout(timer); return fromCache().then(boot); })
+    .catch(showError);
+  window.addEventListener('error', function(ev){ if (!document.querySelector('#pages li')) showError(); });
+
+  window.radarRetry = function(){ location.reload(); };
+  window.radarRepair = function(){
+    var jobs = [];
+    if ('serviceWorker' in navigator) jobs.push(navigator.serviceWorker.getRegistrations().then(function(rs){ return Promise.all(rs.map(function(r){ return r.unregister(); })); }));
+    if ('caches' in window) jobs.push(caches.keys().then(function(ks){ return Promise.all(ks.map(function(k){ return caches.delete(k); })); }));
+    Promise.all(jobs).catch(function(){}).then(function(){ location.replace(location.pathname + '?r=' + Date.now()); });
+  };
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
   }

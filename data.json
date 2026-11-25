@@ -23,10 +23,6 @@
  },
  "keyDates": [
   {
-   "date": "2026-11-24",
-   "label": "Champions League: Jornada 5 (24 y 25 nov)"
-  },
-  {
    "date": "2026-11-25",
    "label": "Brujas vs Liverpool, 14:00 h (Champions, J5)"
   },
@@ -51,8 +47,20 @@
    "label": "América vs Rayados, 21:10 h (Liga MX, vuelta de cuartos, Estadio Banorte)"
   },
   {
+   "date": "2026-11-28",
+   "label": "BCON Shenzhen, conferencia de Blender en Asia (28–29 nov)"
+  },
+  {
    "date": "2026-11-29",
    "label": "Everton vs Liverpool, 6:00 h (Premier, J12)"
+  },
+  {
+   "date": "2026-11-30",
+   "label": "Cierran las nominaciones de los Steam Awards 2026"
+  },
+  {
+   "date": "2026-11-30",
+   "label": "AWS re:Invent 2026 en Las Vegas (30 nov–3 dic)"
   },
   {
    "date": "2026-12-01",
@@ -68,12 +76,28 @@
    "label": "Liga MX: semifinales (2–6 dic)"
   },
   {
+   "date": "2026-12-08",
+   "label": "Salen los audífonos Nothing Ear (note) con grabación por IA"
+  },
+  {
+   "date": "2026-12-09",
+   "label": "Cierra la votación del público de The Game Awards, 20:00 h"
+  },
+  {
    "date": "2026-12-10",
    "label": "The Game Awards 2026, Peacock Theater, Los Ángeles"
   },
   {
+   "date": "2026-12-15",
+   "label": "Academia: listas preliminares (shortlists) del Oscar"
+  },
+  {
    "date": "2026-12-16",
    "label": "Entran en vigor los términos de Etsy sobre entrenamiento de IA"
+  },
+  {
+   "date": "2026-12-17",
+   "label": "Rebajas de invierno de Steam y votación final de los Steam Awards"
   },
   {
    "date": "2026-12-18",
@@ -85,6 +109,276 @@
   }
  ],
  "editions": [
+  {
+   "id": "2026-11-25",
+   "label": "Miércoles 25 nov 2026",
+   "summary": "Sony confirmó que GTA VI es el mayor lanzamiento en la historia de PlayStation y abrieron las nominaciones de los Steam Awards. Blender presentó su plan para llegar a tabletas, Canva abrió su motor de diseño a cualquier agente de IA y un récord de 38 películas, con la mexicana Soy Frankelda, aspira al Oscar de animación. En deportes, el Real Madrid goleó 5–1 al PSV y hoy juegan Liverpool en Brujas y Rayados ante el América en la ida de cuartos.",
+   "items": [
+    {
+     "topic": "gaming",
+     "date": "2026-11-24",
+     "tag": "GTA VI",
+     "lead": true,
+     "title": "Sony: GTA VI es el lanzamiento más grande en la historia de PlayStation",
+     "summary": "Sony informó que más de 39 millones de jugadores únicos ya entraron a GTA VI en PS5, con el récord de jugadores simultáneos de cualquier juego de la consola. En sus primeros días sumó unos 683 millones de horas jugadas, cerca de 17 horas por persona, y fue el primer juego que se abrió en el 70% de las PS5 nuevas.",
+     "sources": [
+      {
+       "name": "GamesRadar+",
+       "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-the-biggest-launch-in-playstation-history-with-sony-reporting-more-than-39-million-unique-players-playing-rockstars-new-game-on-ps5/"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-23",
+     "tag": "Steam Awards",
+     "title": "Abren las nominaciones de los Steam Awards 2026, con un duelo de juegos del año",
+     "summary": "Para celebrar diez años de sus premios, Valve agregó una categoría especial que enfrenta a todos sus juegos del año anteriores, de GTA V y The Witcher 3 a Baldur's Gate 3 y Hollow Knight: Silksong. Hay tres categorías nuevas, entre ellas una para simuladores de trabajo. Las nominaciones cierran el 30 de noviembre y los ganadores se anuncian el 2 de enero.",
+     "sources": [
+      {
+       "name": "PC Gamer",
+       "url": "https://www.pcgamer.com/games/2026-steam-awards-pit-the-goty-winners-of-the-past-10-years-against-each-other-in-an-all-out-battle-for-supremacy/"
+      },
+      {
+       "name": "TweakTown",
+       "url": "https://www.tweaktown.com/news/114864/steam-awards-2026-nominations-open-with-new-categories-and-a-hall-of-fame-vote-for-game-of-the-decade/index.html"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-24",
+     "tag": "The Witcher 4",
+     "title": "CD Projekt compara el salto de The Witcher 4 con el de GTA V a GTA VI",
+     "summary": "En su reporte trimestral, el co-CEO Michał Nowakowski dijo que espera un salto generacional respecto a The Witcher 3 de tamaño parecido al que dio Rockstar entre GTA V y GTA VI. El estudio sigue sin fecha concreta, apuntando a 2028, y reveló un acuerdo de marketing con Sony para el juego.",
+     "sources": [
+      {
+       "name": "VGC",
+       "url": "https://www.videogameschronicle.com/news/cdpr-claims-leap-to-witcher-4-is-comparable-to-leap-from-gta-5-to-gta-6/"
+      },
+      {
+       "name": "TweakTown",
+       "url": "https://www.tweaktown.com/news/114869/witcher-4s-evolution-similar-to-gta-5s-leap-to-gta-6-cd-projekt-says/index.html"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-24",
+     "tag": "Blender",
+     "lead": true,
+     "title": "Blender presenta su plan para llegar a tabletas",
+     "summary": "El equipo de Blender publicó la hoja de ruta de su primera versión para tabletas: empezará en tabletas Android de gama alta y iPads con chip M, con soporte táctil y de lápiz, una interfaz compacta centrada en el viewport y una rueda radial para las teclas modificadoras. Al principio seguirá pidiendo teclado y ratón o trackpad, y las funciones irán llegando por casos de uso como escultura y storyboard.",
+     "sources": [
+      {
+       "name": "Blender Developers Blog",
+       "url": "https://code.blender.org/2026/11/tablet-path-to-release/"
+      },
+      {
+       "name": "BlenderNation",
+       "url": "https://www.blendernation.com/2026/11/24/blender-on-tablet-the-plan-for-a-first-release/"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-24",
+     "tag": "Godot",
+     "title": "Godot 4.8 llega a su beta 5, probablemente la última antes del RC",
+     "summary": "La nueva beta se enfoca en estabilidad: cierra los últimos bloqueos del lanzamiento y corrige errores del editor, la latencia de micrófono en PulseAudio y el jitter del escalado MetalFX. Ojo si usas C#: la versión .NET ahora pide .NET 10 o superior.",
+     "sources": [
+      {
+       "name": "GameDev.net (blog de Godot)",
+       "url": "https://gamedev.net/news/7318-dev-snapshot-godot-48-beta-5"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-24",
+     "tag": "Escultura gratis",
+     "title": "SculptForge 0.9.3, escultura digital libre con puente a Blender",
+     "summary": "SculptForge es una alternativa gratuita y de código abierto a ZBrush para Windows, macOS y Linux, sin cuenta ni suscripción. Trae SubTools, subdivisiones, capas, dyntopo, remallado voxel, retopología, polypaint y horneado de mapas, y un add-on que manda modelos de ida y vuelta a Blender en un clic.",
+     "sources": [
+      {
+       "name": "BlenderNation",
+       "url": "https://www.blendernation.com/2026/11/24/sculptforge-0-9-3-a-free-open-source-sculpting-app-with-a-two-way-blender-bridge/"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-23",
+     "tag": "Motor libre",
+     "title": "Sale O3DE 26.10 con editor en Qt 6 y soporte para Apple Silicon",
+     "summary": "Open 3D Engine, el motor libre que nació de Lumberyard, pasó su editor a Qt 6, añadió builds experimentales para Mac con Apple Silicon y soporte inicial de Wayland. También cambió a PhysX 5 y suma GTAO como opción de oclusión ambiental.",
+     "sources": [
+      {
+       "name": "GameFromScratch",
+       "url": "https://gamefromscratch.com/o3de-26-10-released/"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-23",
+     "tag": "Oscar 2027",
+     "lead": true,
+     "mx": true,
+     "title": "Récord de 38 películas animadas aspiran al Oscar; Soy Frankelda va por México",
+     "summary": "La Academia aceptó 38 largometrajes animados para la próxima entrega, la cifra más alta de su historia. Entre ellos están Toy Story 5, Hoppers y Hexed, y el único latinoamericano es Soy Frankelda, el stop motion de los hermanos Ambriz. Las nominaciones se anuncian el 21 de enero de 2027.",
+     "sources": [
+      {
+       "name": "Cartoon Brew",
+       "url": "https://www.cartoonbrew.com/awards/record-38-animated-features-eligible-for-oscars-269705.html"
+      },
+      {
+       "name": "Zócalo (Agencia Reforma)",
+       "url": "https://www.zocalo.com.mx/hacen-historia-rumbo-al-oscar-2027-rompen-marcas-animacion-y-cine-internacional/"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-24",
+     "tag": "Streaming",
+     "title": "CBeebies tendrá su propio espacio dentro de Netflix",
+     "summary": "La BBC probará una sección con la marca CBeebies en Netflix Reino Unido desde el 2 de diciembre, con series como Hey Duggee y Teletubbies. Parte del catálogo también se ofrecerá fuera de ese país y Netflix financiará algunas producciones nuevas del canal infantil.",
+     "sources": [
+      {
+       "name": "The Star (Reuters)",
+       "url": "https://www.thestar.com.my/tech/tech-news/2026/11/24/bbc-to-trial-cbeebies-shows-on-netflix-in-new-streaming-partnership"
+      },
+      {
+       "name": "Variety",
+       "url": "https://variety.com/2026/tv/news/netflix-bbc-deal-preschool-shows-new-commissions-1236956807/"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-24",
+     "tag": "Aardman 50",
+     "title": "La BBC prepara un documental navideño por los 50 años de Aardman",
+     "summary": "Cracking Job Gromit: Aardman at 50 repasará medio siglo del estudio desde la aparición de Morph en 1976. Tendrá material inédito, bocetos de archivo, animación nueva y acceso detrás de cámaras a Wallace & Gromit, Shaun the Sheep y Chicken Run; se estrena en Navidad en BBC One.",
+     "sources": [
+      {
+       "name": "Televisual",
+       "url": "https://www.televisual.com/news/bbc-preps-50-years-of-aardman-celebration/"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-23",
+     "tag": "Nueva serie",
+     "title": "Titmouse adaptará el cómic Fireborn como serie animada",
+     "summary": "El estudio de Lower Decks y The Legend of Vox Machina desarrolla una serie de Fireborn, el cómic de Image sobre el hijo adolescente de un multimillonario que se fusiona con un huevo de dragón. Buscan un look de cómic noventero con guiños a los videojuegos de 16 bits.",
+     "sources": [
+      {
+       "name": "Graphic Policy",
+       "url": "https://graphicpolicy.com/2026/11/23/curt-pires-franklin-jonas-and-patrick-mulhollands-fireborn-is-being-developed-by-titmouse-as-an-animated-series/"
+      },
+      {
+       "name": "Comics Beat",
+       "url": "https://www.comicsbeat.com/titmouse-animation-set-to-develop-fireborn-animated-series/"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-24",
+     "tag": "Canva + agentes",
+     "lead": true,
+     "title": "Canva abre su motor de diseño a cualquier agente de IA",
+     "summary": "Canva liberó para todos su servidor MCP, sin lista de espera, y sumó APIs REST y una herramienta de línea de comandos para generar diseños editables, imágenes y video, quitar fondos, separar capas y exportar. También abre a terceros su modelo de imagen Craft y agrega cuentas de servicio para automatizaciones.",
+     "sources": [
+      {
+       "name": "The Next Web",
+       "url": "https://thenextweb.com/news/canva-mcp-ai-agents-developers"
+      },
+      {
+       "name": "Canva Newsroom",
+       "url": "https://www.canva.com/newsroom/news/canva-mcp-update/"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-24",
+     "tag": "Sistemas de diseño",
+     "title": "Sin contexto, los agentes de código ignoran los componentes aprobados",
+     "summary": "Un estudio de DesignVerse en 15 bases de código empresariales encontró que dos agentes populares usaron los componentes internos aprobados solo entre 55% y 59% de las veces; en el resto inventaron piezas o tomaron librerías públicas. El estudio lo hizo un proveedor que vende la solución, pero ilustra el riesgo para los sistemas de diseño cuando la IA genera interfaces.",
+     "sources": [
+      {
+       "name": "The Next Web",
+       "url": "https://thenextweb.com/news/designverse-ai-coding-drift-report-legacy-codebases"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-23",
+     "tag": "Nuevo modelo",
+     "lead": true,
+     "title": "Z.ai lanza GLM-5.4, con visión y contexto de un millón de tokens",
+     "summary": "La china Z.ai presentó GLM-5.4, un modelo de 750 mil millones de parámetros que reutiliza bloques de capas para razonar más sin crecer en tamaño, y que ahora lee capturas e imágenes para programar interfaces. Por ahora solo está en sus planes de código y su chat; la API y los pesos abiertos llegarán después.",
+     "sources": [
+      {
+       "name": "DEV Community",
+       "url": "https://dev.to/delimitter/zai-releases-glm-54-its-first-loop-transformer-flagship-at-750b-parameters-onf"
+      },
+      {
+       "name": "Z.ai",
+       "url": "https://z.ai/blog/glm-5.4"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-23",
+     "tag": "Google",
+     "title": "El Modo IA del buscador de Google se conecta a Drive, Wallet y Gemini",
+     "summary": "Google amplió la personalización del Modo IA con conexiones opcionales a Google Drive (Docs, Sheets y PDF), Google Wallet en solo lectura y la app de Gemini. Se activan desde los ajustes de apps conectadas y se están desplegando de forma gradual; un icono mostrará qué contexto se usó en cada respuesta.",
+     "sources": [
+      {
+       "name": "9to5Google",
+       "url": "https://9to5google.com/2026/11/23/ai-mode-wallet-gemini/"
+      },
+      {
+       "name": "Make Tech Easier",
+       "url": "https://maketecheasier.com/google-ai-mode-wallet-drive-gemini-connections/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-24",
+     "tag": "IA para pymes",
+     "title": "OpenAI paga a expertos locales para enseñar IA a pequeños negocios",
+     "summary": "OpenWorks es un piloto en 20 ciudades de Estados Unidos que paga a personas con experiencia en IA para asesorar gratis a restaurantes, tiendas y talleres, y para dar un taller comunitario. Los negocios reciben además tres meses de ChatGPT Business.",
+     "sources": [
+      {
+       "name": "The Rundown AI",
+       "url": "https://www.therundown.ai/news/openai-openworks-small-business-ai-pilot"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-24",
+     "tag": "Gadgets",
+     "title": "Nothing presenta audífonos cuyo estuche graba y transcribe reuniones",
+     "summary": "Los Ear (note) tienen un botón de grabación en el estuche para capturar y transcribir con IA conversaciones, llamadas y clases. Salen el 8 de diciembre; el precio no se ha revelado y podría haber suscripción.",
+     "sources": [
+      {
+       "name": "Tech Times",
+       "url": "https://www.techtimes.com/articles/331406/20261124/nothing-ear-note-unveiled-earbuds-ai-recorder-charging-case-set-debut-soon.htm"
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-24",
    "label": "Martes 24 nov 2026",
@@ -1074,7 +1368,7 @@
   }
  ],
  "sports": {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "intro": "Tabla general y resultados de cada liga. Los resultados se acumulan cada noche y las ligas siguen de una temporada a la siguiente (la Liga MX pasa del Apertura al Clausura). Las jornadas anteriores al 3 de noviembre no están cargadas.",
   "leagues": [
    {
@@ -1475,6 +1769,14 @@
      {
       "name": "ESPN (resultados 21 nov)",
       "url": "https://espndeportes.espn.com/futbol/resultados/_/liga/mex.1/fecha/20261121"
+     },
+     {
+      "name": "ESPN MX (calendario de cuartos)",
+      "url": "https://www.espn.com.mx/futbol/mexico/nota/_/id/17550768/liga-mx-cuartos-de-final-apertura-2026-bracket-horarios"
+     },
+     {
+      "name": "Estrella Digital (árbitros de cuartos)",
+      "url": "https://estrelladigital.com.mx/deportes/liga-mx-arbitros-liguilla-apertura-2026/"
      }
     ]
    },
@@ -2773,7 +3075,7 @@
     "sport": "soccer",
     "name": "Champions League",
     "season": "2026/27",
-    "phase": "Fase liga · Jornada 4 de 8",
+    "phase": "Fase liga · Jornada 5 de 8 (falta el miércoles)",
     "zones": [
      {
       "from": 1,
@@ -2797,299 +3099,365 @@
     "standings": [
      {
       "pos": 1,
+      "team": "Real Madrid",
+      "pj": 5,
+      "g": 5,
+      "e": 0,
+      "p": 0,
+      "gf": 18,
+      "gc": 8,
+      "pts": 15
+     },
+     {
+      "pos": 2,
       "team": "PSG",
       "pj": 4,
       "g": 4,
       "e": 0,
       "p": 0,
-      "pts": 12
-     },
-     {
-      "pos": 2,
-      "team": "Real Madrid",
-      "pj": 4,
-      "g": 4,
-      "e": 0,
-      "p": 0,
+      "gf": 20,
+      "gc": 5,
       "pts": 12
      },
      {
       "pos": 3,
-      "team": "Arsenal",
-      "pj": 4,
-      "g": 3,
-      "e": 1,
-      "p": 0,
-      "pts": 10
+      "team": "Como",
+      "pj": 5,
+      "g": 4,
+      "e": 0,
+      "p": 1,
+      "gf": 20,
+      "gc": 6,
+      "pts": 12
      },
      {
       "pos": 4,
-      "team": "Como",
-      "pj": 4,
-      "g": 3,
+      "team": "Real Betis",
+      "pj": 5,
+      "g": 4,
       "e": 0,
       "p": 1,
-      "pts": 9
+      "gf": 10,
+      "gc": 6,
+      "pts": 12
      },
      {
       "pos": 5,
+      "team": "Arsenal",
+      "pj": 5,
+      "g": 3,
+      "e": 2,
+      "p": 0,
+      "gf": 9,
+      "gc": 4,
+      "pts": 11
+     },
+     {
+      "pos": 6,
+      "team": "Manchester City",
+      "pj": 5,
+      "g": 3,
+      "e": 1,
+      "p": 1,
+      "gf": 14,
+      "gc": 9,
+      "pts": 10
+     },
+     {
+      "pos": 7,
+      "team": "Dortmund",
+      "pj": 5,
+      "g": 3,
+      "e": 1,
+      "p": 1,
+      "gf": 8,
+      "gc": 6,
+      "pts": 10
+     },
+     {
+      "pos": 8,
       "team": "FC Barcelona",
       "pj": 4,
       "g": 3,
       "e": 0,
       "p": 1,
+      "gf": 14,
+      "gc": 6,
       "pts": 9
      },
      {
-      "pos": 6,
+      "pos": 9,
       "team": "Aston Villa",
-      "pj": 4,
+      "pj": 5,
       "g": 3,
       "e": 0,
-      "p": 1,
+      "p": 2,
+      "gf": 12,
+      "gc": 7,
       "pts": 9
      },
      {
-      "pos": 7,
-      "team": "Manchester City",
-      "pj": 4,
-      "g": 3,
-      "e": 0,
-      "p": 1,
-      "pts": 9
-     },
-     {
-      "pos": 8,
+      "pos": 10,
       "team": "Liverpool",
       "pj": 4,
       "g": 3,
       "e": 0,
       "p": 1,
+      "gf": 14,
+      "gc": 10,
       "pts": 9
      },
      {
-      "pos": 9,
+      "pos": 11,
       "team": "Brujas",
       "pj": 4,
       "g": 3,
       "e": 0,
       "p": 1,
+      "gf": 11,
+      "gc": 7,
       "pts": 9
      },
      {
-      "pos": 10,
+      "pos": 12,
       "team": "Sporting de Lisboa",
       "pj": 4,
       "g": 3,
       "e": 0,
       "p": 1,
-      "pts": 9
-     },
-     {
-      "pos": 11,
-      "team": "Real Betis",
-      "pj": 4,
-      "g": 3,
-      "e": 0,
-      "p": 1,
-      "pts": 9
-     },
-     {
-      "pos": 12,
-      "team": "Dortmund",
-      "pj": 4,
-      "g": 3,
-      "e": 0,
-      "p": 1,
+      "gf": 8,
+      "gc": 4,
       "pts": 9
      },
      {
       "pos": 13,
+      "team": "Galatasaray",
+      "pj": 5,
+      "g": 3,
+      "e": 0,
+      "p": 2,
+      "gf": 9,
+      "gc": 9,
+      "pts": 9
+     },
+     {
+      "pos": 14,
       "team": "Bayern Múnich",
       "pj": 4,
       "g": 2,
       "e": 2,
       "p": 0,
+      "gf": 12,
+      "gc": 5,
       "pts": 8
      },
      {
-      "pos": 14,
+      "pos": 15,
       "team": "VfB Stuttgart",
       "pj": 4,
       "g": 2,
       "e": 1,
       "p": 1,
+      "gf": 7,
+      "gc": 4,
       "pts": 7
      },
      {
-      "pos": 15,
+      "pos": 16,
+      "team": "Bodø/Glimt",
+      "pj": 5,
+      "g": 2,
+      "e": 1,
+      "p": 2,
+      "gf": 5,
+      "gc": 9,
+      "pts": 7
+     },
+     {
+      "pos": 17,
       "team": "Inter",
       "pj": 4,
       "g": 2,
       "e": 0,
       "p": 2,
+      "gf": 8,
+      "gc": 6,
       "pts": 6
      },
      {
-      "pos": 16,
+      "pos": 18,
       "team": "LASK Linz",
-      "pj": 4,
+      "pj": 5,
       "g": 2,
       "e": 0,
-      "p": 2,
+      "p": 3,
+      "gf": 10,
+      "gc": 10,
       "pts": 6
      },
      {
-      "pos": 17,
+      "pos": 19,
       "team": "Manchester United",
       "pj": 4,
       "g": 2,
       "e": 0,
       "p": 2,
+      "gf": 8,
+      "gc": 8,
       "pts": 6
      },
      {
-      "pos": 18,
-      "team": "Galatasaray",
-      "pj": 4,
+      "pos": 20,
+      "team": "FC Porto",
+      "pj": 5,
       "g": 2,
       "e": 0,
-      "p": 2,
+      "p": 3,
+      "gf": 7,
+      "gc": 7,
       "pts": 6
      },
      {
-      "pos": 19,
+      "pos": 21,
+      "team": "RB Leipzig",
+      "pj": 5,
+      "g": 2,
+      "e": 0,
+      "p": 3,
+      "gf": 8,
+      "gc": 12,
+      "pts": 6
+     },
+     {
+      "pos": 22,
       "team": "Fenerbahçe",
       "pj": 4,
       "g": 1,
       "e": 2,
       "p": 1,
+      "gf": 6,
+      "gc": 11,
       "pts": 5
      },
      {
-      "pos": 20,
+      "pos": 23,
       "team": "Roma",
       "pj": 4,
       "g": 1,
       "e": 1,
       "p": 2,
+      "gf": 10,
+      "gc": 8,
       "pts": 4
      },
      {
-      "pos": 21,
+      "pos": 24,
       "team": "Shakhtar Donetsk",
       "pj": 4,
       "g": 1,
       "e": 1,
       "p": 2,
+      "gf": 4,
+      "gc": 4,
       "pts": 4
      },
      {
-      "pos": 22,
+      "pos": 25,
       "team": "Viking FK",
       "pj": 4,
       "g": 1,
       "e": 1,
       "p": 2,
+      "gf": 9,
+      "gc": 10,
       "pts": 4
      },
      {
-      "pos": 23,
+      "pos": 26,
       "team": "Atlético de Madrid",
       "pj": 4,
       "g": 1,
       "e": 1,
       "p": 2,
+      "gf": 4,
+      "gc": 5,
       "pts": 4
-     },
-     {
-      "pos": 24,
-      "team": "PSV Eindhoven",
-      "pj": 4,
-      "g": 1,
-      "e": 1,
-      "p": 2,
-      "pts": 4
-     },
-     {
-      "pos": 25,
-      "team": "Bodø/Glimt",
-      "pj": 4,
-      "g": 1,
-      "e": 1,
-      "p": 2,
-      "pts": 4
-     },
-     {
-      "pos": 26,
-      "team": "FC Porto",
-      "pj": 4,
-      "g": 1,
-      "e": 0,
-      "p": 3,
-      "pts": 3
      },
      {
       "pos": 27,
       "team": "Napoli",
-      "pj": 4,
+      "pj": 5,
       "g": 1,
-      "e": 0,
+      "e": 1,
       "p": 3,
-      "pts": 3
+      "gf": 8,
+      "gc": 13,
+      "pts": 4
      },
      {
       "pos": 28,
+      "team": "PSV Eindhoven",
+      "pj": 5,
+      "g": 1,
+      "e": 1,
+      "p": 3,
+      "gf": 4,
+      "gc": 9,
+      "pts": 4
+     },
+     {
+      "pos": 29,
       "team": "Villarreal",
       "pj": 4,
       "g": 1,
       "e": 0,
       "p": 3,
-      "pts": 3
-     },
-     {
-      "pos": 29,
-      "team": "AEK Athens",
-      "pj": 4,
-      "g": 1,
-      "e": 0,
-      "p": 3,
+      "gf": 8,
+      "gc": 14,
       "pts": 3
      },
      {
       "pos": 30,
-      "team": "RB Leipzig",
-      "pj": 4,
-      "g": 1,
-      "e": 0,
-      "p": 3,
-      "pts": 3
-     },
-     {
-      "pos": 31,
       "team": "Sabah Masazir",
       "pj": 4,
       "g": 1,
       "e": 0,
       "p": 3,
+      "gf": 4,
+      "gc": 10,
+      "pts": 3
+     },
+     {
+      "pos": 31,
+      "team": "AEK Athens",
+      "pj": 5,
+      "g": 1,
+      "e": 0,
+      "p": 4,
+      "gf": 5,
+      "gc": 12,
       "pts": 3
      },
      {
       "pos": 32,
       "team": "Feyenoord",
-      "pj": 4,
+      "pj": 5,
       "g": 1,
       "e": 0,
-      "p": 3,
+      "p": 4,
+      "gf": 4,
+      "gc": 12,
       "pts": 3
      },
      {
       "pos": 33,
       "team": "Lens",
-      "pj": 4,
+      "pj": 5,
       "g": 1,
       "e": 0,
-      "p": 3,
+      "p": 4,
+      "gf": 5,
+      "gc": 19,
       "pts": 3
      },
      {
@@ -3099,6 +3467,8 @@
       "g": 0,
       "e": 1,
       "p": 3,
+      "gf": 5,
+      "gc": 9,
       "pts": 1
      },
      {
@@ -3108,19 +3478,92 @@
       "g": 0,
       "e": 1,
       "p": 3,
+      "gf": 4,
+      "gc": 10,
       "pts": 1
      },
      {
       "pos": 36,
       "team": "Slovan Bratislava",
-      "pj": 4,
+      "pj": 5,
       "g": 0,
       "e": 0,
-      "p": 4,
+      "p": 5,
+      "gf": 1,
+      "gc": 19,
       "pts": 0
      }
     ],
     "rounds": [
+     {
+      "label": "Jornada 5",
+      "dates": "24–25 nov",
+      "games": [
+       {
+        "date": "2026-11-24",
+        "home": "Bodø/Glimt",
+        "hs": 1,
+        "away": "LASK Linz",
+        "as": 0
+       },
+       {
+        "date": "2026-11-24",
+        "home": "Galatasaray",
+        "hs": 1,
+        "away": "Aston Villa",
+        "as": 0
+       },
+       {
+        "date": "2026-11-24",
+        "home": "Arsenal",
+        "hs": 1,
+        "away": "Dortmund",
+        "as": 1
+       },
+       {
+        "date": "2026-11-24",
+        "home": "Como",
+        "hs": 1,
+        "away": "AEK Athens",
+        "as": 0
+       },
+       {
+        "date": "2026-11-24",
+        "home": "Feyenoord",
+        "hs": 0,
+        "away": "FC Porto",
+        "as": 1
+       },
+       {
+        "date": "2026-11-24",
+        "home": "Manchester City",
+        "hs": 2,
+        "away": "Napoli",
+        "as": 2
+       },
+       {
+        "date": "2026-11-24",
+        "home": "RB Leipzig",
+        "hs": 3,
+        "away": "Lens",
+        "as": 1
+       },
+       {
+        "date": "2026-11-24",
+        "home": "Real Madrid",
+        "hs": 5,
+        "away": "PSV Eindhoven",
+        "as": 1
+       },
+       {
+        "date": "2026-11-24",
+        "home": "Slovan Bratislava",
+        "hs": 0,
+        "away": "Real Betis",
+        "as": 2
+       }
+      ]
+     },
      {
       "label": "Jornada 4",
       "dates": "3–4 nov",
@@ -3200,62 +3643,8 @@
     ],
     "next": {
      "label": "Jornada 5",
-     "dates": "24–25 nov",
+     "dates": "25 nov",
      "games": [
-      {
-       "date": "2026-11-24",
-       "time": "11:45",
-       "home": "Bodø/Glimt",
-       "away": "LASK Linz"
-      },
-      {
-       "date": "2026-11-24",
-       "time": "11:45",
-       "home": "Galatasaray",
-       "away": "Aston Villa"
-      },
-      {
-       "date": "2026-11-24",
-       "time": "14:00",
-       "home": "Arsenal",
-       "away": "Dortmund"
-      },
-      {
-       "date": "2026-11-24",
-       "time": "14:00",
-       "home": "Como",
-       "away": "AEK Athens"
-      },
-      {
-       "date": "2026-11-24",
-       "time": "14:00",
-       "home": "Feyenoord",
-       "away": "FC Porto"
-      },
-      {
-       "date": "2026-11-24",
-       "time": "14:00",
-       "home": "Manchester City",
-       "away": "Napoli"
-      },
-      {
-       "date": "2026-11-24",
-       "time": "14:00",
-       "home": "RB Leipzig",
-       "away": "Lens"
-      },
-      {
-       "date": "2026-11-24",
-       "time": "14:00",
-       "home": "Real Madrid",
-       "away": "PSV Eindhoven"
-      },
-      {
-       "date": "2026-11-24",
-       "time": "14:00",
-       "home": "Slovan Bratislava",
-       "away": "Real Betis"
-      },
       {
        "date": "2026-11-25",
        "time": "11:45",
@@ -3312,15 +3701,23 @@
       }
      ]
     },
-    "note": "La Jornada 5 se juega el martes 24 y el miércoles 25; Liverpool visita a Brujas, que también tiene 9 puntos. La fuente de datos solo devolvió 10 de los 18 partidos de la Jornada 4; los de la Jornada 5 se completaron con Deportes TVC.",
+    "note": "Primer día de la Jornada 5: el Real Madrid goleó 5–1 al PSV con doblete de Mbappé y es el único con paso perfecto (15 pts); Arsenal empató 1–1 con Dortmund y el City 2–2 con Napoli. El miércoles 25 se completa la jornada, con Liverpool de visita en Brujas. La fuente de datos solo devolvió 10 de los 18 partidos de la Jornada 4.",
     "sources": [
      {
       "name": "Datos: Sportradar",
       "url": ""
      },
      {
-      "name": "Deportes TVC (Jornada 5)",
-      "url": "https://www.deportestvc.com/futbol-internacional/champions-league-horarios-partidos-estelares-jornada-5-2026-11-23"
+      "name": "UEFA (resumen J5)",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02ab-222684fc8e44-2b1a32c90a7a-1000--champions-league-highlights-and-round-up-real-madrid-sta/"
+     },
+     {
+      "name": "myKhel (resultados)",
+      "url": "https://www.mykhel.com/football/champions-league-roundup-real-madrid-hit-psv-for-five-man-city-held-by-napoli-arsenal-dortmund-st-460017.html"
+     },
+     {
+      "name": "Sports Mole (tabla)",
+      "url": "https://www.sportsmole.co.uk/football/champions-league/groups.html"
      }
     ]
    },
@@ -3329,7 +3726,7 @@
     "sport": "nfl",
     "name": "NFL",
     "season": "Temporada 2026",
-    "phase": "Semana 11 de 18 (falta el lunes)",
+    "phase": "Semana 12 de 18",
     "standings": [
      {
       "conf": "NFC",
@@ -3355,10 +3752,10 @@
       "conf": "NFC",
       "div": "NFC East",
       "team": "Washington Commanders",
-      "w": 3,
+      "w": 4,
       "l": 5,
       "t": 1,
-      "pct": 0.389,
+      "pct": 0.45,
       "seed": 11
      },
      {
@@ -3536,9 +3933,9 @@
       "div": "AFC North",
       "team": "Cincinnati Bengals",
       "w": 7,
-      "l": 2,
+      "l": 3,
       "t": 0,
-      "pct": 0.778,
+      "pct": 0.7,
       "seed": 3
      },
      {
@@ -3752,6 +4149,14 @@
         "hs": 35,
         "as": 10,
         "note": "SNF"
+       },
+       {
+        "date": "2026-11-23",
+        "home": "Washington Commanders",
+        "away": "Cincinnati Bengals",
+        "hs": 22,
+        "as": 20,
+        "note": "MNF"
        }
       ]
      },
@@ -3929,16 +4334,9 @@
      }
     ],
     "next": {
-     "label": "Cierre de la Semana 11 y Semana 12",
-     "dates": "23–29 nov",
+     "label": "Semana 12",
+     "dates": "25–29 nov",
      "games": [
-      {
-       "date": "2026-11-23",
-       "time": "19:15",
-       "home": "Washington Commanders",
-       "away": "Cincinnati Bengals",
-       "note": "MNF · en juego"
-      },
       {
        "date": "2026-11-25",
        "time": "19:00",
@@ -4046,11 +4444,23 @@
       }
      ]
     },
-    "note": "Al cierre de esta edición el juego del lunes (Bengals @ Commanders) seguía en curso; la tabla incluye solo juegos terminados. Destacan el 35–10 de San Francisco sobre Minnesota, que lo deja con la mejor marca de la NFC (9–1), y el triunfo de los Giants sobre Jacksonville para seguir líderes del Este de la NFC. Semana 9 incompleta. Las siembras son de la propia fuente: 1–4 líderes de división, 5–7 comodines.",
+    "note": "Semana 11 completa: Washington venció 22–20 a Cincinnati el lunes con gol de campo en la última serie, después de que Evan McPherson pusiera arriba a los Bengals con uno de 56 yardas. La Semana 12 arranca el miércoles con Packers en Rams y sigue el jueves de Acción de Gracias. Semana 9 incompleta. Las siembras vienen de la fuente anterior, ajustadas a mano tras el lunes: 1–4 líderes de división, 5–7 comodines.",
     "sources": [
      {
       "name": "Datos: Sportradar",
       "url": ""
+     },
+     {
+      "name": "FOX Sports (Bengals–Commanders)",
+      "url": "https://www.foxsports.com/nfl/week-11-cincinnati-bengals-vs-washington-commanders-nov-23-2026-game-boxscore-11283?tab=matchupv2"
+     },
+     {
+      "name": "ESPN (tabla)",
+      "url": "https://africa.espn.com/nfl/table/_/season/2026"
+     },
+     {
+      "name": "FOX Sports (horarios de Acción de Gracias)",
+      "url": "https://www.foxsports.com/stories/nfl/2026-nfl-thanksgiving-games-schedule-teams-how-watch"
      }
     ]
    }
@@ -4064,7 +4474,7 @@
      "ligamx"
     ],
     "color": "oklch(72% 0.13 252)",
-    "note": "Cerraron la fase regular en 6.º lugar con 27 puntos, y el triunfo de Chivas sobre Cruz Azul les dejó al América (3.º) como rival en cuartos. La ida es el miércoles 25 a las 21:10 h en el Estadio BBVA y la vuelta el sábado 28 a las 21:10 h en el Estadio Banorte, donde cierra el América por su mejor posición."
+    "note": "Hoy miércoles 25 a las 21:10 h reciben al América en la ida de cuartos en el Estadio BBVA; la vuelta es el sábado 28 en el Estadio Banorte. Pitará Víctor Cáceres, el mismo de la final de 2024 entre ambos. El América no tendrá a Raphael Veiga y Henry Martín, su goleador con 11 tantos, es duda; en Rayados no se reportan bajas."
    },
    {
     "team": "Liverpool",
@@ -4075,7 +4485,7 @@
      "champions"
     ],
     "color": "oklch(65% 0.19 25)",
-    "note": "Viene de golear 4–0 al Manchester United y es 4.º de la Premier, a siete puntos del líder Arsenal. El miércoles 25 a las 14:00 h visita al Brujas en la Jornada 5 de Champions, donde los dos suman 9 puntos, y el domingo 29 juega el derbi en casa de Everton."
+    "note": "Hoy miércoles 25 a las 14:00 h visita al Brujas en la Jornada 5 de Champions; los dos tienen 9 puntos. Iraola dejó fuera de la convocatoria a Ryan Gravenberch por una lesión en el talón, y Cody Gakpo arrastra un problema en la pantorrilla que lo haría perderse el derbi del domingo 29 ante Everton."
    },
    {
     "team": "Dallas Cowboys",
@@ -4085,7 +4495,7 @@
      "nfl"
     ],
     "color": "oklch(80% 0.05 245)",
-    "note": "Aplastaron 51–30 a Tennessee: Dak Prescott lanzó 4 touchdowns y corrió para otro, y CeeDee Lamb superó las 1,000 yardas por sexta temporada seguida. Con 5–6 siguen a un juego de .500 y a la caza de un comodín; el jueves 26 reciben a Filadelfia en Acción de Gracias."
+    "note": "Con 5–6 y a un juego de .500, reciben a Filadelfia el jueves 26 a las 15:30 h en Acción de Gracias. En el primer reporte de lesiones no practicaron el guardia Tyler Booker, el ala cerrada Jake Ferguson ni el receptor Jonathan Mingo, que apuntan a perderse el juego; Dak Prescott entrenó completo."
    }
   ]
  }

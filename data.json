@@ -23,18 +23,6 @@
  },
  "keyDates": [
   {
-   "date": "2026-11-25",
-   "label": "Brujas vs Liverpool, 14:00 h (Champions, J5)"
-  },
-  {
-   "date": "2026-11-25",
-   "label": "Estreno de Hexed (Walt Disney Animation)"
-  },
-  {
-   "date": "2026-11-25",
-   "label": "Rayados vs América, 21:10 h (Liga MX, ida de cuartos, Estadio BBVA)"
-  },
-  {
    "date": "2026-11-26",
    "label": "Eagles @ Vaqueros, 15:30 h (NFL, Semana 12, Acción de Gracias)"
   },
@@ -72,12 +60,24 @@
    "approx": true
   },
   {
+   "date": "2026-12-01",
+   "label": "Juegos de PS Plus de diciembre disponibles (hasta el 4 ene)"
+  },
+  {
    "date": "2026-12-02",
    "label": "Liga MX: semifinales (2–6 dic)"
   },
   {
    "date": "2026-12-08",
    "label": "Salen los audífonos Nothing Ear (note) con grabación por IA"
+  },
+  {
+   "date": "2026-12-08",
+   "label": "Champions League: Jornada 6 (8–9 dic)"
+  },
+  {
+   "date": "2026-12-08",
+   "label": "Termina el periodo gratis de Devin para escritorio y CLI"
   },
   {
    "date": "2026-12-09",
@@ -109,6 +109,146 @@
   }
  ],
  "editions": [
+  {
+   "id": "2026-11-26",
+   "label": "Jueves 26 nov 2026",
+   "summary": "Liverpool goleó 3–0 al Brujas en Champions con doblete de Isak y ya suma 12 puntos; en la Liguilla, Toluca le ganó 2–0 al Atlas y Rayados aguantó un 0–0 ante el América con diez hombres desde el minuto 11, así que necesita ganar la vuelta el sábado. Sony reveló los juegos de PS Plus de diciembre, Disney estrenó Hexed en cines y Midjourney lanzó Niji V8. Fue un día tranquilo en diseño UI/UX.",
+   "items": [
+    {
+     "topic": "gaming",
+     "date": "2026-11-25",
+     "tag": "PS Plus",
+     "lead": true,
+     "title": "Tony Hawk 3+4, Dragon Ball Xenoverse 2 y Amnesia: The Bunker llegan a PS Plus en diciembre",
+     "summary": "Sony dio a conocer los juegos mensuales de PlayStation Plus para diciembre: Tony Hawk's Pro Skater 3+4 en su edición para PS5 y PS4, Dragon Ball Xenoverse 2 y el survival horror Amnesia: The Bunker. Se podrán reclamar del 1 de diciembre al 4 de enero, y Amnesia es el que más destaca la crítica.",
+     "sources": [
+      {
+       "name": "Kotaku",
+       "url": "https://kotaku.com/playstation-plus-free-games-for-december-2026-include-one-of-the-best-horror-games-in-years-2001000406"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-24",
+     "tag": "Unity",
+     "lead": true,
+     "title": "Unity muestra en Unite Tokyo las mejoras gráficas de URP para Unity 6.7 y Unity 7",
+     "summary": "Unity enseñó lo que viene para su Universal Render Pipeline, incluida una iluminación global dinámica llamada Surface Cache GI para la luz indirecta difusa. Además publicó Atrio, un proyecto de muestra gratuito para probar las novedades.",
+     "sources": [
+      {
+       "name": "GameFromScratch",
+       "url": "https://gamefromscratch.com/unity-urp-graphics-improvements/"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-25",
+     "tag": "Estreno",
+     "lead": true,
+     "title": "Disney estrena Hexed, su nueva película original de animación, en Acción de Gracias",
+     "summary": "La cinta de Walt Disney Animation sobre una adolescente que descubre que tiene magia, con su mamá metida en la aventura, llegó a cines el miércoles. Los pronósticos de taquilla la colocan entre 50 y 70 millones de dólares en sus cinco días de feriado en EE. UU., por encima de los estrenos de Encanto, Strange World y Wish.",
+     "sources": [
+      {
+       "name": "Boxoffice Pro",
+       "url": "https://www.boxofficepro.com/?p=46471"
+      },
+      {
+       "name": "Deadline (reseña)",
+       "url": "https://deadline.com/2026/11/hexed-review-disney-fawn-veerasunthorn-jason-hand-1237232517"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-25",
+     "tag": "Efectos prácticos",
+     "title": "Wētā Workshop enseña cómo construyó el interior de una ballena para Whalefall",
+     "summary": "Un video de tres minutos recorre el proceso, desde el arte conceptual y los modelos 3D hasta los órganos de espuma pintada y los mecanismos que el equipo movía a mano. Es un buen ejemplo de cómo se combinan diseño digital y efectos físicos.",
+     "sources": [
+      {
+       "name": "VFXwire",
+       "url": "https://vfxwire.com/showcase/weta-workshop-shows-the-process-of-building-the-insides-of-a-whale-for-whalefall"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-25",
+     "tag": "Entrevista",
+     "title": "Los directores de The Violinist cuentan cómo armaron su historia de amor entre música y guerra",
+     "summary": "Ervin Han, de Singapur, y Raúl García, de España, explican cómo construyeron la película que ganó el Cristal de Annecy. La conversación se centra en cómo la música guía la narrativa en medio de la guerra.",
+     "sources": [
+      {
+       "name": "Animation Scoop",
+       "url": "https://www.animationscoop.com/creating-the-violinist/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-25",
+     "tag": "Imagen",
+     "lead": true,
+     "title": "Midjourney lanza Niji V8, su modelo de imágenes con estilo anime",
+     "summary": "La nueva versión promete seguir mejor las indicaciones y mantener más consistentes a los personajes entre imágenes. También estrena un modelo de edición propio, útil para quien hace concept art o storyboards.",
+     "sources": [
+      {
+       "name": "Midjourney en X",
+       "url": "https://x.com/midjourney/status/2125328040624521639"
+      },
+      {
+       "name": "The Neuron",
+       "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-25",
+     "tag": "Claude",
+     "title": "Los artifacts de Claude ya se pueden instalar como apps de escritorio",
+     "summary": "Anthropic permite convertir los artifacts en apps para Mac y Windows, con servicios conectados, notificaciones opcionales y acceso desde la barra de menú. En la misma semana anunció Skills sobre MCP y Tasks, por el segundo aniversario del protocolo.",
+     "sources": [
+      {
+       "name": "ClaudeDevs en X",
+       "url": "https://x.com/ClaudeDevs/status/2125315491522650299"
+      },
+      {
+       "name": "ClaudeDevs en X (Skills y Tasks)",
+       "url": "https://x.com/ClaudeDevs/status/2125289794871963935"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-24",
+     "tag": "Código",
+     "title": "Cognition presenta SWE-2.1, el nuevo modelo de programación de Devin",
+     "summary": "Según la empresa, el modelo duplica su puntuación en Terminal-Bench 4.1, de 24% a 50%, y tiene una versión ultrarrápida hecha con Cerebras. Devin para escritorio y su CLI se pueden usar gratis hasta el 8 de diciembre.",
+     "sources": [
+      {
+       "name": "Unite.AI",
+       "url": "https://www.unite.ai/cognition-releases-swe-2-1-with-major-coding-and-cybersecurity-gains/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-24",
+     "tag": "Educación",
+     "title": "Emiratos Árabes lanza un asistente de IA que sigue el aprendizaje de los niños",
+     "summary": "La herramienta revisa los expedientes escolares para detectar en qué materias un alumno podría necesitar apoyo extra. Es uno de los primeros despliegues nacionales de IA para seguimiento académico.",
+     "sources": [
+      {
+       "name": "Semafor",
+       "url": "https://www.semafor.com/article/11/24/2026/uae-launches-ai-assistant-to-track-childrens-learning"
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-25",
    "label": "Miércoles 25 nov 2026",
@@ -1368,7 +1508,7 @@
   }
  ],
  "sports": {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "intro": "Tabla general y resultados de cada liga. Los resultados se acumulan cada noche y las ligas siguen de una temporada a la siguiente (la Liga MX pasa del Apertura al Clausura). Las jornadas anteriores al 3 de noviembre no están cargadas.",
   "leagues": [
    {
@@ -1385,7 +1525,7 @@
       "label": "Liguilla (cuartos de final)"
      }
     ],
-    "note": "Fase regular terminada. Chivas venció 1–0 a Cruz Azul con gol de Efraín Álvarez y quedó como superlíder; Querétaro y Necaxa empataron 2–2 con un penal de Julián Carranza al final. Cruces de cuartos: Chivas–Pachuca, Cruz Azul–León, América–Monterrey y Atlas–Toluca. Las columnas con guion son datos que las fuentes no publicaron.",
+    "note": "Arrancó la Liguilla: Toluca venció 2–0 al Atlas con doblete de Helinho, uno de penal tras revisión del VAR, y Rayados sacó un 0–0 ante el América jugando con diez desde el minuto 11. En cuartos, si el global termina empatado avanza el mejor ubicado de la tabla. El jueves 26 se juegan Pachuca–Chivas y León–Cruz Azul. Las columnas con guion son datos que las fuentes no publicaron.",
     "standings": [
      {
       "pos": 1,
@@ -1548,6 +1688,27 @@
     ],
     "rounds": [
      {
+      "label": "Cuartos · ida",
+      "dates": "25–26 nov",
+      "games": [
+       {
+        "date": "2026-11-25",
+        "home": "Toluca",
+        "hs": 2,
+        "away": "Atlas",
+        "as": 0
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Monterrey",
+        "away": "América",
+        "hs": 0,
+        "as": 0,
+        "note": "Rayados con 10 desde el 11'"
+       }
+      ]
+     },
+     {
       "label": "Jornada 17",
       "dates": "20–22 nov",
       "games": [
@@ -1691,20 +1852,6 @@
      "dates": "25–29 nov",
      "games": [
       {
-       "date": "2026-11-25",
-       "time": "19:00",
-       "home": "Toluca",
-       "away": "Atlas",
-       "note": "ida"
-      },
-      {
-       "date": "2026-11-25",
-       "time": "21:10",
-       "home": "Monterrey",
-       "away": "América",
-       "note": "ida"
-      },
-      {
        "date": "2026-11-26",
        "time": "19:00",
        "home": "Pachuca",
@@ -1751,12 +1898,24 @@
     "extra": "Liguilla: ida de cuartos 25 y 26 de nov, vuelta 28 y 29 de nov (el mejor ubicado cierra en casa). Semifinales: 2–3 y 5–6 de dic.",
     "sources": [
      {
-      "name": "El Financiero (Chivas 1–0 Cruz Azul)",
-      "url": "https://www.elfinanciero.com.mx/deportes/2026/11/22/cruz-azul-vs-chivas-en-vivo-resultado-j-17-liga-mx-apertura-2026/"
+      "name": "Noroeste (Toluca 2–0 Atlas)",
+      "url": "https://www.noroeste.com.mx/deportes/futbol/toluca-pega-2-0-al-atlas-en-la-ida-de-cuartos-de-final-con-doblete-de-helinho-y-noche-emotiva-para-antonio-mohamed-DB27629857"
      },
      {
-      "name": "El Heraldo de México (Querétaro 2–2 Necaxa)",
-      "url": "https://heraldodemexico.com.mx/deportes/2026/11/22/gallos-blancos-de-queretaro-y-necaxa-empataron-2-2-en-la-jornada-17-de-la-liga-mx-2922565.html"
+      "name": "Récord (Monterrey vs América)",
+      "url": "https://www.record.com.mx/futbol/partido/monterrey-cf-america-12365948/cobertura-en-vivo"
+     },
+     {
+      "name": "Infobae (Monterrey 0–0 América)",
+      "url": "https://www.infobae.com/mexico/deportes/2026/11/24/monterrey-vs-america-en-vivo-donde-y-a-que-hora-ver-la-ida-de-los-cuartos-de-final-del-apertura-2026/"
+     },
+     {
+      "name": "SDP Noticias (Rayados–América)",
+      "url": "https://www.sdpnoticias.com/deportes/rayados-y-america-no-se-hacen-dano-la-serie-de-cuartos-se-definira-en-la-vuelta/"
+     },
+     {
+      "name": "El Futbolero (bajas de Rayados)",
+      "url": "https://www.elfutbolero.com.mx/ligamx/rayados-recibe-al-america-sin-su-amuleto-cuando-rossi-anoto-nunca-perdio-sin-su-gol-cayo-seis-veces-20261126.html"
      },
      {
       "name": "TV Azteca (horarios de cuartos)",
@@ -1765,18 +1924,6 @@
      {
       "name": "Unánimo Deportes (tabla y cruces)",
       "url": "https://unanimodeportes.com/deportes/futbol/liga-mx/liga-mx-liguilla/"
-     },
-     {
-      "name": "ESPN (resultados 21 nov)",
-      "url": "https://espndeportes.espn.com/futbol/resultados/_/liga/mex.1/fecha/20261121"
-     },
-     {
-      "name": "ESPN MX (calendario de cuartos)",
-      "url": "https://www.espn.com.mx/futbol/mexico/nota/_/id/17550768/liga-mx-cuartos-de-final-apertura-2026-bracket-horarios"
-     },
-     {
-      "name": "Estrella Digital (árbitros de cuartos)",
-      "url": "https://estrelladigital.com.mx/deportes/liga-mx-arbitros-liguilla-apertura-2026/"
      }
     ]
    },
@@ -3075,7 +3222,7 @@
     "sport": "soccer",
     "name": "Champions League",
     "season": "2026/27",
-    "phase": "Fase liga · Jornada 5 de 8 (falta el miércoles)",
+    "phase": "Fase liga · Jornada 5 de 8",
     "zones": [
      {
       "from": 1,
@@ -3111,13 +3258,13 @@
      {
       "pos": 2,
       "team": "PSG",
-      "pj": 4,
+      "pj": 5,
       "g": 4,
-      "e": 0,
+      "e": 1,
       "p": 0,
-      "gf": 20,
-      "gc": 5,
-      "pts": 12
+      "gf": 22,
+      "gc": 7,
+      "pts": 13
      },
      {
       "pos": 3,
@@ -3132,6 +3279,28 @@
      },
      {
       "pos": 4,
+      "team": "FC Barcelona",
+      "pj": 5,
+      "g": 4,
+      "e": 0,
+      "p": 1,
+      "gf": 18,
+      "gc": 7,
+      "pts": 12
+     },
+     {
+      "pos": 5,
+      "team": "Liverpool",
+      "pj": 5,
+      "g": 4,
+      "e": 0,
+      "p": 1,
+      "gf": 17,
+      "gc": 10,
+      "pts": 12
+     },
+     {
+      "pos": 6,
       "team": "Real Betis",
       "pj": 5,
       "g": 4,
@@ -3142,7 +3311,7 @@
       "pts": 12
      },
      {
-      "pos": 5,
+      "pos": 7,
       "team": "Arsenal",
       "pj": 5,
       "g": 3,
@@ -3153,7 +3322,7 @@
       "pts": 11
      },
      {
-      "pos": 6,
+      "pos": 8,
       "team": "Manchester City",
       "pj": 5,
       "g": 3,
@@ -3164,7 +3333,18 @@
       "pts": 10
      },
      {
-      "pos": 7,
+      "pos": 9,
+      "team": "Sporting de Lisboa",
+      "pj": 5,
+      "g": 3,
+      "e": 1,
+      "p": 1,
+      "gf": 10,
+      "gc": 6,
+      "pts": 10
+     },
+     {
+      "pos": 10,
       "team": "Dortmund",
       "pj": 5,
       "g": 3,
@@ -3175,18 +3355,7 @@
       "pts": 10
      },
      {
-      "pos": 8,
-      "team": "FC Barcelona",
-      "pj": 4,
-      "g": 3,
-      "e": 0,
-      "p": 1,
-      "gf": 14,
-      "gc": 6,
-      "pts": 9
-     },
-     {
-      "pos": 9,
+      "pos": 11,
       "team": "Aston Villa",
       "pj": 5,
       "g": 3,
@@ -3197,40 +3366,29 @@
       "pts": 9
      },
      {
-      "pos": 10,
-      "team": "Liverpool",
-      "pj": 4,
-      "g": 3,
-      "e": 0,
-      "p": 1,
-      "gf": 14,
-      "gc": 10,
-      "pts": 9
-     },
-     {
-      "pos": 11,
-      "team": "Brujas",
-      "pj": 4,
-      "g": 3,
-      "e": 0,
-      "p": 1,
-      "gf": 11,
-      "gc": 7,
-      "pts": 9
-     },
-     {
       "pos": 12,
-      "team": "Sporting de Lisboa",
-      "pj": 4,
+      "team": "Inter",
+      "pj": 5,
       "g": 3,
       "e": 0,
-      "p": 1,
-      "gf": 8,
-      "gc": 4,
+      "p": 2,
+      "gf": 10,
+      "gc": 6,
       "pts": 9
      },
      {
       "pos": 13,
+      "team": "Brujas",
+      "pj": 5,
+      "g": 3,
+      "e": 0,
+      "p": 2,
+      "gf": 11,
+      "gc": 10,
+      "pts": 9
+     },
+     {
+      "pos": 14,
       "team": "Galatasaray",
       "pj": 5,
       "g": 3,
@@ -3241,29 +3399,62 @@
       "pts": 9
      },
      {
-      "pos": 14,
+      "pos": 15,
       "team": "Bayern Múnich",
-      "pj": 4,
+      "pj": 5,
       "g": 2,
       "e": 2,
-      "p": 0,
-      "gf": 12,
-      "gc": 5,
+      "p": 1,
+      "gf": 13,
+      "gc": 7,
       "pts": 8
      },
      {
-      "pos": 15,
-      "team": "VfB Stuttgart",
-      "pj": 4,
+      "pos": 16,
+      "team": "Fenerbahçe",
+      "pj": 5,
       "g": 2,
-      "e": 1,
+      "e": 2,
       "p": 1,
       "gf": 7,
-      "gc": 4,
+      "gc": 11,
+      "pts": 8
+     },
+     {
+      "pos": 17,
+      "team": "VfB Stuttgart",
+      "pj": 5,
+      "g": 2,
+      "e": 1,
+      "p": 2,
+      "gf": 7,
+      "gc": 6,
       "pts": 7
      },
      {
-      "pos": 16,
+      "pos": 18,
+      "team": "Atlético de Madrid",
+      "pj": 5,
+      "g": 2,
+      "e": 1,
+      "p": 2,
+      "gf": 6,
+      "gc": 5,
+      "pts": 7
+     },
+     {
+      "pos": 19,
+      "team": "Manchester United",
+      "pj": 5,
+      "g": 2,
+      "e": 1,
+      "p": 2,
+      "gf": 10,
+      "gc": 10,
+      "pts": 7
+     },
+     {
+      "pos": 20,
       "team": "Bodø/Glimt",
       "pj": 5,
       "g": 2,
@@ -3274,18 +3465,7 @@
       "pts": 7
      },
      {
-      "pos": 17,
-      "team": "Inter",
-      "pj": 4,
-      "g": 2,
-      "e": 0,
-      "p": 2,
-      "gf": 8,
-      "gc": 6,
-      "pts": 6
-     },
-     {
-      "pos": 18,
+      "pos": 21,
       "team": "LASK Linz",
       "pj": 5,
       "g": 2,
@@ -3296,18 +3476,7 @@
       "pts": 6
      },
      {
-      "pos": 19,
-      "team": "Manchester United",
-      "pj": 4,
-      "g": 2,
-      "e": 0,
-      "p": 2,
-      "gf": 8,
-      "gc": 8,
-      "pts": 6
-     },
-     {
-      "pos": 20,
+      "pos": 22,
       "team": "FC Porto",
       "pj": 5,
       "g": 2,
@@ -3318,7 +3487,7 @@
       "pts": 6
      },
      {
-      "pos": 21,
+      "pos": 23,
       "team": "RB Leipzig",
       "pj": 5,
       "g": 2,
@@ -3329,62 +3498,51 @@
       "pts": 6
      },
      {
-      "pos": 22,
-      "team": "Fenerbahçe",
-      "pj": 4,
-      "g": 1,
-      "e": 2,
-      "p": 1,
-      "gf": 6,
-      "gc": 11,
-      "pts": 5
-     },
-     {
-      "pos": 23,
-      "team": "Roma",
-      "pj": 4,
-      "g": 1,
-      "e": 1,
-      "p": 2,
-      "gf": 10,
-      "gc": 8,
-      "pts": 4
-     },
-     {
       "pos": 24,
-      "team": "Shakhtar Donetsk",
-      "pj": 4,
-      "g": 1,
-      "e": 1,
-      "p": 2,
-      "gf": 4,
-      "gc": 4,
-      "pts": 4
+      "team": "Villarreal",
+      "pj": 5,
+      "g": 2,
+      "e": 0,
+      "p": 3,
+      "gf": 9,
+      "gc": 14,
+      "pts": 6
      },
      {
       "pos": 25,
-      "team": "Viking FK",
-      "pj": 4,
+      "team": "Roma",
+      "pj": 5,
       "g": 1,
-      "e": 1,
+      "e": 2,
       "p": 2,
-      "gf": 9,
+      "gf": 12,
       "gc": 10,
-      "pts": 4
+      "pts": 5
      },
      {
       "pos": 26,
-      "team": "Atlético de Madrid",
-      "pj": 4,
+      "team": "Shakhtar Donetsk",
+      "pj": 5,
       "g": 1,
       "e": 1,
-      "p": 2,
+      "p": 3,
       "gf": 4,
       "gc": 5,
       "pts": 4
      },
      {
       "pos": 27,
+      "team": "Viking FK",
+      "pj": 5,
+      "g": 1,
+      "e": 1,
+      "p": 3,
+      "gf": 9,
+      "gc": 12,
+      "pts": 4
+     },
+     {
+      "pos": 28,
       "team": "Napoli",
       "pj": 5,
       "g": 1,
@@ -3395,7 +3553,18 @@
       "pts": 4
      },
      {
-      "pos": 28,
+      "pos": 29,
+      "team": "Lille",
+      "pj": 5,
+      "g": 1,
+      "e": 1,
+      "p": 3,
+      "gf": 6,
+      "gc": 11,
+      "pts": 4
+     },
+     {
+      "pos": 30,
       "team": "PSV Eindhoven",
       "pj": 5,
       "g": 1,
@@ -3404,28 +3573,6 @@
       "gf": 4,
       "gc": 9,
       "pts": 4
-     },
-     {
-      "pos": 29,
-      "team": "Villarreal",
-      "pj": 4,
-      "g": 1,
-      "e": 0,
-      "p": 3,
-      "gf": 8,
-      "gc": 14,
-      "pts": 3
-     },
-     {
-      "pos": 30,
-      "team": "Sabah Masazir",
-      "pj": 4,
-      "g": 1,
-      "e": 0,
-      "p": 3,
-      "gf": 4,
-      "gc": 10,
-      "pts": 3
      },
      {
       "pos": 31,
@@ -3451,6 +3598,17 @@
      },
      {
       "pos": 33,
+      "team": "Sabah Masazir",
+      "pj": 5,
+      "g": 1,
+      "e": 0,
+      "p": 4,
+      "gf": 5,
+      "gc": 14,
+      "pts": 3
+     },
+     {
+      "pos": 34,
       "team": "Lens",
       "pj": 5,
       "g": 1,
@@ -3461,24 +3619,13 @@
       "pts": 3
      },
      {
-      "pos": 34,
-      "team": "Slavia Prague",
-      "pj": 4,
-      "g": 0,
-      "e": 1,
-      "p": 3,
-      "gf": 5,
-      "gc": 9,
-      "pts": 1
-     },
-     {
       "pos": 35,
-      "team": "Lille",
-      "pj": 4,
+      "team": "Slavia Prague",
+      "pj": 5,
       "g": 0,
       "e": 1,
-      "p": 3,
-      "gf": 4,
+      "p": 4,
+      "gf": 5,
       "gc": 10,
       "pts": 1
      },
@@ -3561,6 +3708,69 @@
         "hs": 0,
         "away": "Real Betis",
         "as": 2
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Sabah Masazir",
+        "hs": 1,
+        "away": "FC Barcelona",
+        "as": 4
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Slavia Prague",
+        "hs": 0,
+        "away": "Villarreal",
+        "as": 1
+       },
+       {
+        "date": "2026-11-25",
+        "home": "PSG",
+        "hs": 2,
+        "away": "Roma",
+        "as": 2
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Sporting de Lisboa",
+        "hs": 2,
+        "away": "Manchester United",
+        "as": 2
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Lille",
+        "hs": 2,
+        "away": "Bayern Múnich",
+        "as": 1
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Brujas",
+        "hs": 0,
+        "away": "Liverpool",
+        "as": 3
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Inter",
+        "hs": 2,
+        "away": "VfB Stuttgart",
+        "as": 0
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Atlético de Madrid",
+        "hs": 2,
+        "away": "Viking FK",
+        "as": 0
+       },
+       {
+        "date": "2026-11-25",
+        "home": "Shakhtar Donetsk",
+        "hs": 0,
+        "away": "Fenerbahçe",
+        "as": 1
        }
       ]
      },
@@ -3642,82 +3852,62 @@
      }
     ],
     "next": {
-     "label": "Jornada 5",
-     "dates": "25 nov",
+     "label": "Jornada 6",
+     "dates": "8–9 dic",
      "games": [
       {
-       "date": "2026-11-25",
-       "time": "11:45",
-       "home": "Sabah Masazir",
-       "away": "FC Barcelona"
+       "date": "2026-12-08",
+       "time": "",
+       "home": "Villarreal",
+       "away": "Sabah Masazir"
       },
       {
-       "date": "2026-11-25",
-       "time": "11:45",
-       "home": "Slavia Prague",
-       "away": "Villarreal"
+       "date": "2026-12-08",
+       "time": "",
+       "home": "FC Barcelona",
+       "away": "Manchester City"
       },
       {
-       "date": "2026-11-25",
-       "time": "14:00",
-       "home": "PSG",
-       "away": "Roma"
+       "date": "2026-12-09",
+       "time": "",
+       "home": "Arsenal",
+       "away": "Real Madrid"
       },
       {
-       "date": "2026-11-25",
-       "time": "14:00",
-       "home": "Sporting de Lisboa",
-       "away": "Manchester United"
+       "date": "2026-12-09",
+       "time": "",
+       "home": "Real Betis",
+       "away": "Como"
       },
       {
-       "date": "2026-11-25",
-       "time": "14:00",
-       "home": "Lille",
-       "away": "Bayern Múnich"
-      },
-      {
-       "date": "2026-11-25",
-       "time": "14:00",
-       "home": "Brujas",
-       "away": "Liverpool"
-      },
-      {
-       "date": "2026-11-25",
-       "time": "14:00",
-       "home": "Inter",
-       "away": "VfB Stuttgart"
-      },
-      {
-       "date": "2026-11-25",
-       "time": "14:00",
-       "home": "Atlético de Madrid",
-       "away": "Viking FK"
-      },
-      {
-       "date": "2026-11-25",
-       "time": "14:00",
-       "home": "Shakhtar Donetsk",
-       "away": "Fenerbahçe"
+       "date": "2026-12-09",
+       "time": "",
+       "home": "PSV Eindhoven",
+       "away": "Atlético de Madrid"
       }
      ]
     },
-    "note": "Primer día de la Jornada 5: el Real Madrid goleó 5–1 al PSV con doblete de Mbappé y es el único con paso perfecto (15 pts); Arsenal empató 1–1 con Dortmund y el City 2–2 con Napoli. El miércoles 25 se completa la jornada, con Liverpool de visita en Brujas. La fuente de datos solo devolvió 10 de los 18 partidos de la Jornada 4.",
+    "note": "Jornada 5 completa: Liverpool ganó 3–0 en Brujas, la Roma le cortó la racha al PSG con un 2–2 y Lille venció 2–1 al Bayern. Sporting y Manchester United empataron 2–2 con dos goles de Luis Suárez y dos de Bruno Fernandes. La Jornada 6 es el 8 y 9 de diciembre; solo se muestran los cruces ya publicados y sus horarios están por confirmar. Tabla calculada a partir de los resultados.",
     "sources": [
      {
       "name": "Datos: Sportradar",
       "url": ""
      },
      {
-      "name": "UEFA (resumen J5)",
-      "url": "https://www.uefa.com/uefachampionsleague/news/02ab-222684fc8e44-2b1a32c90a7a-1000--champions-league-highlights-and-round-up-real-madrid-sta/"
+      "name": "El Folio (resultados 25 nov)",
+      "url": "https://elfolio.es/resultados-champions-league-25-noviembre-2026/"
      },
      {
-      "name": "myKhel (resultados)",
-      "url": "https://www.mykhel.com/football/champions-league-roundup-real-madrid-hit-psv-for-five-man-city-held-by-napoli-arsenal-dortmund-st-460017.html"
+      "name": "Yahoo Sports (resumen 25 nov)",
+      "url": "https://sports.yahoo.com/soccer/live/manchester-united-sporting-ends-in-chaotic-draw-psg-bayern-munich-drop-points-in-dramatic-champions-league-day-224416924.html"
      },
      {
-      "name": "Sports Mole (tabla)",
-      "url": "https://www.sportsmole.co.uk/football/champions-league/groups.html"
+      "name": "VAVEL (Brujas 0–3 Liverpool)",
+      "url": "https://www.vavel.com/mx/futbol-internacional/2026/11/25/1280629-club-brugge-vs-liverpool-en-vivo-resultado-goles-y-uefa-champions-league.html"
+     },
+     {
+      "name": "365Scores (tabla tras J5)",
+      "url": "https://www.365scores.com/es/news/champions-league-resultados-fecha-5/"
      }
     ]
    },
@@ -3803,9 +3993,9 @@
       "div": "NFC North",
       "team": "Green Bay Packers",
       "w": 6,
-      "l": 4,
+      "l": 5,
       "t": 0,
-      "pct": 0.6,
+      "pct": 0.545,
       "seed": 7
      },
      {
@@ -3872,10 +4062,10 @@
       "conf": "NFC",
       "div": "NFC West",
       "team": "Los Angeles Rams",
-      "w": 6,
+      "w": 7,
       "l": 4,
       "t": 0,
-      "pct": 0.6,
+      "pct": 0.636,
       "seed": 9
      },
      {
@@ -4050,6 +4240,20 @@
      }
     ],
     "rounds": [
+     {
+      "label": "Semana 12",
+      "dates": "25–29 nov",
+      "games": [
+       {
+        "date": "2026-11-25",
+        "home": "Los Angeles Rams",
+        "hs": 26,
+        "away": "Green Bay Packers",
+        "as": 13,
+        "note": ""
+       }
+      ]
+     },
      {
       "label": "Semana 11",
       "dates": "19–23 nov",
@@ -4338,13 +4542,6 @@
      "dates": "25–29 nov",
      "games": [
       {
-       "date": "2026-11-25",
-       "time": "19:00",
-       "home": "Los Angeles Rams",
-       "away": "Green Bay Packers",
-       "note": ""
-      },
-      {
        "date": "2026-11-26",
        "time": "12:00",
        "home": "Detroit Lions",
@@ -4444,15 +4641,11 @@
       }
      ]
     },
-    "note": "Semana 11 completa: Washington venció 22–20 a Cincinnati el lunes con gol de campo en la última serie, después de que Evan McPherson pusiera arriba a los Bengals con uno de 56 yardas. La Semana 12 arranca el miércoles con Packers en Rams y sigue el jueves de Acción de Gracias. Semana 9 incompleta. Las siembras vienen de la fuente anterior, ajustadas a mano tras el lunes: 1–4 líderes de división, 5–7 comodines.",
+    "note": "La Semana 12 arrancó en la víspera de Acción de Gracias: los Rams vencieron 26–13 a Green Bay con una gran noche de Blake Corum y dos intercepciones de Jordan Love. El jueves 26 siguen Bears–Lions, Eagles–Vaqueros y Chiefs–Bills. Semana 9 incompleta. Las siembras vienen de la fuente anterior, ajustadas a mano: 1–4 líderes de división, 5–7 comodines.",
     "sources": [
      {
       "name": "Datos: Sportradar",
       "url": ""
-     },
-     {
-      "name": "FOX Sports (Bengals–Commanders)",
-      "url": "https://www.foxsports.com/nfl/week-11-cincinnati-bengals-vs-washington-commanders-nov-23-2026-game-boxscore-11283?tab=matchupv2"
      },
      {
       "name": "ESPN (tabla)",
@@ -4461,6 +4654,18 @@
      {
       "name": "FOX Sports (horarios de Acción de Gracias)",
       "url": "https://www.foxsports.com/stories/nfl/2026-nfl-thanksgiving-games-schedule-teams-how-watch"
+     },
+     {
+      "name": "VAVEL (Packers 13–26 Rams)",
+      "url": "https://www.vavel.com/en-us/nfl/2026/11/25/1280600-packers-vs-rams-live-score-nfl.html"
+     },
+     {
+      "name": "Yahoo Sports (Rams–Packers)",
+      "url": "https://sports.yahoo.com/nfl/live/packers-rams-score-live-updates-inactives-highlights-stats-where-to-watch-week-12-wednesday-235059451.html"
+     },
+     {
+      "name": "Dallas Sports Journal (reporte final de lesiones)",
+      "url": "https://dallassportsjournal.com/cowboys-eagles-final-injury-report-winters-barham-thompson/"
      }
     ]
    }
@@ -4474,7 +4679,7 @@
      "ligamx"
     ],
     "color": "oklch(72% 0.13 252)",
-    "note": "Hoy miércoles 25 a las 21:10 h reciben al América en la ida de cuartos en el Estadio BBVA; la vuelta es el sábado 28 en el Estadio Banorte. Pitará Víctor Cáceres, el mismo de la final de 2024 entre ambos. El América no tendrá a Raphael Veiga y Henry Martín, su goleador con 11 tantos, es duda; en Rayados no se reportan bajas."
+    "note": "Empataron 0–0 con el América en la ida de cuartos pese a jugar con diez desde el minuto 11, por la expulsión de Ricardo Chávez tras revisión del VAR. Como el América quedó mejor ubicado, a Rayados solo le sirve ganar la vuelta del sábado 28 a las 21:10 h en el Estadio Banorte. Jugaron sin Diego Rossi, por una molestia en la espalda, y sin Esteban Andrada, que se operará el menisco y se pierde la Liguilla."
    },
    {
     "team": "Liverpool",
@@ -4485,7 +4690,7 @@
      "champions"
     ],
     "color": "oklch(65% 0.19 25)",
-    "note": "Hoy miércoles 25 a las 14:00 h visita al Brujas en la Jornada 5 de Champions; los dos tienen 9 puntos. Iraola dejó fuera de la convocatoria a Ryan Gravenberch por una lesión en el talón, y Cody Gakpo arrastra un problema en la pantorrilla que lo haría perderse el derbi del domingo 29 ante Everton."
+    "note": "Ganó 3–0 en Brujas en la Jornada 5 de Champions con doblete de Alexander Isak y un gol de Florian Wirtz; ya suma 12 puntos y está en zona de pase directo a octavos. El domingo 29 a las 6:00 h visita al Everton en el derbi de Merseyside; Cody Gakpo es duda por una molestia en la pantorrilla."
    },
    {
     "team": "Dallas Cowboys",
@@ -4495,7 +4700,7 @@
      "nfl"
     ],
     "color": "oklch(80% 0.05 245)",
-    "note": "Con 5–6 y a un juego de .500, reciben a Filadelfia el jueves 26 a las 15:30 h en Acción de Gracias. En el primer reporte de lesiones no practicaron el guardia Tyler Booker, el ala cerrada Jake Ferguson ni el receptor Jonathan Mingo, que apuntan a perderse el juego; Dak Prescott entrenó completo."
+    "note": "Con 5–6, reciben a Filadelfia el jueves 26 a las 15:30 h en Acción de Gracias. En el reporte final quedaron fuera Tyler Booker, Jake Ferguson, P.J. Locke y Jonathan Mingo; Jalen Thompson y Devin Moore son duda y tendrían que ser activados de la reserva de lesionados. Dak Prescott entrenó completo y en los Eagles sí jugarán Saquon Barkley y Quinyon Mitchell."
    }
   ]
  }

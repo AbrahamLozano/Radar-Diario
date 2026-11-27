@@ -23,14 +23,6 @@
  },
  "keyDates": [
   {
-   "date": "2026-11-26",
-   "label": "Eagles @ Vaqueros, 15:30 h (NFL, Semana 12, Acción de Gracias)"
-  },
-  {
-   "date": "2026-11-26",
-   "label": "Cierra la votación sindical en Rockstar UK"
-  },
-  {
    "date": "2026-11-28",
    "label": "América vs Rayados, 21:10 h (Liga MX, vuelta de cuartos, Estadio Banorte)"
   },
@@ -41,6 +33,10 @@
   {
    "date": "2026-11-29",
    "label": "Everton vs Liverpool, 6:00 h (Premier, J12)"
+  },
+  {
+   "date": "2026-11-29",
+   "label": "Vuelta de cuartos: Chivas vs Pachuca (19:07 h) y Cruz Azul vs León (21:00 h)"
   },
   {
    "date": "2026-11-30",
@@ -66,6 +62,14 @@
   {
    "date": "2026-12-02",
    "label": "Liga MX: semifinales (2–6 dic)"
+  },
+  {
+   "date": "2026-12-03",
+   "label": "Sale Warhammer 40,000: Dawn of War IV"
+  },
+  {
+   "date": "2026-12-07",
+   "label": "Seahawks vs Vaqueros, 19:15 h (NFL, Semana 13, Monday Night)"
   },
   {
    "date": "2026-12-08",
@@ -109,6 +113,155 @@
   }
  ],
  "editions": [
+  {
+   "id": "2026-11-27",
+   "label": "Viernes 27 nov 2026",
+   "summary": "Acción de Gracias de infarto para los Vaqueros: ganaban por 21 y perdieron 39–38 ante los Eagles con un gol de campo de 59 yardas al final, y quedan 5–7. En la Liguilla, Cruz Azul goleó 4–0 en León y Pachuca le ganó 2–1 a Chivas; Rayados se juega todo el sábado ante el América. Unity y Unreal cambiaron la forma de bajar assets, OpenAI unificará los límites de ChatGPT y Codex, y Dawn of War IV estrenó demo antes de salir el 3 de diciembre. Fue un día tranquilo en animación.",
+   "items": [
+    {
+     "topic": "gaming",
+     "date": "2026-11-26",
+     "tag": "Estreno",
+     "lead": true,
+     "title": "Dawn of War IV abre una demo para pintar ejércitos antes de su estreno del 3 de diciembre",
+     "summary": "Warhammer 40,000: Dawn of War IV estrenó en Steam una demo gratuita centrada en el editor de pintura, donde se pueden personalizar unidades de las cuatro facciones. Lo que se diseñe pasa al juego completo, que sale el jueves 3 de diciembre.",
+     "sources": [
+      {
+       "name": "Simulation Daily",
+       "url": "https://simulationdaily.com/news/today-in-gaming-news-november-26-2026"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-26",
+     "tag": "Hitman",
+     "title": "Lenny Kravitz llega a Hitman como objetivo especial",
+     "summary": "Hitman World of Assassination suma una misión Elusive Target protagonizada por Lenny Kravitz en el papel de un rey pirata. IOI también publicó su hoja de ruta con el contenido que viene para el juego.",
+     "sources": [
+      {
+       "name": "WorthPlaying",
+       "url": "https://worthplaying.com/article/2026/11/26/news/151525-hitman-world-of-assassination-adds-lenny-kravitzs-pirate-king-bawma-as-elusive-target-mission-reveals-new-content-roadmap-trailer/"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-26",
+     "tag": "Gratis",
+     "title": "Bread & Fred y Firestone, gratis esta semana en la Epic Games Store",
+     "summary": "Epic regala el cooperativo de plataformas Bread & Fred y el RPG idle Firestone durante una semana. El siguiente juego gratuito será Strange Antiquities.",
+     "sources": [
+      {
+       "name": "WorthPlaying",
+       "url": "https://worthplaying.com/article/2026/11/26/news/151524-bread-fred-and-firestone-idle-clicker-online-rpg-free-on-epic-games-store-strange-antiquities-next-week/"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-26",
+     "tag": "Assets",
+     "lead": true,
+     "title": "Unity y Unreal cambian la forma de buscar y bajar assets",
+     "summary": "Unity presentó Asset Library, un plugin para Unity 6 y 7 que permite buscar en lenguaje natural y descargar piezas sueltas de un paquete (un solo barril en lugar del pack completo), además de mostrar triángulos y rigging. En paralelo, Unreal Engine 5.9 Preview 2 abre Fab a agentes de IA mediante MCP, con más filtros y búsqueda por vendedor.",
+     "sources": [
+      {
+       "name": "GameFromScratch",
+       "url": "https://gamefromscratch.com/unity-unreal-change-the-way-you-access-assets/"
+      },
+      {
+       "name": "Documentación de Unity",
+       "url": "https://docs.unity.com/en-us/asset-store/asset-library/introduction"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-25",
+     "tag": "Voz",
+     "lead": true,
+     "title": "Amazon ayuda a los agentes de voz a saber cuándo terminaste de hablar",
+     "summary": "Transcribe Turbo estrena un sistema de turnos que combina el sentido de la frase, el ritmo del habla y los silencios, en lugar de esperar un tiempo fijo. Se puede ajustar qué tan seguro debe estar antes de responder y prepararse un borrador que se descarta si la persona sigue hablando; por ahora es una vista previa solo en inglés.",
+     "sources": [
+      {
+       "name": "UX News",
+       "url": "https://ux-news.com/amazon-transcribe-turbo-voice-agent-turn-taking/"
+      }
+     ]
+    },
+    {
+     "topic": "ux",
+     "date": "2026-11-25",
+     "tag": "Patrones",
+     "title": "Firefox 161 pone un botón para borrar datos en la barra de herramientas",
+     "summary": "La nueva versión de Firefox agrega un botón Fire que deja elegir qué datos de navegación borrar o empezar una sesión limpia en un clic. También permite reglas de VPN distintas para cada sitio.",
+     "sources": [
+      {
+       "name": "UX News",
+       "url": "https://ux-news.com/firefox-161-fire-button-privacy-controls/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-25",
+     "tag": "OpenAI",
+     "lead": true,
+     "title": "ChatGPT y Codex compartirán un mismo límite de uso desde diciembre",
+     "summary": "OpenAI unificará en un solo cupo el uso de ChatGPT y Codex para los planes Plus, Pro y Business. Las conversaciones en modo Instant no contarán, pero quien use mucho las funciones de trabajo podría llegar antes al tope.",
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+      },
+      {
+       "name": "The Verge",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1042187/openai-is-combining-chatgpt-and-codex-usage-limits"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-25",
+     "tag": "Modelo abierto",
+     "title": "Ant Group libera Ling-3.2-air, un modelo multimodal para trabajo de oficina",
+     "summary": "El modelo entiende texto, imagen y video, y se puede descargar y adaptar comercialmente bajo licencia MIT. Ant dice que en su prueba de automatización de oficina completa el 61% de las tareas, frente al 15.7% de su versión anterior.",
+     "sources": [
+      {
+       "name": "TechNode",
+       "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-26",
+     "tag": "Agentes",
+     "title": "Anthropic reescribió su API en Rust con ayuda de agentes de Claude",
+     "summary": "Anthropic contó cómo migró su Messages API de Python a Rust: los agentes compararon ambas versiones con peticiones reales y corrigieron diferencias bajo revisión humana. Reporta 70% menos uso de procesador por petición y respuestas iniciales 20% más rápidas.",
+     "sources": [
+      {
+       "name": "Anthropic",
+       "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-26",
+     "tag": "Educación",
+     "title": "Nueva York prohíbe por cinco años los juguetes con chatbots de IA",
+     "summary": "El estado aprobó una ley que veta la fabricación y venta de juguetes con chatbots integrados durante cinco años. Es un antecedente a seguir para quien enseña sobre IA y niñez.",
+     "sources": [
+      {
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962"
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-26",
    "label": "Jueves 26 nov 2026",
@@ -1508,7 +1661,7 @@
   }
  ],
  "sports": {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "intro": "Tabla general y resultados de cada liga. Los resultados se acumulan cada noche y las ligas siguen de una temporada a la siguiente (la Liga MX pasa del Apertura al Clausura). Las jornadas anteriores al 3 de noviembre no están cargadas.",
   "leagues": [
    {
@@ -1525,7 +1678,7 @@
       "label": "Liguilla (cuartos de final)"
      }
     ],
-    "note": "Arrancó la Liguilla: Toluca venció 2–0 al Atlas con doblete de Helinho, uno de penal tras revisión del VAR, y Rayados sacó un 0–0 ante el América jugando con diez desde el minuto 11. En cuartos, si el global termina empatado avanza el mejor ubicado de la tabla. El jueves 26 se juegan Pachuca–Chivas y León–Cruz Azul. Las columnas con guion son datos que las fuentes no publicaron.",
+    "note": "Terminó la ida de cuartos: Toluca 2–0 Atlas, Monterrey 0–0 América, Pachuca 2–1 Chivas y una goleada de Cruz Azul 4–0 en León, con doblete de José Paradela y goles de Nicolás Ibáñez y Gabriel Fernández. Chivas perdió con un gol de Oussama Idrissi al 92', pero como es el mejor ubicado le basta ganar por un gol en el Akron. Si el global termina empatado avanza el mejor ubicado de la tabla. Las columnas con guion son datos que las fuentes no publicaron.",
     "standings": [
      {
       "pos": 1,
@@ -1705,6 +1858,22 @@
         "hs": 0,
         "as": 0,
         "note": "Rayados con 10 desde el 11'"
+       },
+       {
+        "date": "2026-11-26",
+        "home": "Pachuca",
+        "hs": 2,
+        "away": "Chivas",
+        "as": 1,
+        "note": "Idrissi, doblete con gol al 92'"
+       },
+       {
+        "date": "2026-11-26",
+        "home": "León",
+        "hs": 0,
+        "away": "Cruz Azul",
+        "as": 4,
+        "note": "Doblete de Paradela"
        }
       ]
      },
@@ -1848,23 +2017,9 @@
      }
     ],
     "next": {
-     "label": "Cuartos de final",
-     "dates": "25–29 nov",
+     "label": "Cuartos de final · vuelta",
+     "dates": "28–29 nov",
      "games": [
-      {
-       "date": "2026-11-26",
-       "time": "19:00",
-       "home": "Pachuca",
-       "away": "Chivas",
-       "note": "ida"
-      },
-      {
-       "date": "2026-11-26",
-       "time": "21:10",
-       "home": "León",
-       "away": "Cruz Azul",
-       "note": "ida"
-      },
       {
        "date": "2026-11-28",
        "time": "19:00",
@@ -1902,20 +2057,8 @@
       "url": "https://www.noroeste.com.mx/deportes/futbol/toluca-pega-2-0-al-atlas-en-la-ida-de-cuartos-de-final-con-doblete-de-helinho-y-noche-emotiva-para-antonio-mohamed-DB27629857"
      },
      {
-      "name": "Récord (Monterrey vs América)",
-      "url": "https://www.record.com.mx/futbol/partido/monterrey-cf-america-12365948/cobertura-en-vivo"
-     },
-     {
       "name": "Infobae (Monterrey 0–0 América)",
       "url": "https://www.infobae.com/mexico/deportes/2026/11/24/monterrey-vs-america-en-vivo-donde-y-a-que-hora-ver-la-ida-de-los-cuartos-de-final-del-apertura-2026/"
-     },
-     {
-      "name": "SDP Noticias (Rayados–América)",
-      "url": "https://www.sdpnoticias.com/deportes/rayados-y-america-no-se-hacen-dano-la-serie-de-cuartos-se-definira-en-la-vuelta/"
-     },
-     {
-      "name": "El Futbolero (bajas de Rayados)",
-      "url": "https://www.elfutbolero.com.mx/ligamx/rayados-recibe-al-america-sin-su-amuleto-cuando-rossi-anoto-nunca-perdio-sin-su-gol-cayo-seis-veces-20261126.html"
      },
      {
       "name": "TV Azteca (horarios de cuartos)",
@@ -1924,6 +2067,22 @@
      {
       "name": "Unánimo Deportes (tabla y cruces)",
       "url": "https://unanimodeportes.com/deportes/futbol/liga-mx/liga-mx-liguilla/"
+     },
+     {
+      "name": "Claro Sports (Pachuca 2–1 Chivas)",
+      "url": "https://www.clarosports.com/futbol/liga-mx/idrissi-sentencia-a-chivas-pachuca-remonta-con-un-golazo-al-92-y-toma-ventaja-en-la-ida-de-cuartos-de-final/"
+     },
+     {
+      "name": "VAVEL (Pachuca 2–1 Chivas)",
+      "url": "https://www.vavel.com/mx/futbol-mexicano/2026/11/26/1280745-pachuca-vs-chivas-en-vivo-liga-mx.html"
+     },
+     {
+      "name": "SDP Noticias (León 0–4 Cruz Azul)",
+      "url": "https://www.sdpnoticias.com/deportes/cruz-azul-golea-a-leon-y-acaricia-las-semifinales-de-la-liga-mx/"
+     },
+     {
+      "name": "365Scores (León 0–4 Cruz Azul)",
+      "url": "https://www.365scores.com/es/news/cruz-azul-record-goleada-liguilla-ida/"
      }
     ]
    },
@@ -3931,51 +4090,51 @@
      {
       "conf": "NFC",
       "div": "NFC East",
-      "team": "Dallas Cowboys",
-      "w": 5,
-      "l": 6,
-      "t": 0,
-      "pct": 0.455,
-      "seed": 10
-     },
-     {
-      "conf": "NFC",
-      "div": "NFC East",
       "team": "Washington Commanders",
       "w": 4,
       "l": 5,
       "t": 1,
       "pct": 0.45,
+      "seed": 10
+     },
+     {
+      "conf": "NFC",
+      "div": "NFC East",
+      "team": "Dallas Cowboys",
+      "w": 5,
+      "l": 7,
+      "t": 0,
+      "pct": 0.417,
       "seed": 11
      },
      {
       "conf": "NFC",
       "div": "NFC East",
       "team": "Philadelphia Eagles",
-      "w": 3,
+      "w": 4,
       "l": 7,
       "t": 0,
-      "pct": 0.3,
-      "seed": 15
+      "pct": 0.364,
+      "seed": 12
+     },
+     {
+      "conf": "NFC",
+      "div": "NFC North",
+      "team": "Chicago Bears",
+      "w": 9,
+      "l": 2,
+      "t": 0,
+      "pct": 0.818,
+      "seed": 2
      },
      {
       "conf": "NFC",
       "div": "NFC North",
       "team": "Detroit Lions",
       "w": 8,
-      "l": 2,
+      "l": 3,
       "t": 0,
-      "pct": 0.8,
-      "seed": 2
-     },
-     {
-      "conf": "NFC",
-      "div": "NFC North",
-      "team": "Chicago Bears",
-      "w": 8,
-      "l": 2,
-      "t": 0,
-      "pct": 0.8,
+      "pct": 0.727,
       "seed": 5
      },
      {
@@ -3996,7 +4155,7 @@
       "l": 5,
       "t": 0,
       "pct": 0.545,
-      "seed": 7
+      "seed": 9
      },
      {
       "conf": "NFC",
@@ -4016,7 +4175,7 @@
       "l": 7,
       "t": 0,
       "pct": 0.3,
-      "seed": 12
+      "seed": 13
      },
      {
       "conf": "NFC",
@@ -4026,7 +4185,7 @@
       "l": 7,
       "t": 0,
       "pct": 0.3,
-      "seed": 13
+      "seed": 14
      },
      {
       "conf": "NFC",
@@ -4036,7 +4195,7 @@
       "l": 7,
       "t": 0,
       "pct": 0.3,
-      "seed": 14
+      "seed": 15
      },
      {
       "conf": "NFC",
@@ -4051,22 +4210,22 @@
      {
       "conf": "NFC",
       "div": "NFC West",
+      "team": "Los Angeles Rams",
+      "w": 7,
+      "l": 4,
+      "t": 0,
+      "pct": 0.636,
+      "seed": 7
+     },
+     {
+      "conf": "NFC",
+      "div": "NFC West",
       "team": "Seattle Seahawks",
       "w": 6,
       "l": 4,
       "t": 0,
       "pct": 0.6,
       "seed": 8
-     },
-     {
-      "conf": "NFC",
-      "div": "NFC West",
-      "team": "Los Angeles Rams",
-      "w": 7,
-      "l": 4,
-      "t": 0,
-      "pct": 0.636,
-      "seed": 9
      },
      {
       "conf": "NFC",
@@ -4082,10 +4241,10 @@
       "conf": "AFC",
       "div": "AFC East",
       "team": "Buffalo Bills",
-      "w": 9,
+      "w": 10,
       "l": 1,
       "t": 0,
-      "pct": 0.9,
+      "pct": 0.909,
       "seed": 1
      },
      {
@@ -4213,9 +4372,9 @@
       "div": "AFC West",
       "team": "Kansas City Chiefs",
       "w": 8,
-      "l": 2,
+      "l": 3,
       "t": 0,
-      "pct": 0.8,
+      "pct": 0.727,
       "seed": 5
      },
      {
@@ -4251,6 +4410,30 @@
         "away": "Green Bay Packers",
         "as": 13,
         "note": ""
+       },
+       {
+        "date": "2026-11-26",
+        "home": "Detroit Lions",
+        "hs": 35,
+        "away": "Chicago Bears",
+        "as": 39,
+        "note": "Acción de Gracias"
+       },
+       {
+        "date": "2026-11-26",
+        "home": "Dallas Cowboys",
+        "hs": 38,
+        "away": "Philadelphia Eagles",
+        "as": 39,
+        "note": "Acción de Gracias"
+       },
+       {
+        "date": "2026-11-26",
+        "home": "Buffalo Bills",
+        "hs": 13,
+        "away": "Kansas City Chiefs",
+        "as": 10,
+        "note": "Acción de Gracias"
        }
       ]
      },
@@ -4542,27 +4725,6 @@
      "dates": "25–29 nov",
      "games": [
       {
-       "date": "2026-11-26",
-       "time": "12:00",
-       "home": "Detroit Lions",
-       "away": "Chicago Bears",
-       "note": "Acción de Gracias"
-      },
-      {
-       "date": "2026-11-26",
-       "time": "15:30",
-       "home": "Dallas Cowboys",
-       "away": "Philadelphia Eagles",
-       "note": "Acción de Gracias"
-      },
-      {
-       "date": "2026-11-26",
-       "time": "19:20",
-       "home": "Buffalo Bills",
-       "away": "Kansas City Chiefs",
-       "note": "Acción de Gracias"
-      },
-      {
        "date": "2026-11-27",
        "time": "14:00",
        "home": "Pittsburgh Steelers",
@@ -4641,7 +4803,7 @@
       }
      ]
     },
-    "note": "La Semana 12 arrancó en la víspera de Acción de Gracias: los Rams vencieron 26–13 a Green Bay con una gran noche de Blake Corum y dos intercepciones de Jordan Love. El jueves 26 siguen Bears–Lions, Eagles–Vaqueros y Chiefs–Bills. Semana 9 incompleta. Las siembras vienen de la fuente anterior, ajustadas a mano: 1–4 líderes de división, 5–7 comodines.",
+    "note": "Acción de Gracias de locura: Chicago remontó y ganó 39–35 en Detroit con un touchdown de Rome Odunze a 3 segundos del final para quedarse con el liderato de la NFC Norte; los Eagles le remontaron 21 puntos a Dallas y ganaron 39–38 con gol de campo de 59 yardas de Jake Elliott; y Buffalo venció 13–10 a Kansas City con gol de campo de 57 yardas de Tyler Bass al terminar el juego. El viernes 27 juegan Steelers y Broncos. Semana 9 incompleta. Las siembras vienen de la fuente anterior, ajustadas a mano: 1–4 líderes de división, 5–7 comodines.",
     "sources": [
      {
       "name": "Datos: Sportradar",
@@ -4652,20 +4814,28 @@
       "url": "https://africa.espn.com/nfl/table/_/season/2026"
      },
      {
-      "name": "FOX Sports (horarios de Acción de Gracias)",
-      "url": "https://www.foxsports.com/stories/nfl/2026-nfl-thanksgiving-games-schedule-teams-how-watch"
-     },
-     {
       "name": "VAVEL (Packers 13–26 Rams)",
       "url": "https://www.vavel.com/en-us/nfl/2026/11/25/1280600-packers-vs-rams-live-score-nfl.html"
      },
      {
-      "name": "Yahoo Sports (Rams–Packers)",
-      "url": "https://sports.yahoo.com/nfl/live/packers-rams-score-live-updates-inactives-highlights-stats-where-to-watch-week-12-wednesday-235059451.html"
+      "name": "NFL.com (tripleheader de Acción de Gracias)",
+      "url": "https://www.nfl.com/news/thanksgiving-tripleheader-what-we-learned-from-bears-lions-eagles-cowboys-chiefs-bills"
      },
      {
-      "name": "Dallas Sports Journal (reporte final de lesiones)",
-      "url": "https://dallassportsjournal.com/cowboys-eagles-final-injury-report-winters-barham-thompson/"
+      "name": "CBS Texas (Eagles 39–38 Cowboys)",
+      "url": "https://www.cbsnews.com/texas/news/cowboys-blow-21-point-lead-eagles-thanksgiving-november-2026/"
+     },
+     {
+      "name": "Philadelphia Eagles (crónica)",
+      "url": "https://www.philadelphiaeagles.com/news/game-recap-eagles-at-cowboys-thanksgiving-2026-nfl-week-12-saquon-barkley-devonta-smith-joe-milton-dak-prescott"
+     },
+     {
+      "name": "NBC Sports (Bills 13–10 Chiefs)",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-bass-hits-walk-off-57-yard-field-goal-bills-beat-chiefs-13-10"
+     },
+     {
+      "name": "ESPN (Bills–Chiefs)",
+      "url": "https://www.espn.com/nfl/story/_/id/50582828/2026-nfl-buffalo-bills-kansas-city-chiefs-thanksgiving"
      }
     ]
    }
@@ -4700,7 +4870,7 @@
      "nfl"
     ],
     "color": "oklch(80% 0.05 245)",
-    "note": "Con 5–6, reciben a Filadelfia el jueves 26 a las 15:30 h en Acción de Gracias. En el reporte final quedaron fuera Tyler Booker, Jake Ferguson, P.J. Locke y Jonathan Mingo; Jalen Thompson y Devin Moore son duda y tendrían que ser activados de la reserva de lesionados. Dak Prescott entrenó completo y en los Eagles sí jugarán Saquon Barkley y Quinyon Mitchell."
+    "note": "Se les escapó un partido que ganaban por 21: los Eagles remontaron con un despeje bloqueado devuelto para touchdown y un gol de campo de 59 yardas de Jake Elliott a 2 segundos del final, 39–38. Dak Prescott lanzó dos pases de anotación y corrió para otra, y Javonte Williams sumó tres touchdowns, pero Brandon Aubrey falló un gol de campo de 40 yardas y la decisión de ir por cuarta oportunidad con 55 segundos dejó a Brian Schottenheimer en la mira. Con 5–7 tienen once días antes de visitar a Seattle el lunes 7 de diciembre por la noche; Quinnen Williams terminó tocado de la espalda."
    }
   ]
  }

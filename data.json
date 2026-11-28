@@ -64,6 +64,11 @@
    "label": "Liga MX: semifinales (2–6 dic)"
   },
   {
+   "date": "2026-12-02",
+   "label": "Liverpool juega ante el Sunderland (Premier, J13; sede y horario por confirmar)",
+   "approx": true
+  },
+  {
    "date": "2026-12-03",
    "label": "Sale Warhammer 40,000: Dawn of War IV"
   },
@@ -84,12 +89,20 @@
    "label": "Termina el periodo gratis de Devin para escritorio y CLI"
   },
   {
+   "date": "2026-12-08",
+   "label": "Evento Pokémon GO × Pokémon Champions (8–14 dic)"
+  },
+  {
    "date": "2026-12-09",
    "label": "Cierra la votación del público de The Game Awards, 20:00 h"
   },
   {
    "date": "2026-12-10",
    "label": "The Game Awards 2026, Peacock Theater, Los Ángeles"
+  },
+  {
+   "date": "2026-12-11",
+   "label": "Hollow Knight: Silksong recibe la expansión gratis Sea of Sorrow"
   },
   {
    "date": "2026-12-15",
@@ -113,6 +126,142 @@
   }
  ],
  "editions": [
+  {
+   "id": "2026-11-28",
+   "label": "Sábado 28 nov 2026",
+   "summary": "Hoy es la noche de Rayados: visitan al América a las 21:10 h y solo les sirve ganar, con varias bajas. En gaming, Silksong ya tiene fecha para su expansión gratis Sea of Sorrow (11 de diciembre). En el viernes deportivo, Pittsburgh aplastó 27–5 a Denver y Nottingham Forest le ganó 3–2 al Chelsea. Fue un día tranquilo en desarrollo, animación y diseño; en IA hubo modelos abiertos de NVIDIA, Alibaba y Tencent.",
+   "items": [
+    {
+     "topic": "gaming",
+     "date": "2026-11-27",
+     "tag": "Fecha",
+     "lead": true,
+     "title": "Hollow Knight: Silksong recibe Sea of Sorrow el 11 de diciembre",
+     "summary": "Team Cherry fijó para el 11 de diciembre la llegada de Sea of Sorrow, la primera gran expansión de Silksong. Será una actualización gratuita para todos los jugadores y la fecha se dio a conocer en su presentación Cherry Time.",
+     "sources": [
+      {
+       "name": "VideoGamer",
+       "url": "https://www.videogamer.com/news/hollow-knight-silksong-sea-of-sorrow-release-date/"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-27",
+     "tag": "Evento",
+     "title": "Pokémon GO y Pokémon Champions se unen en un evento del 8 al 14 de diciembre",
+     "summary": "Los jugadores podrán mandar una captura de GO a Pokémon HOME y de ahí a Champions para recibir un regalo. Las recompensas en Champions incluyen un conjunto de ropa del Profesor Willow y 10 boletos de entrenamiento.",
+     "sources": [
+      {
+       "name": "Nintendo Life",
+       "url": "https://www.nintendolife.com/news/2026/11/pokemon-champions-x-pokemon-go-collab-taking-place-next-month"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-26",
+     "tag": "Parche",
+     "title": "Space Marine 2 rehace la clase Vanguard en su parche 16.0",
+     "summary": "La actualización ya está disponible en PC, PS5 y Xbox Series X|S. Además del cambio profundo a Vanguard, completa el mapa Hive del modo Chaos Siege.",
+     "sources": [
+      {
+       "name": "VideoGamer",
+       "url": "https://www.videogamer.com/news/space-marine-2-patch-16-vanguard-rework-chaos-siege/"
+      }
+     ]
+    },
+    {
+     "topic": "gaming",
+     "date": "2026-11-26",
+     "tag": "Gratis",
+     "title": "Mechanicus y Little Rocket Lab, gratis en Xbox hasta el domingo",
+     "summary": "Los Free Play Days de este fin de semana corren del 26 al 29 de noviembre para miembros de Game Pass Ultimate, Premium y Essential. Los juegos invitados son Warhammer 40,000: Mechanicus y Little Rocket Lab.",
+     "sources": [
+      {
+       "name": "GamingRoute",
+       "url": "https://gamingroute.com/xbox-free-play-days-mechanicus-little-rocket-lab/"
+      }
+     ]
+    },
+    {
+     "topic": "dev",
+     "date": "2026-11-27",
+     "tag": "Ofertas",
+     "lead": true,
+     "title": "Las ofertas de Black Friday para desarrolladores de juegos, en una sola lista",
+     "summary": "GameFromScratch juntó los descuentos de esta temporada en assets y en software para hacer videojuegos. Sirve para revisar de un vistazo qué herramientas y paquetes bajaron de precio; algunos enlaces son de afiliado.",
+     "sources": [
+      {
+       "name": "GameFromScratch",
+       "url": "https://gamefromscratch.com/black-friday-cyber-monday-for-game-developers-2026/"
+      }
+     ]
+    },
+    {
+     "topic": "anim",
+     "date": "2026-11-27",
+     "tag": "Stop-motion",
+     "lead": true,
+     "title": "LAIKA celebra que Wildwood entra a la carrera del Oscar con funciones gratis",
+     "summary": "Wildwood, la fantasía en stop-motion del estudio de Oregon, quedó entre las cintas elegibles a Mejor Película Animada. LAIKA ofrecerá funciones gratuitas en cines de Portland el domingo 29; las nominaciones se anuncian el 21 de enero.",
+     "sources": [
+      {
+       "name": "Yahoo / KOIN",
+       "url": "https://www.yahoo.com/entertainment/movies/articles/laika-portland-set-wildwood-eligible-211906437.html"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-26",
+     "tag": "Open source",
+     "lead": true,
+     "title": "NVIDIA libera datos y receta para afinar Nemotron 3.5 Parse",
+     "summary": "NVIDIA publicó datos abiertos, una guía de ajuste fino y un acelerador para su modelo que extrae información de documentos. Son tres conjuntos sintéticos con cerca de 19 millones de ejemplos, pensados para sistemas de búsqueda sobre documentos y agentes.",
+     "sources": [
+      {
+       "name": "AIToolly (resumen del 27 nov)",
+       "url": "https://aitoolly.com/ai-news/2026-11-27"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-27",
+     "tag": "Voz",
+     "title": "Qwen-Audio-3.1 entiende mejor los idiomas y dialectos regionales",
+     "summary": "Alibaba actualizó su modelo de voz para reconocer mejor lenguas regionales, sobre todo dialectos del chino. No publicó cifras de rendimiento con el anuncio.",
+     "sources": [
+      {
+       "name": "Qwen en X",
+       "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411"
+      },
+      {
+       "name": "The Neuron",
+       "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-27-2026/"
+      }
+     ]
+    },
+    {
+     "topic": "ia",
+     "date": "2026-11-27",
+     "tag": "Velocidad",
+     "title": "Tencent libera DFly2 para que los modelos respondan más rápido",
+     "summary": "La herramienta adelanta varios tokens en borrador y deja que el modelo principal solo los verifique. Tencent reporta hasta 81% más rendimiento con DeepSeek-V4.1-Flash y tareas de agentes hasta 4.2 veces más rápidas, según sus propias pruebas.",
+     "sources": [
+      {
+       "name": "Tencent AI en X",
+       "url": "https://x.com/TencentAI_News/status/2125968859450802415"
+      },
+      {
+       "name": "The Neuron",
+       "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-27-2026/"
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-27",
    "label": "Viernes 27 nov 2026",
@@ -1661,7 +1810,7 @@
   }
  ],
  "sports": {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "intro": "Tabla general y resultados de cada liga. Los resultados se acumulan cada noche y las ligas siguen de una temporada a la siguiente (la Liga MX pasa del Apertura al Clausura). Las jornadas anteriores al 3 de noviembre no están cargadas.",
   "leagues": [
    {
@@ -2083,6 +2232,10 @@
      {
       "name": "365Scores (León 0–4 Cruz Azul)",
       "url": "https://www.365scores.com/es/news/cruz-azul-record-goleada-liguilla-ida/"
+     },
+     {
+      "name": "Excélsior vía Beloud (bajas de Rayados)",
+      "url": "https://www.beloud.com/news/149659194"
      }
     ]
    },
@@ -2091,7 +2244,7 @@
     "sport": "soccer",
     "name": "Premier League",
     "season": "2026/27",
-    "phase": "Jornada 11 de 38",
+    "phase": "Jornada 12 de 38",
     "zones": [
      {
       "from": 1,
@@ -2173,10 +2326,10 @@
      {
       "pos": 8,
       "team": "Chelsea",
-      "pj": 11,
+      "pj": 12,
       "g": 5,
       "e": 1,
-      "p": 5,
+      "p": 6,
       "pts": 16
      },
      {
@@ -2226,6 +2379,15 @@
      },
      {
       "pos": 14,
+      "team": "Nottingham Forest",
+      "pj": 12,
+      "g": 3,
+      "e": 3,
+      "p": 6,
+      "pts": 12
+     },
+     {
+      "pos": 15,
       "team": "Coventry City",
       "pj": 11,
       "g": 4,
@@ -2234,7 +2396,7 @@
       "pts": 12
      },
      {
-      "pos": 15,
+      "pos": 16,
       "team": "Fulham",
       "pj": 11,
       "g": 2,
@@ -2243,22 +2405,13 @@
       "pts": 11
      },
      {
-      "pos": 16,
+      "pos": 17,
       "team": "Ipswich Town",
       "pj": 11,
       "g": 3,
       "e": 2,
       "p": 6,
       "pts": 11
-     },
-     {
-      "pos": 17,
-      "team": "Nottingham Forest",
-      "pj": 11,
-      "g": 2,
-      "e": 3,
-      "p": 6,
-      "pts": 9
      },
      {
       "pos": 18,
@@ -2289,6 +2442,20 @@
      }
     ],
     "rounds": [
+     {
+      "label": "Jornada 12",
+      "dates": "27–29 nov",
+      "games": [
+       {
+        "date": "2026-11-27",
+        "home": "Nottingham Forest",
+        "hs": 3,
+        "away": "Chelsea",
+        "as": 2,
+        "note": "Doblete de Gibbs-White"
+       }
+      ]
+     },
      {
       "label": "Jornada 11",
       "dates": "21–23 nov",
@@ -2447,12 +2614,6 @@
      "dates": "27–29 nov",
      "games": [
       {
-       "date": "2026-11-27",
-       "time": "14:00",
-       "home": "Nottingham Forest",
-       "away": "Chelsea"
-      },
-      {
        "date": "2026-11-28",
        "time": "9:00",
        "home": "Leeds United",
@@ -2512,16 +2673,24 @@
      {
       "name": "Datos: Sportradar",
       "url": ""
+     },
+     {
+      "name": "AP vía ABC News (Forest 3–2 Chelsea)",
+      "url": "https://abcnews.com/Sports/wireStory/gibbs-whites-double-powers-nottingham-forest-past-chelsea-138488780"
+     },
+     {
+      "name": "ESPN (Forest 3–2 Chelsea)",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest"
      }
     ],
-    "note": "Jornada 11 completa: Brentford goleó 4–0 a Everton el lunes. En la Jornada 12 destacan el derbi Everton–Liverpool y Arsenal–Manchester City, ambos el domingo 29."
+    "note": "Arrancó la Jornada 12: Nottingham Forest le ganó 3–2 al Chelsea con doblete de Morgan Gibbs-White y salió de la zona de descenso; el Chelsea de Xabi Alonso suma tres derrotas seguidas en liga. El domingo 29 se juegan el derbi Everton–Liverpool y Arsenal–Manchester City."
    },
    {
     "id": "laliga",
     "sport": "soccer",
     "name": "LaLiga",
     "season": "2026/27",
-    "phase": "Jornada 13 de 38",
+    "phase": "Jornada 14 de 38",
     "zones": [
      {
       "from": 1,
@@ -2584,21 +2753,21 @@
      },
      {
       "pos": 6,
+      "team": "Racing Santander",
+      "pj": 14,
+      "g": 6,
+      "e": 2,
+      "p": 6,
+      "pts": 20
+     },
+     {
+      "pos": 7,
       "team": "Sevilla",
       "pj": 13,
       "g": 5,
       "e": 4,
       "p": 4,
       "pts": 19
-     },
-     {
-      "pos": 7,
-      "team": "Racing Santander",
-      "pj": 13,
-      "g": 5,
-      "e": 2,
-      "p": 6,
-      "pts": 17
      },
      {
       "pos": 8,
@@ -2666,10 +2835,10 @@
      {
       "pos": 15,
       "team": "Levante",
-      "pj": 13,
+      "pj": 14,
       "g": 2,
       "e": 6,
-      "p": 5,
+      "p": 6,
       "pts": 12
      },
      {
@@ -2719,6 +2888,20 @@
      }
     ],
     "rounds": [
+     {
+      "label": "Jornada 14",
+      "dates": "27–30 nov",
+      "games": [
+       {
+        "date": "2026-11-27",
+        "home": "Levante",
+        "hs": 1,
+        "away": "Racing Santander",
+        "as": 3,
+        "note": "Doblete de Pablo García"
+       }
+      ]
+     },
      {
       "label": "Jornada 13",
       "dates": "20–23 nov",
@@ -2877,12 +3060,6 @@
      "dates": "27–30 nov",
      "games": [
       {
-       "date": "2026-11-27",
-       "time": "14:00",
-       "home": "Levante",
-       "away": "Racing Santander"
-      },
-      {
        "date": "2026-11-28",
        "time": "7:00",
        "home": "Real Betis",
@@ -2942,16 +3119,24 @@
      {
       "name": "Datos: Sportradar",
       "url": ""
+     },
+     {
+      "name": "GidStats (Levante 1–3 Racing)",
+      "url": "https://gidstats.com/es/futbol/la-liga/2026-11-27-1570468-levante-racing-santander/"
+     },
+     {
+      "name": "Tu Futbolero (Levante 1–3 Racing)",
+      "url": "https://www.tufutbolero.com/en/news/levante-1-3-racing-santander-brace-from-pablo-garcia-5d55f0"
      }
     ],
-    "note": "Jornada 13 completa: Levante y Elche empataron 1–1 el lunes. Athletic Club y Rayo Vallecano tienen un partido menos."
+    "note": "Arrancó la Jornada 14: Racing Santander remontó 3–1 en Valencia ante el Levante, con doblete de Pablo García, y sube al sexto lugar. Athletic Club y Rayo Vallecano tienen un partido menos."
    },
    {
     "id": "seriea",
     "sport": "soccer",
     "name": "Serie A",
     "season": "2026/27",
-    "phase": "Jornada 12 de 38",
+    "phase": "Jornada 13 de 38",
     "zones": [
      {
       "from": 1,
@@ -3032,16 +3217,16 @@
      },
      {
       "pos": 8,
-      "team": "Napoli",
-      "pj": 12,
+      "team": "Bologna",
+      "pj": 13,
       "g": 5,
-      "e": 3,
+      "e": 4,
       "p": 4,
-      "pts": 18
+      "pts": 19
      },
      {
       "pos": 9,
-      "team": "Bologna",
+      "team": "Napoli",
       "pj": 12,
       "g": 5,
       "e": 3,
@@ -3131,24 +3316,38 @@
      },
      {
       "pos": 19,
+      "team": "Venezia",
+      "pj": 13,
+      "g": 2,
+      "e": 1,
+      "p": 10,
+      "pts": 7
+     },
+     {
+      "pos": 20,
       "team": "Udinese",
       "pj": 12,
       "g": 1,
       "e": 3,
       "p": 8,
       "pts": 6
-     },
-     {
-      "pos": 20,
-      "team": "Venezia",
-      "pj": 12,
-      "g": 2,
-      "e": 0,
-      "p": 10,
-      "pts": 6
      }
     ],
     "rounds": [
+     {
+      "label": "Jornada 13",
+      "dates": "27–30 nov",
+      "games": [
+       {
+        "date": "2026-11-27",
+        "home": "Venezia",
+        "hs": 0,
+        "away": "Bologna",
+        "as": 0,
+        "note": "Gol anulado por fuera de lugar"
+       }
+      ]
+     },
      {
       "label": "Jornada 12",
       "dates": "21–23 nov",
@@ -3307,12 +3506,6 @@
      "dates": "27–30 nov",
      "games": [
       {
-       "date": "2026-11-27",
-       "time": "13:45",
-       "home": "Venezia",
-       "away": "Bologna"
-      },
-      {
        "date": "2026-11-28",
        "time": "8:00",
        "home": "Frosinone",
@@ -3372,9 +3565,13 @@
      {
       "name": "Datos: Sportradar",
       "url": ""
+     },
+     {
+      "name": "Football Italia (Venezia 0–0 Bologna)",
+      "url": "https://football-italia.net/venezia-0-0-bologna-stankovic-skorupski/"
      }
     ],
-    "note": "Jornada 12 completa: Monza goleó 3–0 a Fiorentina el lunes y salió de la zona de descenso."
+    "note": "Arrancó la Jornada 13: Venezia y Bologna empataron 0–0, con un gol anulado por fuera de lugar y buenas atajadas de ambos porteros. El sábado el Inter recibe al Genoa."
    },
    {
     "id": "champions",
@@ -4290,17 +4487,17 @@
      {
       "conf": "AFC",
       "div": "AFC North",
-      "team": "Cleveland Browns",
-      "w": 6,
+      "team": "Pittsburgh Steelers",
+      "w": 7,
       "l": 4,
       "t": 0,
-      "pct": 0.6,
+      "pct": 0.636,
       "seed": 6
      },
      {
       "conf": "AFC",
       "div": "AFC North",
-      "team": "Pittsburgh Steelers",
+      "team": "Cleveland Browns",
       "w": 6,
       "l": 4,
       "t": 0,
@@ -4362,9 +4559,9 @@
       "div": "AFC West",
       "team": "Denver Broncos",
       "w": 8,
-      "l": 2,
+      "l": 3,
       "t": 0,
-      "pct": 0.8,
+      "pct": 0.727,
       "seed": 2
      },
      {
@@ -4434,6 +4631,14 @@
         "away": "Kansas City Chiefs",
         "as": 10,
         "note": "Acción de Gracias"
+       },
+       {
+        "date": "2026-11-27",
+        "home": "Pittsburgh Steelers",
+        "hs": 27,
+        "away": "Denver Broncos",
+        "as": 5,
+        "note": "Black Friday"
        }
       ]
      },
@@ -4725,13 +4930,6 @@
      "dates": "25–29 nov",
      "games": [
       {
-       "date": "2026-11-27",
-       "time": "14:00",
-       "home": "Pittsburgh Steelers",
-       "away": "Denver Broncos",
-       "note": ""
-      },
-      {
        "date": "2026-11-29",
        "time": "12:00",
        "home": "Indianapolis Colts",
@@ -4803,7 +5001,7 @@
       }
      ]
     },
-    "note": "Acción de Gracias de locura: Chicago remontó y ganó 39–35 en Detroit con un touchdown de Rome Odunze a 3 segundos del final para quedarse con el liderato de la NFC Norte; los Eagles le remontaron 21 puntos a Dallas y ganaron 39–38 con gol de campo de 59 yardas de Jake Elliott; y Buffalo venció 13–10 a Kansas City con gol de campo de 57 yardas de Tyler Bass al terminar el juego. El viernes 27 juegan Steelers y Broncos. Semana 9 incompleta. Las siembras vienen de la fuente anterior, ajustadas a mano: 1–4 líderes de división, 5–7 comodines.",
+    "note": "Acción de Gracias de locura: Chicago remontó y ganó 39–35 en Detroit con un touchdown de Rome Odunze a 3 segundos del final para quedarse con el liderato de la NFC Norte; los Eagles le remontaron 21 puntos a Dallas y ganaron 39–38 con gol de campo de 59 yardas de Jake Elliott; y Buffalo venció 13–10 a Kansas City con gol de campo de 57 yardas de Tyler Bass al terminar el juego. En Black Friday, Pittsburgh aplastó 27–5 a Denver: dos entregas de balón de Bo Nix terminaron en touchdown defensivo (T.J. Watt y Jalen Ramsey) y se cortó la racha de seis triunfos de los Broncos. Semana 9 incompleta. Las siembras vienen de la fuente anterior, ajustadas a mano: 1–4 líderes de división, 5–7 comodines.",
     "sources": [
      {
       "name": "Datos: Sportradar",
@@ -4836,6 +5034,14 @@
      {
       "name": "ESPN (Bills–Chiefs)",
       "url": "https://www.espn.com/nfl/story/_/id/50582828/2026-nfl-buffalo-bills-kansas-city-chiefs-thanksgiving"
+     },
+     {
+      "name": "Denver Gazette (Steelers 27–5 Broncos)",
+      "url": "https://www.denvergazette.com/2026/11/27/steelers-rout-broncos-27-5-as-2-bo-nix-turnovers-result-in-touchdowns/"
+     },
+     {
+      "name": "ESPN (Steelers 27–5 Broncos)",
+      "url": "https://www.espn.com/nfl/recap?gameId=401873083"
      }
     ]
    }
@@ -4849,7 +5055,7 @@
      "ligamx"
     ],
     "color": "oklch(72% 0.13 252)",
-    "note": "Empataron 0–0 con el América en la ida de cuartos pese a jugar con diez desde el minuto 11, por la expulsión de Ricardo Chávez tras revisión del VAR. Como el América quedó mejor ubicado, a Rayados solo le sirve ganar la vuelta del sábado 28 a las 21:10 h en el Estadio Banorte. Jugaron sin Diego Rossi, por una molestia en la espalda, y sin Esteban Andrada, que se operará el menisco y se pierde la Liguilla."
+    "note": "Necesita ganar esta noche (sábado 28, 21:10 h) en el Estadio Banorte, porque el 0–0 de la ida y la mejor posición del América hacen que cualquier empate global elimine a Rayados. Llega mermado: Ricardo Chávez está suspendido por la roja de la ida, Diego Rossi no se recuperó y Esteban Andrada se operó el menisco; Hugo Cuypers es duda por molestias. Carlos Salcedo vuelve tras cumplir su suspensión."
    },
    {
     "team": "Liverpool",
@@ -4860,7 +5066,7 @@
      "champions"
     ],
     "color": "oklch(65% 0.19 25)",
-    "note": "Ganó 3–0 en Brujas en la Jornada 5 de Champions con doblete de Alexander Isak y un gol de Florian Wirtz; ya suma 12 puntos y está en zona de pase directo a octavos. El domingo 29 a las 6:00 h visita al Everton en el derbi de Merseyside; Cody Gakpo es duda por una molestia en la pantorrilla."
+    "note": "Ganó 3–0 en Brujas en la Champions y llega con tres victorias seguidas al derbi en casa del Everton, el domingo 29 a las 6:00 h. Andoni Iraola confirmó que Cody Gakpo no juega (lesión muscular, unas dos o tres semanas) y que Ryan Gravenberch (talón) y Víctor Muñoz (golpe en la rodilla) son duda; Van Dijk y Mac Allister podrían volver al once. El miércoles 2 de diciembre juega contra el Sunderland."
    },
    {
     "team": "Dallas Cowboys",
